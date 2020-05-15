@@ -12,7 +12,7 @@ def month_year_iter(start_year, start_month, end_year, end_month):
         yield y, m+1
 
 
-def scrape_data(start_year, start_month, end_year, end_month, csv_data, sep):
+def scrape_data(start_year, start_month, end_year, end_month, n_hundreds, csv_data, sep):
     """Scrape data on BGG and export to csv.
 
     Parameters
@@ -25,6 +25,8 @@ def scrape_data(start_year, start_month, end_year, end_month, csv_data, sep):
         End year.
     end_month: int
         First month NOT taken into account.
+    n_hundreds: int
+        Number of hundreds of games to be taken into account each month
     csv_data: str
         The csv file where the data will be saved.
     sep: str
@@ -40,15 +42,16 @@ def scrape_data(start_year, start_month, end_year, end_month, csv_data, sep):
         _, last_day = calendar.monthrange(year, month)
         start_date = "{}-{:02d}-01".format(year, month)
         end_date = "{}-{:02d}-{}".format(year, month, last_day)
-        url = "https://boardgamegeek.com/plays/bygame/subtype/boardgame/start/%s/end/%s?sortby=distinctusers" % (
-            start_date, end_date)
-        driver.get(url)
-        for i in range(100):
-            element = driver.find_element_by_xpath('//*[@id="maincontent"]/table/tbody/tr[%s]/td[1]/a' % (i + 2))
-            text = element.get_attribute('text')
-            url = element.get_attribute('href')
-            list_d_field_value.append({'year': year, 'month': month, 'position': i + 1, 'title': text,
-                                       'url': url})
+        for i_hundred in range(n_hundreds):
+            url = "https://boardgamegeek.com/plays/bygame/subtype/boardgame/" \
+                  "start/%s/end/%s/page/%s?sortby=distinctusers" % (start_date, end_date, i_hundred + 1)
+            driver.get(url)
+            for i in range(100):
+                element = driver.find_element_by_xpath('//*[@id="maincontent"]/table/tbody/tr[%s]/td[1]/a' % (i + 2))
+                text = element.get_attribute('text')
+                url = element.get_attribute('href')
+                list_d_field_value.append({'year': year, 'month': month, 'position': i_hundred * 100 + i + 1,
+                                           'title': text, 'url': url})
 
     # Scrape release dates
     titles_urls = {(d_field_value['title'], d_field_value['url']) for d_field_value in list_d_field_value}
@@ -59,9 +62,9 @@ def scrape_data(start_year, start_month, end_year, end_month, csv_data, sep):
         try:
             element = driver.find_element_by_xpath('//*[@id="mainbody"]/div/div[1]/div[1]/div[2]/ng-include/'
                                                    'div/ng-include/div/div/div[2]/div[1]/div/div[2]/h1/span')
-            release_date = element.get_attribute("innerText")[1:5]
-        except NoSuchElementException:  # For "Unfinished prototype", there is no date
-            release_date = ''
+            release_date = element.get_attribute("innerText")[1:-1]
+        except NoSuchElementException:  # For "Unfinished prototype" (and some others), there is no date
+            release_date = 9999
         d_url_release[url] = release_date
 
     # Close driver
@@ -76,3 +79,8 @@ def scrape_data(start_year, start_month, end_year, end_month, csv_data, sep):
     # Export to csv
     df = pd.DataFrame(list_d_field_value, columns=['year', 'month', 'position', 'title', 'url', 'release_date'])
     df.to_csv(csv_data, sep=sep, index=False)
+
+
+if __name__ == '__main__':
+    scrape_data(start_year=2010, start_month=1, end_year=2020, end_month=5, n_hundreds=1,
+                csv_data='data.csv', sep=';')
