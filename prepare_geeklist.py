@@ -1,4 +1,5 @@
 import io
+import numpy as np
 import pandas as pd
 
 
@@ -29,8 +30,15 @@ def prepare_geeklist(csv_pivot, file_geeklist, sep):
             ))
             f.write('Current position in top 100: {}.\n'.format(row['current position in top 100']))
             f.write('Months since leaving top 100: {}.\n'.format(row['months since leaving top 100']))
-            f.write('Year of Publication: {}.\n'.format(row['release_date']))
+            f.write('Year of Publication: {}.\n'.format(release_date_to_int(row['release_date'])))
             f.write('\n')
+
+
+def release_date_to_int(release_date):
+    if np.isnan(release_date):
+        return 'N/A'
+    else:
+        return str(int(release_date))
 
 
 if __name__ == '__main__':

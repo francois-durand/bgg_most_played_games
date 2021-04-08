@@ -43,7 +43,7 @@ def scrape_data(start_year, start_month, end_year, end_month, n_hundreds, csv_da
         start_date = "{}-{:02d}-01".format(year, month)
         end_date = "{}-{:02d}-{}".format(year, month, last_day)
         for i_hundred in range(n_hundreds):
-            url = "https://boardgamegeek.com/plays/bygame/subtype/boardgame/" \
+            url = "https://boardgamegeek.com/plays/bygame/subtype/All/" \
                   "start/%s/end/%s/page/%s?sortby=distinctusers" % (start_date, end_date, i_hundred + 1)
             driver.get(url)
             for i in range(100):
