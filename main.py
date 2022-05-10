@@ -7,7 +7,7 @@ from prepare_geeklist import prepare_geeklist
 START_YEAR = 2010
 START_MONTH = 1
 END_YEAR = 2021
-END_MONTH = 4  # First month NOT taken into account
+END_MONTH = 5  # First month NOT taken into account
 
 CSV_DATA = 'data.csv'
 CSV_PIVOT = 'pivot.csv'
