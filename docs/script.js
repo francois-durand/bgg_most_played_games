@@ -82,6 +82,22 @@ function bindControls() {
     title.textContent = isOpen ? "Filters \u25BE" : "Filters \u25B4";
   });
 
+  // Back-to-top button: show after the user has scrolled past one viewport,
+  // and on click scroll smoothly to the top.
+  const $backToTop = document.getElementById("back-to-top");
+  const updateBackToTop = () => {
+    const showFrom = window.innerHeight;  // one screen down
+    $backToTop.hidden = window.scrollY < showFrom;
+  };
+  /* Listen with passive:true since we never call preventDefault here; this
+     lets the browser keep scrolling smooth on mobile even while the handler
+     runs. */
+  window.addEventListener("scroll", updateBackToTop, { passive: true });
+  updateBackToTop();
+  $backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
   // Per-card toggle: delegated click on the list.
   $list.addEventListener("click", (event) => {
     const button = event.target.closest(".card-toggle");
