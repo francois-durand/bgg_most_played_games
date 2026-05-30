@@ -70,6 +70,18 @@ function bindControls() {
   document.getElementById("reset-filters")
       .addEventListener("click", resetFilters);
 
+  // Filters panel: collapsible header.
+  document.getElementById("filters-toggle").addEventListener("click", () => {
+    const header = document.getElementById("filters-toggle");
+    const body = document.getElementById("filters-body");
+    const isOpen = !body.hidden;
+    body.hidden = isOpen;
+    header.setAttribute("aria-expanded", isOpen ? "false" : "true");
+    /* Update the chevron in the title. */
+    const title = header.querySelector(".filters-title");
+    title.textContent = isOpen ? "Filters \u25BE" : "Filters \u25B4";
+  });
+
   // Per-card toggle: delegated click on the list.
   $list.addEventListener("click", (event) => {
     const button = event.target.closest(".card-toggle");

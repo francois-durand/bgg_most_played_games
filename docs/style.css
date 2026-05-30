@@ -39,6 +39,11 @@
 
 * { box-sizing: border-box; }
 
+/* The HTML `hidden` attribute should always hide an element. Some of our
+   class rules set `display: flex` or `grid` and would otherwise win the
+   specificity battle. */
+[hidden] { display: none !important; }
+
 html { font-size: 17px; }
 
 body {
@@ -116,11 +121,41 @@ a:hover { text-decoration-color: var(--ink-soft); }
 /* --- Filters panel ------------------------------------------------------- */
 
 .filters-panel {
-  background: var(--bg-card);
   border: 1px solid var(--rule);
   border-radius: 6px;
-  padding: var(--space-5);
   margin-bottom: var(--space-5);
+  overflow: hidden;
+}
+
+.filters-header {
+  width: 100%;
+  background: var(--bg);
+  border: none;
+  padding: var(--space-3) var(--space-4);
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  font: inherit;
+  color: inherit;
+  transition: background 0.15s ease;
+}
+.filters-header:hover { background: var(--rule-soft); }
+.filters-header:focus-visible { outline: none; background: var(--rule-soft); }
+
+.filters-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--ink-soft);
+}
+
+.filters-body {
+  background: var(--bg-card);
+  padding: var(--space-4) var(--space-5) var(--space-5);
+  border-top: 1px solid var(--rule);
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
@@ -195,7 +230,8 @@ a:hover { text-decoration-color: var(--ink-soft); }
 .check:hover { background: var(--rule-soft); }
 .check input { cursor: pointer; margin: 0; }
 
-/* Footer of filter panel: result count + reset. */
+/* Footer of filter panel: result count + reset button. Separated from the
+   filter rows above by a thin rule. */
 .filter-footer {
   display: flex;
   justify-content: space-between;
@@ -476,7 +512,8 @@ a:hover { text-decoration-color: var(--ink-soft); }
   .content { padding: var(--space-5) var(--space-4) var(--space-6); }
 
   /* Filters: stack label above control when space is tight. */
-  .filters-panel { padding: var(--space-4); }
+  .filters-header { padding: var(--space-3); }
+  .filters-body { padding: var(--space-4); }
   .filter-row {
     grid-template-columns: 1fr;
     gap: var(--space-1);

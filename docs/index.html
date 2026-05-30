@@ -28,64 +28,70 @@
 
   <main class="content">
     <aside class="filters-panel">
-      <div class="filter-row">
-        <label class="filter-label" for="search-input">Search</label>
-        <div class="filter-control">
-          <input type="search" id="search-input" class="filter-input search-input"
-                 placeholder="Title, designer, mechanic, family, …">
-        </div>
-      </div>
+      <button type="button" id="filters-toggle" class="filters-header" aria-expanded="false">
+        <span class="filters-title">Filters ▾</span>
+      </button>
 
-      <div class="filter-row">
-        <label class="filter-label">Players</label>
-        <div class="filter-control">
-          <select id="players-source" class="filter-select">
-            <option value="official">official</option>
-            <option value="community">community</option>
-            <option value="best">best</option>
-          </select>
-          <div class="player-checkboxes">
-            <label class="check"><input type="checkbox" name="players" value="1"> 1</label>
-            <label class="check"><input type="checkbox" name="players" value="2"> 2</label>
-            <label class="check"><input type="checkbox" name="players" value="3"> 3</label>
-            <label class="check"><input type="checkbox" name="players" value="4"> 4</label>
-            <label class="check"><input type="checkbox" name="players" value="5"> 5</label>
-            <label class="check"><input type="checkbox" name="players" value="6"> 6</label>
-            <label class="check"><input type="checkbox" name="players" value="7+"> 7+</label>
+      <div id="filters-body" class="filters-body" hidden>
+        <div class="filter-row">
+          <label class="filter-label" for="search-input">Search</label>
+          <div class="filter-control">
+            <input type="search" id="search-input" class="filter-input search-input"
+                   placeholder="Title, designer, mechanic, family, …">
           </div>
         </div>
-      </div>
 
-      <div class="filter-row">
-        <label class="filter-label" for="duration-min">Duration</label>
-        <div class="filter-control">
-          <input type="number" id="duration-min" class="filter-input narrow" placeholder="min" min="0">
-          <span class="filter-sep">–</span>
-          <input type="number" id="duration-max" class="filter-input narrow" placeholder="max" min="0">
-          <span class="filter-unit">min</span>
+        <div class="filter-row">
+          <label class="filter-label">Players</label>
+          <div class="filter-control">
+            <select id="players-source" class="filter-select">
+              <option value="official">official</option>
+              <option value="community">community</option>
+              <option value="best">best</option>
+            </select>
+            <div class="player-checkboxes">
+              <label class="check"><input type="checkbox" name="players" value="1"> 1</label>
+              <label class="check"><input type="checkbox" name="players" value="2"> 2</label>
+              <label class="check"><input type="checkbox" name="players" value="3"> 3</label>
+              <label class="check"><input type="checkbox" name="players" value="4"> 4</label>
+              <label class="check"><input type="checkbox" name="players" value="5"> 5</label>
+              <label class="check"><input type="checkbox" name="players" value="6"> 6</label>
+              <label class="check"><input type="checkbox" name="players" value="7+"> 7+</label>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="filter-row">
-        <label class="filter-label">Age</label>
-        <div class="filter-control">
-          <select id="age-source" class="filter-select">
-            <option value="official">official</option>
-            <option value="community">community</option>
-          </select>
-          <span class="filter-unit">Suitable for</span>
-          <input type="number" id="age-suitable" class="filter-input narrow" min="0">
-          <span class="filter-sep">·</span>
-          <span class="filter-unit">Min age ≥</span>
-          <input type="number" id="age-min" class="filter-input narrow" min="0">
+        <div class="filter-row">
+          <label class="filter-label" for="duration-min">Duration</label>
+          <div class="filter-control">
+            <input type="number" id="duration-min" class="filter-input narrow" placeholder="min" min="0">
+            <span class="filter-sep">–</span>
+            <input type="number" id="duration-max" class="filter-input narrow" placeholder="max" min="0">
+            <span class="filter-unit">min</span>
+          </div>
         </div>
-      </div>
 
-      <div class="filter-footer">
-        <span id="result-count" class="result-count">— games</span>
-        <button type="button" id="reset-filters" class="list-control-button" disabled>
-          Reset filters
-        </button>
+        <div class="filter-row">
+          <label class="filter-label">Age</label>
+          <div class="filter-control">
+            <select id="age-source" class="filter-select">
+              <option value="official">official</option>
+              <option value="community">community</option>
+            </select>
+            <span class="filter-unit">Suitable for</span>
+            <input type="number" id="age-suitable" class="filter-input narrow" min="0">
+            <span class="filter-sep">·</span>
+            <span class="filter-unit">Min age ≥</span>
+            <input type="number" id="age-min" class="filter-input narrow" min="0">
+          </div>
+        </div>
+
+        <div class="filter-footer">
+          <span id="result-count" class="result-count">— games</span>
+          <button type="button" id="reset-filters" class="list-control-button" disabled>
+            Reset filters
+          </button>
+        </div>
       </div>
     </aside>
 
