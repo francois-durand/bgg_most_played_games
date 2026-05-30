@@ -38,13 +38,38 @@ async function main() {
   }
 
   state.allGames = payload.games || [];
-  $sub.textContent = `${payload.edition} edition`;
+  $sub.innerHTML =
+    `${payload.edition} edition` +
+    ` <span class="subtitle-sep">·</span> ` +
+    `<a class="subtitle-link" href="credits.html">` +
+    `also see designers &amp; artists \u2192</a>`;
   const topN = payload.top_n || state.allGames.length;
   document.getElementById("intro-top-n").textContent = topN;
   $status.remove();
 
   bindControls();
+  /* If the URL has a hash like "#search=Antoine Bauza" (e.g. coming from
+     the credits page), apply that as the initial search filter. */
+  applyHashFilter();
   applyFiltersAndSort();
+}
+
+function applyHashFilter() {
+  const hash = window.location.hash || "";
+  /* Expected format: #search=<urlencoded text>. We're lenient: anything that
+     starts with "#search=" is honored, the rest is ignored. */
+  const m = hash.match(/^#search=(.*)$/);
+  if (!m) return;
+  try {
+    const value = decodeURIComponent(m[1]);
+    if (!value) return;
+    document.getElementById("search-input").value = value;
+    /* Open the panel so the user sees the active filter — same UX as
+     clicking the magnifier on this page. */
+    setFiltersPanelOpen(true);
+  } catch (err) {
+    /* Bad URI encoding — silently ignore. */
+  }
 }
 
 /* --- Controls binding ---------------------------------------------------- */

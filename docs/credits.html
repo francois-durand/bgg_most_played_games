@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Most Played Games — Credits</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Most Played Games — Credits</h1>
+      <p class="site-subtitle" id="site-subtitle">Loading edition…</p>
+      <p class="site-intro">
+        Designers and artists credited on at least two games in
+        <a href="index.html">the main list</a>, sorted by number of games.
+        Click a name to view their BGG page, or the magnifier 🔍 to filter
+        the main list by them.
+      </p>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="credits-section">
+      <h2 class="credits-section-title">Designers</h2>
+      <table id="designers-table" class="credits-table">
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="credits-section">
+      <h2 class="credits-section-title">Artists</h2>
+      <table id="artists-table" class="credits-table">
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <p id="status" class="status">Loading credits…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="index.html">← Back to the main list</a> ·
+      Built from BGG monthly play data
+    </p>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>
+    ↑
+  </button>
+
+  <script src="credits.js"></script>
+</body>
+</html>

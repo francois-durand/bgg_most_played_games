@@ -191,6 +191,77 @@ def build_web_data():
         json.dump(payload, f, ensure_ascii=False, indent=2)
     print("Wrote {} ({} games, edition {}).".format(out_path, len(out), edition))
 
+    # Build and write the credits aggregation page data.
+    credits_payload = build_credits_data(out, edition)
+    credits_path = docs_dir / "credits_data.json"
+    with open(credits_path, "w", encoding="utf-8") as f:
+        json.dump(credits_payload, f, ensure_ascii=False, indent=2)
+    print("Wrote {} ({} designers, {} artists).".format(
+        credits_path,
+        len(credits_payload["designers"]),
+        len(credits_payload["artists"])))
+
+
+def build_credits_data(games, edition):
+    """Aggregate designers and artists across the top-N games.
+
+    For each person who appears in at least 2 games, record:
+      - name, bgg_id, type (so the page can link to BGG)
+      - count (number of games they're credited in)
+      - games: list of {bgg_id, title, rank} sorted by rank ascending
+
+    Top-level lists are sorted by count desc, then by best (lowest) rank asc.
+    Solo designers are intentionally excluded — they're authors of solo
+    variants, a different role from primary designers.
+    """
+    designers = _aggregate_people(games, "designers")
+    artists   = _aggregate_people(games, "artists")
+    return {
+        "edition": edition,
+        "designers": designers,
+        "artists": artists,
+    }
+
+
+def _aggregate_people(games, field):
+    """Group people by bgg_id across the given field across all games.
+
+    Returns a sorted list (count desc, best rank asc) of:
+        {name, bgg_id, type, count, games: [{bgg_id, title, rank}, ...]}
+    restricted to people present in 2+ games.
+    """
+    by_person = {}
+    for g in games:
+        for p in g.get(field) or []:
+            pid = p.get("id")
+            if pid is None:
+                continue
+            entry = by_person.get(pid)
+            if entry is None:
+                entry = by_person[pid] = {
+                    "name": p.get("name"),
+                    "bgg_id": pid,
+                    "type": p.get("type"),
+                    "games": [],
+                }
+            entry["games"].append({
+                "bgg_id": g["bgg_id"],
+                "title": g["title"],
+                "rank": g["rank"],
+            })
+
+    # Keep only people with 2+ games, sort each person's games by rank,
+    # then sort the list by (count desc, best rank asc).
+    result = []
+    for entry in by_person.values():
+        if len(entry["games"]) < 2:
+            continue
+        entry["games"].sort(key=lambda x: x["rank"])
+        entry["count"] = len(entry["games"])
+        result.append(entry)
+    result.sort(key=lambda e: (-e["count"], e["games"][0]["rank"]))
+    return result
+
 
 if __name__ == "__main__":
     build_web_data()
