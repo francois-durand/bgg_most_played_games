@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Most Played Games of All Time</title>
+
+  <!-- EB Garamond for display (titles); system fonts for body. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Most Played Games of All Time</h1>
+      <p class="site-subtitle" id="site-subtitle">Loading edition…</p>
+      <p class="site-intro" id="site-intro">
+        This list ranks the <span id="intro-top-n">…</span> most-played board
+        games on BGG, based on monthly play data since 2010. Points are awarded
+        each month a game appears in the top 100, with more points for higher
+        positions. Updated yearly.
+      </p>
+    </div>
+  </header>
+
+  <main class="content">
+    <aside class="filters-panel">
+      <div class="filter-row">
+        <label class="filter-label" for="search-input">Search</label>
+        <div class="filter-control">
+          <input type="search" id="search-input" class="filter-input search-input"
+                 placeholder="Title, designer, mechanic, family, …">
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <label class="filter-label">Players</label>
+        <div class="filter-control">
+          <select id="players-source" class="filter-select">
+            <option value="official">official</option>
+            <option value="community">community</option>
+            <option value="best">best</option>
+          </select>
+          <div class="player-checkboxes">
+            <label class="check"><input type="checkbox" name="players" value="1"> 1</label>
+            <label class="check"><input type="checkbox" name="players" value="2"> 2</label>
+            <label class="check"><input type="checkbox" name="players" value="3"> 3</label>
+            <label class="check"><input type="checkbox" name="players" value="4"> 4</label>
+            <label class="check"><input type="checkbox" name="players" value="5"> 5</label>
+            <label class="check"><input type="checkbox" name="players" value="6"> 6</label>
+            <label class="check"><input type="checkbox" name="players" value="7+"> 7+</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <label class="filter-label" for="duration-min">Duration</label>
+        <div class="filter-control">
+          <input type="number" id="duration-min" class="filter-input narrow" placeholder="min" min="0">
+          <span class="filter-sep">–</span>
+          <input type="number" id="duration-max" class="filter-input narrow" placeholder="max" min="0">
+          <span class="filter-unit">min</span>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <label class="filter-label">Age</label>
+        <div class="filter-control">
+          <select id="age-source" class="filter-select">
+            <option value="official">official</option>
+            <option value="community">community</option>
+          </select>
+          <span class="filter-unit">Suitable for</span>
+          <input type="number" id="age-suitable" class="filter-input narrow" min="0">
+          <span class="filter-sep">·</span>
+          <span class="filter-unit">Min age ≥</span>
+          <input type="number" id="age-min" class="filter-input narrow" min="0">
+        </div>
+      </div>
+
+      <div class="filter-footer">
+        <span id="result-count" class="result-count">— games</span>
+        <button type="button" id="reset-filters" class="list-control-button" disabled>
+          Reset filters
+        </button>
+      </div>
+    </aside>
+
+    <div class="list-controls">
+      <label class="sort-label">
+        Sort:
+        <select id="sort-select" class="filter-select">
+          <option value="rank-asc">Rank (1 → 250)</option>
+          <option value="rank-desc">Rank (250 → 1)</option>
+          <option value="delta-desc">Biggest climbers first</option>
+          <option value="delta-asc">Biggest drops first</option>
+          <option value="title-asc">Title (A → Z)</option>
+          <option value="title-desc">Title (Z → A)</option>
+          <option value="year-desc">Year (newest)</option>
+          <option value="year-asc">Year (oldest)</option>
+          <option value="weight-asc">Weight (lightest)</option>
+          <option value="weight-desc">Weight (heaviest)</option>
+          <option value="age_official-asc">Age official (youngest)</option>
+          <option value="age_official-desc">Age official (oldest)</option>
+          <option value="age_community-asc">Age community (youngest)</option>
+          <option value="age_community-desc">Age community (oldest)</option>
+        </select>
+      </label>
+      <button type="button" id="toggle-all" class="list-control-button">
+        Expand all ▾
+      </button>
+    </div>
+
+    <div id="game-list" class="game-list">
+      <!-- Cards are inserted here by script.js -->
+    </div>
+    <p id="status" class="status">Loading games…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Built from BGG monthly play data ·
+      <a href="https://github.com/" target="_blank" rel="noopener">source on GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
