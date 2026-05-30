@@ -13,7 +13,6 @@
 const DATA_URL = "credits_data.json";
 
 const $status = document.getElementById("status");
-const $sub    = document.getElementById("site-subtitle");
 
 async function main() {
   let payload;
@@ -26,7 +25,8 @@ async function main() {
     return;
   }
 
-  $sub.textContent = `${payload.edition} edition`;
+  renderNav({ edition: payload.edition, active: "credits" });
+  document.getElementById("intro-edition").textContent = payload.edition;
   $status.remove();
 
   renderTable(document.querySelector("#designers-table tbody"), payload.designers);

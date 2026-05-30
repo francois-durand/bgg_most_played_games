@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Most Played Games of All Time</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Most Played Games of All Time</h1>
+      <p class="site-subtitle" id="site-subtitle"></p>
+    </div>
+  </header>
+
+  <main class="content">
+    <article class="about-article">
+      <h2>What this is</h2>
+      <p>
+        Each year I publish a ranking of the board games that have been
+        <em>played the most</em> on BoardGameGeek (BGG) since January 2010.
+        The list complements the rankings you can find on BGG itself, which
+        are based on ratings — i.e. on how much people <em>like</em> games.
+        Here, the question is different: which games actually
+        <em>get played</em>, repeatedly, by many people?
+      </p>
+
+      <h2>The data</h2>
+      <p>
+        BGG publishes a monthly list of the games most played by its
+        community, where “most played” is measured by the number of
+        <em>distinct players</em> who logged at least one play of the game
+        that month. Since 2010, I've collected the top 100 entries from each
+        month.
+      </p>
+
+      <h2>How the points work</h2>
+      <p>
+        For each month a game appears in BGG's monthly top 100, it earns
+        points based on its position. The formula is:
+      </p>
+      <p class="formula">
+        points(rank) = rank<sup>&minus;0.5</sup>
+      </p>
+      <p>
+        That is: a game ranked #1 earns 1 point, a game ranked #4 earns 0.5,
+        #100 earns 0.1, and so on. The total score for a game is the sum
+        of those monthly points across every month it has been in the top 100.
+      </p>
+      <p>
+        This formula rewards both consistency (a game that stays high for
+        many years accumulates a lot) and peaks (a single month at #1 is
+        worth more than several months at #50). The diminishing-returns
+        shape (an inverse square root) means there's a meaningful gap
+        between the top of the monthly list and the lower positions, but
+        not an extreme one.
+      </p>
+
+      <h2>The fields on each game</h2>
+      <p>
+        Some terms used on game cards may need clarification:
+      </p>
+      <dl class="about-glossary">
+        <dt>Rank</dt>
+        <dd>Position in this list, computed from the points formula above.</dd>
+
+        <dt>Points</dt>
+        <dd>The total score described above, summed over all monthly
+            top-100 appearances.</dd>
+
+        <dt>Months in BGG's monthly top 100 / top 10</dt>
+        <dd>How many distinct months the game was in BGG's monthly top 100
+            (or top 10) by number of distinct players.</dd>
+
+        <dt>Peak</dt>
+        <dd>The best position ever reached in BGG's monthly top by
+            distinct players.</dd>
+
+        <dt>Currently in BGG's monthly top 100</dt>
+        <dd>The position the game holds in the most recent month covered
+            by the edition. Shown only for games that are still active.</dd>
+
+        <dt>Out of BGG's monthly top 100 for N months</dt>
+        <dd>How long the game has been absent from the monthly top 100,
+            counting from the most recent month covered by the edition.</dd>
+
+        <dt>↑N / ↓N / new / =</dt>
+        <dd>Change in rank since last year's edition. <em>↑N</em> = climbed
+            N places, <em>↓N</em> = dropped, <em>=</em> = same rank, <em>new</em>
+            = wasn't in last year's list.</dd>
+
+        <dt>Players (official) / (community)</dt>
+        <dd>Official: number of players as printed on the box. Community:
+            the player counts BGG users say work in practice (which can be
+            tighter, or include solo when not officially supported).</dd>
+
+        <dt>Best</dt>
+        <dd>The player count(s) BGG users find optimal.</dd>
+
+        <dt>Age (official) / (community)</dt>
+        <dd>Official: minimum age recommended by the publisher. Community:
+            recommended by BGG users.</dd>
+
+        <dt>Weight</dt>
+        <dd>A 1-to-5 community measure of how complex the game is to learn
+            and play. 1 = trivial, 5 = very heavy. See
+            <a href="https://boardgamegeek.com/wiki/page/Weight" target="_blank" rel="noopener">the BGG wiki</a>
+            for details.</dd>
+      </dl>
+
+      <h2>Editions</h2>
+      <p>
+        Each edition is published every May, covering data up to and
+        including April of that year. So the current
+        (<span id="about-edition-year">…</span>) edition uses data from
+        January 2010 through April <span id="about-edition-year2">…</span>.
+      </p>
+
+      <h2>Source code</h2>
+      <p>
+        Scraping, score computation, and this site are all
+        <a href="https://github.com/" target="_blank" rel="noopener">open
+        source on GitHub</a>. Bug reports and suggestions welcome.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="index.html">← Back to the main list</a> ·
+      Built from BGG monthly play data
+    </p>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>
+    ↑
+  </button>
+
+  <script src="nav.js"></script>
+  <script src="about.js"></script>
+</body>
+</html>

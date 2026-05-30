@@ -117,6 +117,12 @@ a:hover { text-decoration-color: var(--ink-soft); }
   color: var(--ink-muted);
   margin: 0 0.3em;
 }
+/* Current page in the nav: plain text (no link) but in regular ink so it
+   visually stands out a bit from the surrounding muted subtitle. */
+.subtitle-current {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
 
 /* --- Main / list --------------------------------------------------------- */
 
@@ -565,6 +571,63 @@ a:hover { text-decoration-color: var(--ink-soft); }
   outline: none;
 }
 
+/* --- About page --------------------------------------------------------- */
+
+.about-article {
+  max-width: 65ch;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+.about-article h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  margin: var(--space-6) 0 var(--space-2);
+}
+.about-article h2:first-child {
+  margin-top: 0;
+}
+.about-article p {
+  margin: 0 0 var(--space-3);
+}
+.about-article code {
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", "JetBrains Mono",
+               Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  background: var(--rule-soft);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+.formula {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: var(--space-4) 0 !important;
+  color: var(--ink);
+}
+.about-glossary {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: var(--space-4);
+  row-gap: var(--space-2);
+  margin: var(--space-4) 0;
+}
+.about-glossary dt {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--ink);
+  font-weight: 500;
+}
+.about-glossary dd {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
 /* --- Credits page ------------------------------------------------------- */
 
 .credits-section {
@@ -696,4 +759,16 @@ a:hover { text-decoration-color: var(--ink-soft); }
   }
   .credits-count { font-size: 1rem; }
   .credits-name { font-size: 1.2rem; white-space: normal; }
+
+  /* About page: stack glossary terms above their definitions. */
+  .about-glossary {
+    grid-template-columns: 1fr;
+    row-gap: var(--space-1);
+  }
+  .about-glossary dt {
+    margin-top: var(--space-2);
+  }
+  .about-glossary dt:first-child {
+    margin-top: 0;
+  }
 }

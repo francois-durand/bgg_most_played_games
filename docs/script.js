@@ -19,7 +19,6 @@ const DATA_URL = "web_data.json";
 
 const $list   = document.getElementById("game-list");
 const $status = document.getElementById("status");
-const $sub    = document.getElementById("site-subtitle");
 
 const state = {
   allGames: [],        // populated once from web_data.json
@@ -38,13 +37,10 @@ async function main() {
   }
 
   state.allGames = payload.games || [];
-  $sub.innerHTML =
-    `${payload.edition} edition` +
-    ` <span class="subtitle-sep">·</span> ` +
-    `<a class="subtitle-link" href="credits.html">` +
-    `also see designers &amp; artists \u2192</a>`;
+  renderNav({ edition: payload.edition, active: "games" });
   const topN = payload.top_n || state.allGames.length;
   document.getElementById("intro-top-n").textContent = topN;
+  document.getElementById("intro-edition").textContent = payload.edition;
   $status.remove();
 
   bindControls();

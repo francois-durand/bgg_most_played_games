@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Most Played Games — Credits</title>
+  <title>Most Played Games of All Time</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +14,14 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <h1 class="site-title">Most Played Games — Credits</h1>
-      <p class="site-subtitle" id="site-subtitle">Loading edition…</p>
+      <h1 class="site-title">Most Played Games of All Time</h1>
+      <p class="site-subtitle" id="site-subtitle"></p>
       <p class="site-intro">
         Designers and artists credited on at least two games in
-        <a href="index.html">the main list</a>, sorted by number of games.
-        Click a name to view their BGG page, or the magnifier 🔍 to filter
-        the main list by them.
+        <a href="index.html">the main list</a>
+        (<span id="intro-edition">…</span> edition),
+        sorted by number of games. Click a name to view their BGG page, or
+        the magnifier 🔍 to filter the main list by them.
       </p>
     </div>
   </header>
@@ -54,6 +55,7 @@
     ↑
   </button>
 
+  <script src="nav.js"></script>
   <script src="credits.js"></script>
 </body>
 </html>
