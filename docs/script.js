@@ -72,14 +72,18 @@ function bindControls() {
 
   // Filters panel: collapsible header.
   document.getElementById("filters-toggle").addEventListener("click", () => {
-    const header = document.getElementById("filters-toggle");
-    const body = document.getElementById("filters-body");
-    const isOpen = !body.hidden;
-    body.hidden = isOpen;
-    header.setAttribute("aria-expanded", isOpen ? "false" : "true");
-    /* Update the chevron in the title. */
-    const title = header.querySelector(".filters-title");
-    title.textContent = isOpen ? "Filters \u25BE" : "Filters \u25B4";
+    setFiltersPanelOpen(!isFiltersPanelOpen());
+  });
+
+  // Delegated click for the magnifier icons next to people / match entries:
+  // clicking them clears existing filters, sets the search input to that name,
+  // expands the Filters panel, and scrolls to the top.
+  document.body.addEventListener("click", (event) => {
+    const trigger = event.target.closest("[data-search-name]");
+    if (!trigger) return;
+    event.preventDefault();
+    event.stopPropagation();
+    setSearchFilter(trigger.dataset.searchName);
   });
 
   // Back-to-top button: show after the user has scrolled past one viewport,
@@ -334,6 +338,43 @@ function resetFilters() {
   applyFiltersAndSort();
 }
 
+/* --- Filters panel open/close ------------------------------------------- */
+
+function isFiltersPanelOpen() {
+  return !document.getElementById("filters-body").hidden;
+}
+
+function setFiltersPanelOpen(open) {
+  const header = document.getElementById("filters-toggle");
+  const body = document.getElementById("filters-body");
+  body.hidden = !open;
+  header.setAttribute("aria-expanded", open ? "true" : "false");
+  const title = header.querySelector(".filters-title");
+  title.textContent = open ? "Filters \u25B4" : "Filters \u25BE";
+}
+
+/* --- Trigger a search filter from a click (e.g. magnifier icon) --------- */
+
+function setSearchFilter(name) {
+  /* Used by the magnifier icons next to people / classification entries.
+     We replace any existing filter state with just this search, expand the
+     panel so the user sees the active filter, and scroll back to the top
+     so they can see the new (re-ordered) results from the start. */
+  resetFiltersToSearch(name);
+  setFiltersPanelOpen(true);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function resetFiltersToSearch(name) {
+  document.getElementById("search-input").value = name;
+  document.querySelectorAll("input[name='players']").forEach(cb => cb.checked = false);
+  document.getElementById("duration-min").value = "";
+  document.getElementById("duration-max").value = "";
+  document.getElementById("age-suitable").value = "";
+  document.getElementById("age-min").value = "";
+  applyFiltersAndSort();
+}
+
 /* --- Card rendering ------------------------------------------------------ */
 
 function renderCard(g) {
@@ -475,21 +516,33 @@ function formatMatchRow(g) {
   for (const [field, hits] of Object.entries(matches)) {
     const labels = MATCH_FIELD_LABELS[field];
     const label = hits.length > 1 ? labels.plural : labels.single;
-    const linked = hits.map(h => bggLink(h));
+    const linked = hits.map(h => entityLink(h));
     lines.push(`${label}: ${linked.join(", ")}`);
   }
   return lines.join("<br>");
 }
 
-function bggLink(entity) {
-  /* Build a link to the BGG entity page from its {name, id, type}.
-     The 'type' field is BGG's slug (boardgamepublisher, boardgamemechanic,
-     boardgamecategory, boardgamefamily). */
-  if (!entity || !entity.id || !entity.type) {
-    return escapeHtml(entity && entity.name || "");
+function entityLink(entity) {
+  /* Render one entity (person or classification) as:
+       <a>name</a> <button class="search-by" data-search-name="name">🔍</button>
+     The name links to its BGG page (when we have id+type). The magnifier
+     button triggers an in-page text filter on that name.
+     Used for designers/artists in extras AND for publishers/mechanics/etc.
+     in the Match disclosure. */
+  if (!entity || !entity.name) return "";
+  const name = entity.name;
+  let head;
+  if (entity.id && entity.type) {
+    const url = `https://boardgamegeek.com/${entity.type}/${entity.id}`;
+    head = `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(name)}</a>`;
+  } else {
+    head = escapeHtml(name);
   }
-  const url = `https://boardgamegeek.com/${entity.type}/${entity.id}`;
-  return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(entity.name)}</a>`;
+  const search = `<button type="button" class="search-by" ` +
+                 `data-search-name="${escapeAttr(name)}" ` +
+                 `aria-label="Show games with ${escapeAttr(name)}" ` +
+                 `title="Show games with ${escapeAttr(name)}">\u{1F50D}</button>`;
+  return `<span class="entity">${head}${search}</span>`;
 }
 
 function formatHistoryRow(g) {
@@ -558,10 +611,36 @@ function artistLabel(g) {
 
 function formatPeople(list) {
   if (!list || !list.length) return null;
-  const names = list.map(p => escapeHtml(p.name));
-  const last = names.length - 1;
-  names[last] = names[last].replaceAll(" ", "\u00A0");
-  return names.join(", ");
+  /* Each person becomes [BGG link][magnifier search button]. The last name's
+     internal spaces are non-breaking so a first-name-only orphan can't end up
+     on its own last line; intermediate names keep regular spaces so a long
+     list can still wrap naturally between names. */
+  const html = list.map(entityLink);
+  /* Re-process the last rendered chunk: the "head" portion (the <a>...</a>
+     or escaped text) should have its inner spaces become non-breaking. We
+     re-render the last entity with that adjustment for tidy line wrapping. */
+  const lastIdx = list.length - 1;
+  html[lastIdx] = entityLinkLastInList(list[lastIdx]);
+  return html.join(", ");
+}
+
+function entityLinkLastInList(entity) {
+  /* Same as entityLink, but the visible name uses non-breaking spaces so it
+     stays solidary on the last line of a wrapped list. */
+  if (!entity || !entity.name) return "";
+  const nameDisplay = entity.name.replaceAll(" ", "\u00A0");
+  let head;
+  if (entity.id && entity.type) {
+    const url = `https://boardgamegeek.com/${entity.type}/${entity.id}`;
+    head = `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(nameDisplay)}</a>`;
+  } else {
+    head = escapeHtml(nameDisplay);
+  }
+  const search = `<button type="button" class="search-by" ` +
+                 `data-search-name="${escapeAttr(entity.name)}" ` +
+                 `aria-label="Show games with ${escapeAttr(entity.name)}" ` +
+                 `title="Show games with ${escapeAttr(entity.name)}">\u{1F50D}</button>`;
+  return `<span class="entity">${head}${search}</span>`;
 }
 
 /* --- Players / playtime formatting -------------------------------------- */

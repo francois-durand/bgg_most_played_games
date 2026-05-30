@@ -483,6 +483,34 @@ a:hover { text-decoration-color: var(--ink-soft); }
   color: var(--ink-soft);
 }
 
+/* Entity (person, publisher, mechanic, etc.) inline: BGG link + small
+   magnifier button that triggers an in-page text filter on that name. */
+.entity {
+  /* Keep the name and its magnifier together — they should never split
+     across two lines. */
+  white-space: nowrap;
+}
+
+.search-by {
+  background: none;
+  border: none;
+  padding: 0 0.15em;
+  margin-left: 0.2em;
+  cursor: pointer;
+  font-size: 0.75em;
+  line-height: 1;
+  color: var(--ink-muted);
+  opacity: 0.55;
+  vertical-align: 0.05em;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+.search-by:hover,
+.search-by:focus-visible {
+  opacity: 1;
+  color: var(--ink);
+  outline: none;
+}
+
 /* The "Match" row appears only when a search query has hidden matches.
    A small accent color signals "this is why the search matched". */
 .card-extras dt.match-row,

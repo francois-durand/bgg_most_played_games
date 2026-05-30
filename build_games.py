@@ -182,11 +182,13 @@ LINK_FIELDS = [
 
 
 def collect_links(credits_table, link_type):
-    """Return de-duplicated [{name, id}, ...] for all links of `link_type`.
+    """Return de-duplicated [{name, id, type}, ...] for all links of `link_type`.
 
     Scans EVERY row of credits_table, because BGG's row keys vary (designer
     vs designers, artist vs artists, etc.). We identify by the 'type' field
-    on each link, which is stable.
+    on each link, which is stable. We keep the type in the output too because
+    it doubles as the slug for the BGG URL (boardgamepublisher/.., etc.) the
+    web UI builds for the "Match" disclosure.
     """
     seen = set()
     out = []
@@ -205,7 +207,11 @@ def collect_links(credits_table, link_type):
             if not name or person_id in seen:
                 continue
             seen.add(person_id)
-            out.append({"name": name, "id": person_id})
+            out.append({
+                "name": name,
+                "id": person_id,
+                "type": link_type,
+            })
     return out
 
 
