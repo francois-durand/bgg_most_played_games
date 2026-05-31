@@ -37,17 +37,21 @@ import config
 # --- Helpers: parse ranges of integers ------------------------------------
 
 def parse_int_range(s, with_values=False):
-    """Parse a range string into {min, max[, values]}. Returns None on failure.
+    """Parse a range string into {min, max[, values][, display]}. Returns
+    None on failure.
 
     Handles '30', '30 Min', '1-5', '3–4' (en-dash), '1, 3-5' (comma list).
-    Also handles the BGG '+' suffix that appears in community polls when the
-    poll's last option was 'more than N': '3-5+' becomes effectively '3-6',
-    because the player count exceeds the official maximum (which is what
-    BGG's poll mechanism encodes with that last "+" option).
+    Also handles the BGG '+' suffix that appears in community polls when
+    the poll's last option was 'more than N': '3-5+' is treated as
+    '3-6' for filtering purposes (min/max/values), but a `display` key is
+    set to '3–5+' (with en-dash) so the UI can show the original meaning
+    rather than the inflated upper bound. The `display` key is only set
+    when a '+' was present in the source.
     """
     if s is None:
         return None
     norm = s.replace("\u2013", "-").replace("\u2014", "-")
+    had_plus = "+" in norm
     # Expand "N+" → "N N+1" (handled before number extraction so both ends
     # of a "3-5+" or "5+" are captured).
     norm = re.sub(r"(\d+)\+", lambda m: "{} {}".format(m.group(1), int(m.group(1)) + 1), norm)
@@ -57,7 +61,6 @@ def parse_int_range(s, with_values=False):
     result = {"min": min(nums), "max": max(nums)}
     if with_values:
         values = set()
-        # find tokens like "a-b" and individual ints
         for part in re.split(r"[,\s]+", norm):
             if "-" in part:
                 bits = part.split("-")
@@ -70,6 +73,17 @@ def parse_int_range(s, with_values=False):
             elif part.isdigit():
                 values.add(int(part))
         result["values"] = sorted(values)
+    if had_plus:
+        # Build a display string showing the original "+" semantics. We use
+        # the parsed min/max-1 (= the value before our expansion) and append
+        # "+". Single-number case ("5+") shows "5+"; range case ("3-5+")
+        # shows "3–5+" with an en-dash for typographic consistency.
+        lo = result["min"]
+        hi_original = result["max"] - 1
+        if lo == hi_original:
+            result["display"] = "{}+".format(lo)
+        else:
+            result["display"] = "{}\u2013{}+".format(lo, hi_original)
     return result
 
 

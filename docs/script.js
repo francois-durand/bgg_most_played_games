@@ -681,6 +681,10 @@ function entityLinkLastInList(entity) {
 
 function formatPlayers(range) {
   if (!range) return null;
+  /* When build_games.py detected a "+" in the source (e.g. "Community: 3-5+"),
+     it sets a `display` string we should show verbatim. The numeric min/max
+     still drive the filters. */
+  if (range.display) return `${range.display} players`;
   const { min, max } = range;
   if (min == null && max == null) return null;
   if (min === max || max == null) return `${min} player${min === 1 ? "" : "s"}`;
