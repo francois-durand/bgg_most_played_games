@@ -9,7 +9,6 @@ and as a geeklist on BoardGameGeek.
 ## Quick links
 
 - **Interactive version:** <https://francois-durand.github.io/bgg_most_played_games/>
-- **BGG geeklist (current):** <https://boardgamegeek.com/geeklist/379049/most-played-games-of-all-time-april-2025-version>
 - **About / methodology:** <https://francois-durand.github.io/bgg_most_played_games/about.html>
 
 ## Repository layout
