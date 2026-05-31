@@ -1,0 +1,15 @@
+# Runtime dependencies for the scraping + build pipeline.
+# The static site (docs/) is plain HTML/JS/CSS and has no Python or
+# Node dependency at runtime.
+
+# Browser automation: BGG's plays-by-game pages require an authenticated
+# session, so we drive a real Chrome instance.
+selenium>=4.20
+webdriver-manager>=4.0
+
+# Reads .env at project root so BGG_USERNAME / BGG_PASSWORD don't have to
+# be exported into the shell environment.
+python-dotenv>=1.0
+
+# Used by some scrape helpers to parse small HTML fragments.
+beautifulsoup4>=4.12
