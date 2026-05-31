@@ -47,14 +47,10 @@ RAW_DATA_JSON = PROJECT_ROOT / 'raw_data.json'
 GAMES_JSON = PROJECT_ROOT / 'games.json'
 IMAGES_DIR = PROJECT_ROOT / 'images'
 
-# --- BGG API ---------------------------------------------------------------
+# --- BGG credentials -------------------------------------------------------
 
 # Load .env file (in the project root) into os.environ.
 load_dotenv(PROJECT_ROOT / '.env')
-
-# Application token required by the BGG XML API since fall 2025.
-# Get one by registering at boardgamegeek.com and store it in .env.
-BGG_API_TOKEN = os.environ.get('BGG_API_TOKEN')
 
 # BGG account credentials, used to log in for scraping the plays pages (which
 # now require authentication). Both are read from .env (which is git-ignored).
