@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 
 START_YEAR = 2010
 START_MONTH = 1
-END_YEAR = 2025
+END_YEAR = 2026
 END_MONTH = 5
 
 # Number of "hundreds" of games to look at each month, before sorting by

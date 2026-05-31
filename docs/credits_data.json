@@ -1,54 +1,6 @@
 {
-  "edition": 2025,
+  "edition": 2026,
   "designers": [
-    {
-      "name": "Vlaada Chvátil",
-      "bgg_id": 789,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 178900,
-          "title": "Codenames",
-          "rank": 14
-        },
-        {
-          "bgg_id": 31481,
-          "title": "Galaxy Trucker",
-          "rank": 97
-        },
-        {
-          "bgg_id": 25613,
-          "title": "Through the Ages: A Story of Civilization",
-          "rank": 105
-        },
-        {
-          "bgg_id": 96848,
-          "title": "Mage Knight Board Game",
-          "rank": 152
-        },
-        {
-          "bgg_id": 224037,
-          "title": "Codenames: Duet",
-          "rank": 195
-        },
-        {
-          "bgg_id": 45315,
-          "title": "Dungeon Lords",
-          "rank": 210
-        },
-        {
-          "bgg_id": 182028,
-          "title": "Through the Ages: A New Story of Civilization",
-          "rank": 239
-        },
-        {
-          "bgg_id": 198773,
-          "title": "Codenames: Pictures",
-          "rank": 250
-        }
-      ],
-      "count": 8
-    },
     {
       "name": "Antoine Bauza",
       "bgg_id": 9714,
@@ -62,32 +14,32 @@
         {
           "bgg_id": 173346,
           "title": "7 Wonders Duel",
-          "rank": 11
+          "rank": 9
         },
         {
           "bgg_id": 98778,
           "title": "Hanabi",
-          "rank": 32
+          "rank": 34
         },
         {
           "bgg_id": 70919,
           "title": "Takenoko",
-          "rank": 47
+          "rank": 50
         },
         {
           "bgg_id": 264055,
           "title": "Draftosaurus",
-          "rank": 117
+          "rank": 123
         },
         {
           "bgg_id": 346703,
           "title": "7 Wonders: Architects",
-          "rank": 142
+          "rank": 131
         },
         {
-          "bgg_id": 37046,
-          "title": "Ghost Stories",
-          "rank": 244
+          "bgg_id": 421006,
+          "title": "The Lord of the Rings: Duel for Middle-earth",
+          "rank": 201
         }
       ],
       "count": 7
@@ -98,39 +50,39 @@
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 31260,
-          "title": "Agricola",
-          "rank": 17
-        },
-        {
           "bgg_id": 163412,
           "title": "Patchwork",
+          "rank": 18
+        },
+        {
+          "bgg_id": 31260,
+          "title": "Agricola",
           "rank": 19
         },
         {
           "bgg_id": 11,
           "title": "Bohnanza",
-          "rank": 58
+          "rank": 63
         },
         {
           "bgg_id": 35677,
           "title": "Le Havre",
-          "rank": 116
+          "rank": 122
         },
         {
           "bgg_id": 177736,
           "title": "A Feast for Odin",
-          "rank": 127
+          "rank": 135
         },
         {
           "bgg_id": 102794,
           "title": "Caverna: The Cave Farmers",
-          "rank": 139
+          "rank": 149
         },
         {
           "bgg_id": 119890,
           "title": "Agricola: All Creatures Big and Small",
-          "rank": 221
+          "rank": 236
         }
       ],
       "count": 7
@@ -148,73 +100,35 @@
         {
           "bgg_id": 217372,
           "title": "The Quest for El Dorado",
-          "rank": 89
+          "rank": 85
         },
         {
           "bgg_id": 12,
           "title": "Ra",
-          "rank": 102
+          "rank": 91
         },
         {
           "bgg_id": 760,
           "title": "Battle Line",
-          "rank": 206
+          "rank": 218
         },
         {
           "bgg_id": 42,
           "title": "Tigris & Euphrates",
-          "rank": 212
+          "rank": 225
         },
         {
           "bgg_id": 9674,
           "title": "Ingenious",
-          "rank": 214
+          "rank": 228
         },
         {
           "bgg_id": 266083,
           "title": "L.L.A.M.A.",
-          "rank": 224
+          "rank": 240
         }
       ],
       "count": 7
-    },
-    {
-      "name": "Matt Leacock",
-      "bgg_id": 378,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 30549,
-          "title": "Pandemic",
-          "rank": 9
-        },
-        {
-          "bgg_id": 161936,
-          "title": "Pandemic Legacy: Season 1",
-          "rank": 52
-        },
-        {
-          "bgg_id": 65244,
-          "title": "Forbidden Island",
-          "rank": 64
-        },
-        {
-          "bgg_id": 37380,
-          "title": "Roll Through the Ages: The Bronze Age",
-          "rank": 114
-        },
-        {
-          "bgg_id": 136063,
-          "title": "Forbidden Desert",
-          "rank": 183
-        },
-        {
-          "bgg_id": 221107,
-          "title": "Pandemic Legacy: Season 2",
-          "rank": 209
-        }
-      ],
-      "count": 6
     },
     {
       "name": "Bruno Cathala",
@@ -224,7 +138,7 @@
         {
           "bgg_id": 173346,
           "title": "7 Wonders Duel",
-          "rank": 11
+          "rank": 9
         },
         {
           "bgg_id": 204583,
@@ -234,86 +148,101 @@
         {
           "bgg_id": 157354,
           "title": "Five Tribes: The Djinns of Naqala",
-          "rank": 55
+          "rank": 61
         },
         {
           "bgg_id": 367220,
           "title": "Sea Salt & Paper",
-          "rank": 113
+          "rank": 75
         },
         {
           "bgg_id": 364073,
           "title": "Splendor Duel",
-          "rank": 162
+          "rank": 140
+        },
+        {
+          "bgg_id": 421006,
+          "title": "The Lord of the Rings: Duel for Middle-earth",
+          "rank": 201
         }
       ],
-      "count": 5
+      "count": 6
     },
     {
-      "name": "Stefan Feld",
-      "bgg_id": 4958,
+      "name": "Matt Leacock",
+      "bgg_id": 378,
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 84876,
-          "title": "The Castles of Burgundy",
-          "rank": 13
+          "bgg_id": 30549,
+          "title": "Pandemic",
+          "rank": 11
         },
         {
-          "bgg_id": 102680,
-          "title": "Trajan",
-          "rank": 223
+          "bgg_id": 161936,
+          "title": "Pandemic Legacy: Season 1",
+          "rank": 56
         },
         {
-          "bgg_id": 363622,
-          "title": "The Castles of Burgundy: Special Edition",
-          "rank": 227
+          "bgg_id": 65244,
+          "title": "Forbidden Island",
+          "rank": 69
         },
         {
-          "bgg_id": 271320,
-          "title": "The Castles of Burgundy",
-          "rank": 233
+          "bgg_id": 37380,
+          "title": "Roll Through the Ages: The Bronze Age",
+          "rank": 119
         },
         {
-          "bgg_id": 136888,
-          "title": "Bruges",
-          "rank": 243
+          "bgg_id": 136063,
+          "title": "Forbidden Desert",
+          "rank": 194
+        },
+        {
+          "bgg_id": 221107,
+          "title": "Pandemic Legacy: Season 2",
+          "rank": 221
         }
       ],
-      "count": 5
+      "count": 6
     },
     {
-      "name": "Kevin Wilson",
-      "bgg_id": 2336,
+      "name": "Vlaada Chvátil",
+      "bgg_id": 789,
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 15987,
-          "title": "Arkham Horror",
-          "rank": 94
+          "bgg_id": 178900,
+          "title": "Codenames",
+          "rank": 16
         },
         {
-          "bgg_id": 39463,
-          "title": "Cosmic Encounter",
+          "bgg_id": 31481,
+          "title": "Galaxy Trucker",
           "rank": 104
         },
         {
-          "bgg_id": 100423,
-          "title": "Elder Sign",
-          "rank": 138
+          "bgg_id": 25613,
+          "title": "Through the Ages: A Story of Civilization",
+          "rank": 110
         },
         {
-          "bgg_id": 104162,
-          "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
+          "bgg_id": 96848,
+          "title": "Mage Knight Board Game",
+          "rank": 158
         },
         {
-          "bgg_id": 77130,
-          "title": "Sid Meier's Civilization: The Board Game",
-          "rank": 247
+          "bgg_id": 224037,
+          "title": "Codenames: Duet",
+          "rank": 205
+        },
+        {
+          "bgg_id": 45315,
+          "title": "Dungeon Lords",
+          "rank": 222
         }
       ],
-      "count": 5
+      "count": 6
     },
     {
       "name": "Richard Garfield",
@@ -328,17 +257,45 @@
         {
           "bgg_id": 124742,
           "title": "Android: Netrunner",
-          "rank": 75
+          "rank": 81
         },
         {
           "bgg_id": 463,
           "title": "Magic: The Gathering",
-          "rank": 95
+          "rank": 100
         },
         {
           "bgg_id": 18,
           "title": "RoboRally",
-          "rank": 186
+          "rank": 196
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Stefan Feld",
+      "bgg_id": 4958,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 84876,
+          "title": "The Castles of Burgundy",
+          "rank": 12
+        },
+        {
+          "bgg_id": 363622,
+          "title": "The Castles of Burgundy: Special Edition",
+          "rank": 190
+        },
+        {
+          "bgg_id": 271320,
+          "title": "The Castles of Burgundy",
+          "rank": 213
+        },
+        {
+          "bgg_id": 102680,
+          "title": "Trajan",
+          "rank": 239
         }
       ],
       "count": 4
@@ -356,17 +313,17 @@
         {
           "bgg_id": 183394,
           "title": "Viticulture Essential Edition",
-          "rank": 46
+          "rank": 45
         },
         {
           "bgg_id": 286096,
           "title": "Tapestry",
-          "rank": 108
+          "rank": 114
         },
         {
           "bgg_id": 197376,
           "title": "Charterstone",
-          "rank": 216
+          "rank": 231
         }
       ],
       "count": 4
@@ -379,22 +336,50 @@
         {
           "bgg_id": 133473,
           "title": "Sushi Go!",
-          "rank": 34
+          "rank": 37
         },
         {
           "bgg_id": 192291,
           "title": "Sushi Go Party!",
-          "rank": 73
+          "rank": 78
         },
         {
           "bgg_id": 219513,
           "title": "Bärenpark",
-          "rank": 173
+          "rank": 181
         },
         {
           "bgg_id": 246192,
           "title": "Gizmos",
-          "rank": 230
+          "rank": 244
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Paul Dennen",
+      "bgg_id": 92370,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 316554,
+          "title": "Dune: Imperium",
+          "rank": 46
+        },
+        {
+          "bgg_id": 201808,
+          "title": "Clank!: A Deck-Building Adventure",
+          "rank": 62
+        },
+        {
+          "bgg_id": 397598,
+          "title": "Dune: Imperium – Uprising",
+          "rank": 208
+        },
+        {
+          "bgg_id": 365717,
+          "title": "Clank!: Catacombs",
+          "rank": 229
         }
       ],
       "count": 4
@@ -407,22 +392,22 @@
         {
           "bgg_id": 193738,
           "title": "Great Western Trail",
-          "rank": 60
+          "rank": 65
         },
         {
           "bgg_id": 176494,
           "title": "Isle of Skye: From Chieftain to King",
-          "rank": 110
+          "rank": 116
         },
         {
           "bgg_id": 156009,
           "title": "Port Royal",
-          "rank": 176
+          "rank": 183
         },
         {
           "bgg_id": 276025,
           "title": "Maracaibo",
-          "rank": 238
+          "rank": 250
         }
       ],
       "count": 4
@@ -435,22 +420,50 @@
         {
           "bgg_id": 37111,
           "title": "Battlestar Galactica: The Board Game",
-          "rank": 72
+          "rank": 77
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         },
         {
           "bgg_id": 104162,
           "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
+          "rank": 195
         },
         {
           "bgg_id": 164153,
           "title": "Star Wars: Imperial Assault",
-          "rank": 189
+          "rank": 199
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Kevin Wilson",
+      "bgg_id": 2336,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 15987,
+          "title": "Arkham Horror",
+          "rank": 99
+        },
+        {
+          "bgg_id": 39463,
+          "title": "Cosmic Encounter",
+          "rank": 109
+        },
+        {
+          "bgg_id": 100423,
+          "title": "Elder Sign",
+          "rank": 148
+        },
+        {
+          "bgg_id": 104162,
+          "title": "Descent: Journeys in the Dark (Second Edition)",
+          "rank": 195
         }
       ],
       "count": 4
@@ -463,17 +476,17 @@
         {
           "bgg_id": 36218,
           "title": "Dominion",
-          "rank": 3
+          "rank": 5
         },
         {
           "bgg_id": 107529,
           "title": "Kingdom Builder",
-          "rank": 74
+          "rank": 80
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         }
       ],
       "count": 3
@@ -486,17 +499,17 @@
         {
           "bgg_id": 28143,
           "title": "Race for the Galaxy",
-          "rank": 12
+          "rank": 14
         },
         {
           "bgg_id": 132531,
           "title": "Roll for the Galaxy",
-          "rank": 54
+          "rank": 59
         },
         {
           "bgg_id": 262712,
           "title": "Res Arcana",
-          "rank": 91
+          "rank": 96
         }
       ],
       "count": 3
@@ -514,35 +527,12 @@
         {
           "bgg_id": 14996,
           "title": "Ticket to Ride: Europe",
-          "rank": 23
+          "rank": 22
         },
         {
           "bgg_id": 15512,
           "title": "Diamant",
-          "rank": 130
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "Isaac Childres",
-      "bgg_id": 69802,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 174430,
-          "title": "Gloomhaven",
-          "rank": 25
-        },
-        {
-          "bgg_id": 291457,
-          "title": "Gloomhaven: Jaws of the Lion",
-          "rank": 118
-        },
-        {
-          "bgg_id": 295770,
-          "title": "Frosthaven",
-          "rank": 234
+          "rank": 138
         }
       ],
       "count": 3
@@ -555,17 +545,40 @@
         {
           "bgg_id": 244521,
           "title": "Quacks",
-          "rank": 28
+          "rank": 25
         },
         {
           "bgg_id": 244522,
           "title": "That's Pretty Clever!",
-          "rank": 53
+          "rank": 55
         },
         {
           "bgg_id": 244992,
           "title": "The Mind",
-          "rank": 107
+          "rank": 113
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Isaac Childres",
+      "bgg_id": 69802,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 174430,
+          "title": "Gloomhaven",
+          "rank": 28
+        },
+        {
+          "bgg_id": 291457,
+          "title": "Gloomhaven: Jaws of the Lion",
+          "rank": 124
+        },
+        {
+          "bgg_id": 295770,
+          "title": "Frosthaven",
+          "rank": 237
         }
       ],
       "count": 3
@@ -578,17 +591,17 @@
         {
           "bgg_id": 3076,
           "title": "Puerto Rico",
-          "rank": 33
+          "rank": 38
         },
         {
           "bgg_id": 8217,
           "title": "San Juan",
-          "rank": 135
+          "rank": 145
         },
         {
           "bgg_id": 21790,
           "title": "Thurn and Taxis",
-          "rank": 169
+          "rank": 179
         }
       ],
       "count": 3
@@ -601,17 +614,17 @@
         {
           "bgg_id": 205637,
           "title": "Arkham Horror: The Card Game",
-          "rank": 50
+          "rank": 52
         },
         {
           "bgg_id": 285774,
           "title": "Marvel Champions: The Card Game",
-          "rank": 68
+          "rank": 64
         },
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         }
       ],
       "count": 3
@@ -624,63 +637,17 @@
         {
           "bgg_id": 161936,
           "title": "Pandemic Legacy: Season 1",
-          "rank": 52
+          "rank": 56
         },
         {
           "bgg_id": 10547,
           "title": "Betrayal at House on the Hill",
-          "rank": 145
+          "rank": 153
         },
         {
           "bgg_id": 221107,
           "title": "Pandemic Legacy: Season 2",
-          "rank": 209
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "Simone Luciani",
-      "bgg_id": 35418,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 126163,
-          "title": "Tzolk'in: The Mayan Calendar",
-          "rank": 62
-        },
-        {
-          "bgg_id": 171623,
-          "title": "The Voyages of Marco Polo",
-          "rank": 106
-        },
-        {
-          "bgg_id": 182874,
-          "title": "Grand Austria Hotel",
-          "rank": 172
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "Daniele Tascini",
-      "bgg_id": 59986,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 126163,
-          "title": "Tzolk'in: The Mayan Calendar",
-          "rank": 62
-        },
-        {
-          "bgg_id": 171623,
-          "title": "The Voyages of Marco Polo",
-          "rank": 106
-        },
-        {
-          "bgg_id": 229853,
-          "title": "Teotihuacan: City of Gods",
-          "rank": 179
+          "rank": 221
         }
       ],
       "count": 3
@@ -693,40 +660,63 @@
         {
           "bgg_id": 224517,
           "title": "Brass: Birmingham",
-          "rank": 65
+          "rank": 57
         },
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
         },
         {
           "bgg_id": 65781,
           "title": "London",
-          "rank": 236
+          "rank": 248
         }
       ],
       "count": 3
     },
     {
-      "name": "Shem Phillips",
-      "bgg_id": 12547,
+      "name": "Simone Luciani",
+      "bgg_id": 35418,
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 236457,
-          "title": "Architects of the West Kingdom",
-          "rank": 92
+          "bgg_id": 126163,
+          "title": "Tzolk'in: The Mayan Calendar",
+          "rank": 67
         },
         {
-          "bgg_id": 170042,
-          "title": "Raiders of the North Sea",
+          "bgg_id": 171623,
+          "title": "The Voyages of Marco Polo",
+          "rank": 111
+        },
+        {
+          "bgg_id": 182874,
+          "title": "Grand Austria Hotel",
+          "rank": 175
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Daniele Tascini",
+      "bgg_id": 59986,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 126163,
+          "title": "Tzolk'in: The Mayan Calendar",
+          "rank": 67
+        },
+        {
+          "bgg_id": 171623,
+          "title": "The Voyages of Marco Polo",
+          "rank": 111
+        },
+        {
+          "bgg_id": 229853,
+          "title": "Teotihuacan: City of Gods",
           "rank": 187
-        },
-        {
-          "bgg_id": 266810,
-          "title": "Paladins of the West Kingdom",
-          "rank": 249
         }
       ],
       "count": 3
@@ -739,17 +729,17 @@
         {
           "bgg_id": 63888,
           "title": "Innovation",
-          "rank": 99
+          "rank": 106
         },
         {
           "bgg_id": 19857,
           "title": "Glory to Rome",
-          "rank": 144
+          "rank": 152
         },
         {
           "bgg_id": 161417,
           "title": "Red7",
-          "rank": 196
+          "rank": 206
         }
       ],
       "count": 3
@@ -762,17 +752,17 @@
         {
           "bgg_id": 123260,
           "title": "Suburbia",
-          "rank": 121
+          "rank": 127
         },
         {
           "bgg_id": 155426,
           "title": "Castles of Mad King Ludwig",
-          "rank": 134
+          "rank": 144
         },
         {
           "bgg_id": 147949,
           "title": "One Night Ultimate Werewolf",
-          "rank": 168
+          "rank": 178
         }
       ],
       "count": 3
@@ -785,30 +775,12 @@
         {
           "bgg_id": 167791,
           "title": "Terraforming Mars",
-          "rank": 4
+          "rank": 3
         },
         {
           "bgg_id": 328871,
           "title": "Terraforming Mars: Ares Expedition",
-          "rank": 167
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Marc André",
-      "bgg_id": 50969,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 148228,
-          "title": "Splendor",
-          "rank": 6
-        },
-        {
-          "bgg_id": 364073,
-          "title": "Splendor Duel",
-          "rank": 162
+          "rank": 177
         }
       ],
       "count": 2
@@ -821,12 +793,30 @@
         {
           "bgg_id": 230802,
           "title": "Azul",
-          "rank": 7
+          "rank": 6
         },
         {
           "bgg_id": 287954,
           "title": "Azul: Summer Pavilion",
-          "rank": 194
+          "rank": 204
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Marc André",
+      "bgg_id": 50969,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 148228,
+          "title": "Splendor",
+          "rank": 7
+        },
+        {
+          "bgg_id": 364073,
+          "title": "Splendor Duel",
+          "rank": 140
         }
       ],
       "count": 2
@@ -839,12 +829,12 @@
         {
           "bgg_id": 34635,
           "title": "Stone Age",
-          "rank": 22
+          "rank": 23
         },
         {
           "bgg_id": 9217,
           "title": "Saint Petersburg",
-          "rank": 157
+          "rank": 163
         }
       ],
       "count": 2
@@ -857,12 +847,12 @@
         {
           "bgg_id": 147020,
           "title": "Star Realms",
-          "rank": 44
+          "rank": 47
         },
         {
           "bgg_id": 69789,
           "title": "Ascension: Deckbuilding Game",
-          "rank": 182
+          "rank": 192
         }
       ],
       "count": 2
@@ -875,12 +865,12 @@
         {
           "bgg_id": 120677,
           "title": "Terra Mystica",
-          "rank": 45
+          "rank": 48
         },
         {
           "bgg_id": 220308,
           "title": "Gaia Project",
-          "rank": 129
+          "rank": 137
         }
       ],
       "count": 2
@@ -893,30 +883,30 @@
         {
           "bgg_id": 120677,
           "title": "Terra Mystica",
-          "rank": 45
+          "rank": 48
         },
         {
           "bgg_id": 220308,
           "title": "Gaia Project",
-          "rank": 129
+          "rank": 137
         }
       ],
       "count": 2
     },
     {
-      "name": "Paul Dennen",
-      "bgg_id": 92370,
+      "name": "Cole Wehrle",
+      "bgg_id": 35585,
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 316554,
-          "title": "Dune: Imperium",
-          "rank": 49
+          "bgg_id": 237182,
+          "title": "Root",
+          "rank": 54
         },
         {
-          "bgg_id": 201808,
-          "title": "Clank!: A Deck-Building Adventure",
-          "rank": 56
+          "bgg_id": 359871,
+          "title": "Arcs",
+          "rank": 227
         }
       ],
       "count": 2
@@ -929,48 +919,12 @@
         {
           "bgg_id": 284083,
           "title": "The Crew: The Quest for Planet Nine",
-          "rank": 61
+          "rank": 66
         },
         {
           "bgg_id": 324856,
           "title": "The Crew: Mission Deep Sea",
-          "rank": 155
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Don Eskridge",
-      "bgg_id": 11906,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 41114,
-          "title": "The Resistance",
-          "rank": 67
-        },
-        {
-          "bgg_id": 128882,
-          "title": "The Resistance: Avalon",
-          "rank": 150
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Bruno Faidutti",
-      "bgg_id": 125,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 478,
-          "title": "Citadels",
-          "rank": 69
-        },
-        {
-          "bgg_id": 15512,
-          "title": "Diamant",
-          "rank": 130
+          "rank": 143
         }
       ],
       "count": 2
@@ -983,120 +937,48 @@
         {
           "bgg_id": 366013,
           "title": "Heat: Pedal to the Metal",
-          "rank": 76
+          "rank": 68
         },
         {
           "bgg_id": 199478,
           "title": "Flamme Rouge",
-          "rank": 213
+          "rank": 226
         }
       ],
       "count": 2
     },
     {
-      "name": "Rüdiger Dorn",
-      "bgg_id": 381,
+      "name": "Don Eskridge",
+      "bgg_id": 11906,
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 148949,
-          "title": "Istanbul",
-          "rank": 79
+          "bgg_id": 41114,
+          "title": "The Resistance",
+          "rank": 71
         },
         {
-          "bgg_id": 117959,
-          "title": "Las Vegas",
-          "rank": 202
+          "bgg_id": 128882,
+          "title": "The Resistance: Avalon",
+          "rank": 156
         }
       ],
       "count": 2
     },
     {
-      "name": "Eric M. Lang",
-      "bgg_id": 1533,
+      "name": "Bruno Faidutti",
+      "bgg_id": 125,
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 170216,
-          "title": "Blood Rage",
-          "rank": 87
+          "bgg_id": 478,
+          "title": "Citadels",
+          "rank": 72
         },
         {
-          "bgg_id": 91536,
-          "title": "Quarriors!",
-          "rank": 132
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "S J Macdonald",
-      "bgg_id": 103821,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 236457,
-          "title": "Architects of the West Kingdom",
-          "rank": 92
-        },
-        {
-          "bgg_id": 266810,
-          "title": "Paladins of the West Kingdom",
-          "rank": 249
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Richard Launius",
-      "bgg_id": 4819,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 15987,
-          "title": "Arkham Horror",
-          "rank": 94
-        },
-        {
-          "bgg_id": 100423,
-          "title": "Elder Sign",
+          "bgg_id": 15512,
+          "title": "Diamant",
           "rank": 138
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Ignacy Trzewiczek",
-      "bgg_id": 4735,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 121921,
-          "title": "Robinson Crusoe: Adventures on the Cursed Island",
-          "rank": 109
-        },
-        {
-          "bgg_id": 154203,
-          "title": "Imperial Settlers",
-          "rank": 158
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Lorenzo Silva",
-      "bgg_id": 28238,
-      "type": "boardgamedesigner",
-      "games": [
-        {
-          "bgg_id": 180974,
-          "title": "Potion Explosion",
-          "rank": 112
-        },
-        {
-          "bgg_id": 245654,
-          "title": "Railroad Ink: Deep Blue Edition",
-          "rank": 205
         }
       ],
       "count": 2
@@ -1109,12 +991,84 @@
         {
           "bgg_id": 367220,
           "title": "Sea Salt & Paper",
-          "rank": 113
+          "rank": 75
         },
         {
           "bgg_id": 264055,
           "title": "Draftosaurus",
-          "rank": 117
+          "rank": 123
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Rüdiger Dorn",
+      "bgg_id": 381,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 148949,
+          "title": "Istanbul",
+          "rank": 86
+        },
+        {
+          "bgg_id": 117959,
+          "title": "Las Vegas",
+          "rank": 214
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Eric M. Lang",
+      "bgg_id": 1533,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 170216,
+          "title": "Blood Rage",
+          "rank": 93
+        },
+        {
+          "bgg_id": 91536,
+          "title": "Quarriors!",
+          "rank": 141
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Shem Phillips",
+      "bgg_id": 12547,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 236457,
+          "title": "Architects of the West Kingdom",
+          "rank": 97
+        },
+        {
+          "bgg_id": 170042,
+          "title": "Raiders of the North Sea",
+          "rank": 197
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Richard Launius",
+      "bgg_id": 4819,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 15987,
+          "title": "Arkham Horror",
+          "rank": 99
+        },
+        {
+          "bgg_id": 100423,
+          "title": "Elder Sign",
+          "rank": 148
         }
       ],
       "count": 2
@@ -1125,14 +1079,50 @@
       "type": "boardgamedesigner",
       "games": [
         {
-          "bgg_id": 264055,
-          "title": "Draftosaurus",
-          "rank": 117
-        },
-        {
           "bgg_id": 385761,
           "title": "Faraway",
-          "rank": 175
+          "rank": 101
+        },
+        {
+          "bgg_id": 264055,
+          "title": "Draftosaurus",
+          "rank": 123
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Ignacy Trzewiczek",
+      "bgg_id": 4735,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 121921,
+          "title": "Robinson Crusoe: Adventures on the Cursed Island",
+          "rank": 115
+        },
+        {
+          "bgg_id": 154203,
+          "title": "Imperial Settlers",
+          "rank": 164
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Lorenzo Silva",
+      "bgg_id": 28238,
+      "type": "boardgamedesigner",
+      "games": [
+        {
+          "bgg_id": 180974,
+          "title": "Potion Explosion",
+          "rank": 118
+        },
+        {
+          "bgg_id": 245654,
+          "title": "Railroad Ink: Deep Blue Edition",
+          "rank": 217
         }
       ],
       "count": 2
@@ -1145,12 +1135,12 @@
         {
           "bgg_id": 205059,
           "title": "Mansions of Madness: Second Edition",
-          "rank": 123
+          "rank": 130
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         }
       ],
       "count": 2
@@ -1163,12 +1153,12 @@
         {
           "bgg_id": 108745,
           "title": "Seasons",
-          "rank": 128
+          "rank": 136
         },
         {
           "bgg_id": 194594,
           "title": "Dice Forge",
-          "rank": 159
+          "rank": 165
         }
       ],
       "count": 2
@@ -1181,12 +1171,12 @@
         {
           "bgg_id": 91536,
           "title": "Quarriors!",
-          "rank": 132
+          "rank": 141
         },
         {
           "bgg_id": 53953,
           "title": "Thunderstone",
-          "rank": 154
+          "rank": 161
         }
       ],
       "count": 2
@@ -1199,12 +1189,12 @@
         {
           "bgg_id": 122522,
           "title": "Smash Up",
-          "rank": 137
+          "rank": 147
         },
         {
           "bgg_id": 133038,
           "title": "Pathfinder Adventure Card Game: Rise of the Runelords – Base Set",
-          "rank": 188
+          "rank": 198
         }
       ],
       "count": 2
@@ -1217,12 +1207,12 @@
         {
           "bgg_id": 223040,
           "title": "Fantasy Realms",
-          "rank": 140
+          "rank": 150
         },
         {
           "bgg_id": 10547,
           "title": "Betrayal at House on the Hill",
-          "rank": 145
+          "rank": 153
         }
       ],
       "count": 2
@@ -1235,12 +1225,12 @@
         {
           "bgg_id": 10547,
           "title": "Betrayal at House on the Hill",
-          "rank": 145
+          "rank": 153
         },
         {
           "bgg_id": 133038,
           "title": "Pathfinder Adventure Card Game: Rise of the Runelords – Base Set",
-          "rank": 188
+          "rank": 198
         }
       ],
       "count": 2
@@ -1253,12 +1243,12 @@
         {
           "bgg_id": 143741,
           "title": "BANG! The Dice Game",
-          "rank": 153
+          "rank": 159
         },
         {
           "bgg_id": 370591,
           "title": "Dorfromantik: The Board Game",
-          "rank": 232
+          "rank": 246
         }
       ],
       "count": 2
@@ -1271,12 +1261,12 @@
         {
           "bgg_id": 143741,
           "title": "BANG! The Dice Game",
-          "rank": 153
+          "rank": 159
         },
         {
           "bgg_id": 370591,
           "title": "Dorfromantik: The Board Game",
-          "rank": 232
+          "rank": 246
         }
       ],
       "count": 2
@@ -1289,12 +1279,12 @@
         {
           "bgg_id": 10630,
           "title": "Memoir '44",
-          "rank": 163
+          "rank": 169
         },
         {
           "bgg_id": 45,
           "title": "Perudo",
-          "rank": 211
+          "rank": 224
         }
       ],
       "count": 2
@@ -1307,155 +1297,87 @@
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 31260,
-          "title": "Agricola",
-          "rank": 17
-        },
-        {
           "bgg_id": 163412,
           "title": "Patchwork",
-          "rank": 19
+          "rank": 18
         },
         {
-          "bgg_id": 11,
-          "title": "Bohnanza",
-          "rank": 58
+          "bgg_id": 31260,
+          "title": "Agricola",
+          "rank": 19
         },
         {
           "bgg_id": 41,
           "title": "Can't Stop",
-          "rank": 59
+          "rank": 53
+        },
+        {
+          "bgg_id": 11,
+          "title": "Bohnanza",
+          "rank": 63
         },
         {
           "bgg_id": 164928,
           "title": "Orléans",
-          "rank": 83
+          "rank": 90
         },
         {
           "bgg_id": 176494,
           "title": "Isle of Skye: From Chieftain to King",
-          "rank": 110
+          "rank": 116
         },
         {
           "bgg_id": 35677,
           "title": "Le Havre",
-          "rank": 116
+          "rank": 122
         },
         {
           "bgg_id": 123260,
           "title": "Suburbia",
-          "rank": 121
+          "rank": 127
         },
         {
           "bgg_id": 102794,
           "title": "Caverna: The Cave Farmers",
-          "rank": 139
+          "rank": 149
         },
         {
           "bgg_id": 19857,
           "title": "Glory to Rome",
-          "rank": 144
+          "rank": 152
         },
         {
           "bgg_id": 182874,
           "title": "Grand Austria Hotel",
-          "rank": 172
+          "rank": 175
         },
         {
           "bgg_id": 219513,
           "title": "Bärenpark",
-          "rank": 173
+          "rank": 181
         },
         {
           "bgg_id": 156009,
           "title": "Port Royal",
-          "rank": 176
+          "rank": 183
         },
         {
           "bgg_id": 216132,
           "title": "Clans of Caledonia",
-          "rank": 191
+          "rank": 193
         },
         {
           "bgg_id": 33160,
           "title": "Endeavor",
-          "rank": 220
+          "rank": 235
         },
         {
           "bgg_id": 119890,
           "title": "Agricola: All Creatures Big and Small",
-          "rank": 221
+          "rank": 236
         }
       ],
       "count": 16
-    },
-    {
-      "name": "Franz Vohwinkel",
-      "bgg_id": 11883,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 13,
-          "title": "Catan",
-          "rank": 16
-        },
-        {
-          "bgg_id": 50,
-          "title": "Lost Cities",
-          "rank": 27
-        },
-        {
-          "bgg_id": 3076,
-          "title": "Puerto Rico",
-          "rank": 33
-        },
-        {
-          "bgg_id": 432,
-          "title": "Take 5",
-          "rank": 36
-        },
-        {
-          "bgg_id": 217372,
-          "title": "The Quest for El Dorado",
-          "rank": 89
-        },
-        {
-          "bgg_id": 16992,
-          "title": "Tsuro",
-          "rank": 96
-        },
-        {
-          "bgg_id": 12,
-          "title": "Ra",
-          "rank": 102
-        },
-        {
-          "bgg_id": 215,
-          "title": "Tichu",
-          "rank": 111
-        },
-        {
-          "bgg_id": 40834,
-          "title": "Dominion: Intrigue",
-          "rank": 119
-        },
-        {
-          "bgg_id": 8217,
-          "title": "San Juan",
-          "rank": 135
-        },
-        {
-          "bgg_id": 18,
-          "title": "RoboRally",
-          "rank": 186
-        },
-        {
-          "bgg_id": 317985,
-          "title": "Beyond the Sun",
-          "rank": 203
-        }
-      ],
-      "count": 12
     },
     {
       "name": "Dennis Lohausen",
@@ -1465,7 +1387,12 @@
         {
           "bgg_id": 342942,
           "title": "Ark Nova",
-          "rank": 18
+          "rank": 13
+        },
+        {
+          "bgg_id": 244521,
+          "title": "Quacks",
+          "rank": 25
         },
         {
           "bgg_id": 50,
@@ -1473,130 +1400,62 @@
           "rank": 27
         },
         {
-          "bgg_id": 244521,
-          "title": "Quacks",
-          "rank": 28
-        },
-        {
           "bgg_id": 12942,
           "title": "No Thanks!",
-          "rank": 42
+          "rank": 43
         },
         {
           "bgg_id": 120677,
           "title": "Terra Mystica",
-          "rank": 45
+          "rank": 48
         },
         {
           "bgg_id": 171623,
           "title": "The Voyages of Marco Polo",
-          "rank": 106
+          "rank": 111
         },
         {
           "bgg_id": 153938,
           "title": "Camel Up",
-          "rank": 115
+          "rank": 121
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         },
         {
           "bgg_id": 177736,
           "title": "A Feast for Odin",
-          "rank": 127
+          "rank": 135
         },
         {
           "bgg_id": 220308,
           "title": "Gaia Project",
-          "rank": 129
+          "rank": 137
         },
         {
           "bgg_id": 104006,
           "title": "Village",
-          "rank": 160
+          "rank": 167
         },
         {
           "bgg_id": 43015,
           "title": "Hansa Teutonica",
-          "rank": 193
+          "rank": 203
         }
       ],
       "count": 12
     },
     {
-      "name": "Henning Ludvigsen",
-      "bgg_id": 24858,
+      "name": "Franz Vohwinkel",
+      "bgg_id": 11883,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 205637,
-          "title": "Arkham Horror: The Card Game",
-          "rank": 50
-        },
-        {
-          "bgg_id": 124742,
-          "title": "Android: Netrunner",
-          "rank": 75
-        },
-        {
-          "bgg_id": 77423,
-          "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
-        },
-        {
-          "bgg_id": 170216,
-          "title": "Blood Rage",
-          "rank": 87
-        },
-        {
-          "bgg_id": 15987,
-          "title": "Arkham Horror",
-          "rank": 94
-        },
-        {
-          "bgg_id": 103885,
-          "title": "Star Wars: X-Wing Miniatures Game",
-          "rank": 122
-        },
-        {
-          "bgg_id": 104162,
-          "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
-        },
-        {
-          "bgg_id": 164153,
-          "title": "Star Wars: Imperial Assault",
-          "rank": 189
-        },
-        {
-          "bgg_id": 103343,
-          "title": "A Game of Thrones: The Board Game (Second Edition)",
-          "rank": 246
-        },
-        {
-          "bgg_id": 77130,
-          "title": "Sid Meier's Civilization: The Board Game",
-          "rank": 247
-        }
-      ],
-      "count": 10
-    },
-    {
-      "name": "Claus Stephan",
-      "bgg_id": 11902,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 36218,
-          "title": "Dominion",
-          "rank": 3
-        },
-        {
-          "bgg_id": 28143,
-          "title": "Race for the Galaxy",
-          "rank": 12
+          "bgg_id": 13,
+          "title": "Catan",
+          "rank": 17
         },
         {
           "bgg_id": 50,
@@ -1604,37 +1463,57 @@
           "rank": 27
         },
         {
-          "bgg_id": 132531,
-          "title": "Roll for the Galaxy",
-          "rank": 54
+          "bgg_id": 432,
+          "title": "Take 5",
+          "rank": 36
         },
         {
-          "bgg_id": 37380,
-          "title": "Roll Through the Ages: The Bronze Age",
-          "rank": 114
+          "bgg_id": 3076,
+          "title": "Puerto Rico",
+          "rank": 38
+        },
+        {
+          "bgg_id": 217372,
+          "title": "The Quest for El Dorado",
+          "rank": 85
+        },
+        {
+          "bgg_id": 12,
+          "title": "Ra",
+          "rank": 91
+        },
+        {
+          "bgg_id": 16992,
+          "title": "Tsuro",
+          "rank": 102
+        },
+        {
+          "bgg_id": 215,
+          "title": "Tichu",
+          "rank": 117
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         },
         {
-          "bgg_id": 15512,
-          "title": "Diamant",
-          "rank": 130
+          "bgg_id": 8217,
+          "title": "San Juan",
+          "rank": 145
         },
         {
-          "bgg_id": 144733,
-          "title": "Russian Railroads",
-          "rank": 217
+          "bgg_id": 18,
+          "title": "RoboRally",
+          "rank": 196
         },
         {
-          "bgg_id": 271320,
-          "title": "The Castles of Burgundy",
-          "rank": 233
+          "bgg_id": 317985,
+          "title": "Beyond the Sun",
+          "rank": 215
         }
       ],
-      "count": 9
+      "count": 12
     },
     {
       "name": "Chris Quilliams",
@@ -1644,47 +1523,100 @@
         {
           "bgg_id": 822,
           "title": "Carcassonne",
-          "rank": 5
+          "rank": 4
         },
         {
           "bgg_id": 230802,
           "title": "Azul",
-          "rank": 7
+          "rank": 6
         },
         {
           "bgg_id": 30549,
           "title": "Pandemic",
-          "rank": 9
+          "rank": 11
         },
         {
           "bgg_id": 161936,
           "title": "Pandemic Legacy: Season 1",
-          "rank": 52
+          "rank": 56
         },
         {
           "bgg_id": 209685,
           "title": "Century: Spice Road",
-          "rank": 93
+          "rank": 98
         },
         {
           "bgg_id": 215,
           "title": "Tichu",
-          "rank": 111
+          "rank": 117
         },
         {
           "bgg_id": 8203,
           "title": "Hey, That's My Fish!",
-          "rank": 147
+          "rank": 154
         },
         {
           "bgg_id": 287954,
           "title": "Azul: Summer Pavilion",
-          "rank": 194
+          "rank": 204
         },
         {
           "bgg_id": 221107,
           "title": "Pandemic Legacy: Season 2",
-          "rank": 209
+          "rank": 221
+        }
+      ],
+      "count": 9
+    },
+    {
+      "name": "Claus Stephan",
+      "bgg_id": 11902,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 36218,
+          "title": "Dominion",
+          "rank": 5
+        },
+        {
+          "bgg_id": 28143,
+          "title": "Race for the Galaxy",
+          "rank": 14
+        },
+        {
+          "bgg_id": 50,
+          "title": "Lost Cities",
+          "rank": 27
+        },
+        {
+          "bgg_id": 132531,
+          "title": "Roll for the Galaxy",
+          "rank": 59
+        },
+        {
+          "bgg_id": 37380,
+          "title": "Roll Through the Ages: The Bronze Age",
+          "rank": 119
+        },
+        {
+          "bgg_id": 40834,
+          "title": "Dominion: Intrigue",
+          "rank": 125
+        },
+        {
+          "bgg_id": 15512,
+          "title": "Diamant",
+          "rank": 138
+        },
+        {
+          "bgg_id": 271320,
+          "title": "The Castles of Burgundy",
+          "rank": 213
+        },
+        {
+          "bgg_id": 144733,
+          "title": "Russian Railroads",
+          "rank": 232
         }
       ],
       "count": 9
@@ -1697,7 +1629,7 @@
         {
           "bgg_id": 54043,
           "title": "Jaipur",
-          "rank": 26
+          "rank": 24
         },
         {
           "bgg_id": 50,
@@ -1707,37 +1639,37 @@
         {
           "bgg_id": 366013,
           "title": "Heat: Pedal to the Metal",
-          "rank": 76
+          "rank": 68
         },
         {
           "bgg_id": 217372,
           "title": "The Quest for El Dorado",
-          "rank": 89
+          "rank": 85
         },
         {
           "bgg_id": 121921,
           "title": "Robinson Crusoe: Adventures on the Cursed Island",
-          "rank": 109
+          "rank": 115
         },
         {
           "bgg_id": 133038,
           "title": "Pathfinder Adventure Card Game: Rise of the Runelords – Base Set",
-          "rank": 188
+          "rank": 198
+        },
+        {
+          "bgg_id": 421006,
+          "title": "The Lord of the Rings: Duel for Middle-earth",
+          "rank": 201
         },
         {
           "bgg_id": 146508,
           "title": "T.I.M.E Stories",
-          "rank": 207
+          "rank": 219
         },
         {
           "bgg_id": 169426,
           "title": "Roll Player",
-          "rank": 215
-        },
-        {
-          "bgg_id": 137297,
-          "title": "Rise of Augustus",
-          "rank": 242
+          "rank": 230
         }
       ],
       "count": 9
@@ -1750,12 +1682,12 @@
         {
           "bgg_id": 36218,
           "title": "Dominion",
-          "rank": 3
+          "rank": 5
         },
         {
           "bgg_id": 84876,
           "title": "The Castles of Burgundy",
-          "rank": 13
+          "rank": 12
         },
         {
           "bgg_id": 9209,
@@ -1765,27 +1697,75 @@
         {
           "bgg_id": 14996,
           "title": "Ticket to Ride: Europe",
-          "rank": 23
+          "rank": 22
         },
         {
           "bgg_id": 478,
           "title": "Citadels",
-          "rank": 69
+          "rank": 72
         },
         {
           "bgg_id": 262712,
           "title": "Res Arcana",
-          "rank": 91
+          "rank": 96
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         },
         {
           "bgg_id": 10630,
           "title": "Memoir '44",
-          "rank": 163
+          "rank": 169
+        }
+      ],
+      "count": 8
+    },
+    {
+      "name": "Henning Ludvigsen",
+      "bgg_id": 24858,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 205637,
+          "title": "Arkham Horror: The Card Game",
+          "rank": 52
+        },
+        {
+          "bgg_id": 124742,
+          "title": "Android: Netrunner",
+          "rank": 81
+        },
+        {
+          "bgg_id": 77423,
+          "title": "The Lord of the Rings: The Card Game",
+          "rank": 89
+        },
+        {
+          "bgg_id": 170216,
+          "title": "Blood Rage",
+          "rank": 93
+        },
+        {
+          "bgg_id": 15987,
+          "title": "Arkham Horror",
+          "rank": 99
+        },
+        {
+          "bgg_id": 103885,
+          "title": "Star Wars: X-Wing Miniatures Game",
+          "rank": 129
+        },
+        {
+          "bgg_id": 104162,
+          "title": "Descent: Journeys in the Dark (Second Edition)",
+          "rank": 195
+        },
+        {
+          "bgg_id": 164153,
+          "title": "Star Wars: Imperial Assault",
+          "rank": 199
         }
       ],
       "count": 8
@@ -1798,78 +1778,40 @@
         {
           "bgg_id": 36218,
           "title": "Dominion",
-          "rank": 3
+          "rank": 5
         },
         {
           "bgg_id": 84876,
           "title": "The Castles of Burgundy",
-          "rank": 13
+          "rank": 12
         },
         {
           "bgg_id": 13,
           "title": "Catan",
-          "rank": 16
+          "rank": 17
         },
         {
           "bgg_id": 2651,
           "title": "Power Grid",
-          "rank": 37
+          "rank": 41
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         },
         {
           "bgg_id": 117959,
           "title": "Las Vegas",
-          "rank": 202
+          "rank": 214
         },
         {
           "bgg_id": 66362,
           "title": "Glen More",
-          "rank": 219
+          "rank": 234
         }
       ],
       "count": 7
-    },
-    {
-      "name": "Michael Menzel",
-      "bgg_id": 11825,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 36218,
-          "title": "Dominion",
-          "rank": 3
-        },
-        {
-          "bgg_id": 13,
-          "title": "Catan",
-          "rank": 16
-        },
-        {
-          "bgg_id": 34635,
-          "title": "Stone Age",
-          "rank": 22
-        },
-        {
-          "bgg_id": 40834,
-          "title": "Dominion: Intrigue",
-          "rank": 119
-        },
-        {
-          "bgg_id": 21790,
-          "title": "Thurn and Taxis",
-          "rank": 169
-        },
-        {
-          "bgg_id": 136888,
-          "title": "Bruges",
-          "rank": 243
-        }
-      ],
-      "count": 6
     },
     {
       "name": "Luis Francisco",
@@ -1879,32 +1821,32 @@
         {
           "bgg_id": 263918,
           "title": "Cartographers",
-          "rank": 63
+          "rank": 58
         },
         {
           "bgg_id": 41114,
           "title": "The Resistance",
-          "rank": 67
+          "rank": 71
         },
         {
           "bgg_id": 131357,
           "title": "Coup",
-          "rank": 70
+          "rank": 73
         },
         {
           "bgg_id": 100901,
           "title": "Flash Point: Fire Rescue",
-          "rank": 125
+          "rank": 133
         },
         {
           "bgg_id": 128882,
           "title": "The Resistance: Avalon",
-          "rank": 150
+          "rank": 156
         },
         {
           "bgg_id": 169426,
           "title": "Roll Player",
-          "rank": 215
+          "rank": 230
         }
       ],
       "count": 6
@@ -1922,22 +1864,55 @@
         {
           "bgg_id": 295947,
           "title": "Cascadia",
-          "rank": 39
+          "rank": 32
         },
         {
           "bgg_id": 183394,
           "title": "Viticulture Essential Edition",
-          "rank": 46
+          "rank": 45
         },
         {
           "bgg_id": 11,
           "title": "Bohnanza",
-          "rank": 58
+          "rank": 63
         },
         {
           "bgg_id": 283155,
           "title": "Calico",
-          "rank": 131
+          "rank": 139
+        }
+      ],
+      "count": 5
+    },
+    {
+      "name": "Michael Menzel",
+      "bgg_id": 11825,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 36218,
+          "title": "Dominion",
+          "rank": 5
+        },
+        {
+          "bgg_id": 13,
+          "title": "Catan",
+          "rank": 17
+        },
+        {
+          "bgg_id": 34635,
+          "title": "Stone Age",
+          "rank": 23
+        },
+        {
+          "bgg_id": 40834,
+          "title": "Dominion: Intrigue",
+          "rank": 125
+        },
+        {
+          "bgg_id": 21790,
+          "title": "Thurn and Taxis",
+          "rank": 179
         }
       ],
       "count": 5
@@ -1955,55 +1930,22 @@
         {
           "bgg_id": 14996,
           "title": "Ticket to Ride: Europe",
-          "rank": 23
+          "rank": 22
         },
         {
           "bgg_id": 40692,
           "title": "Small World",
-          "rank": 31
+          "rank": 33
         },
         {
           "bgg_id": 478,
           "title": "Citadels",
-          "rank": 69
+          "rank": 72
         },
         {
           "bgg_id": 10630,
           "title": "Memoir '44",
-          "rank": 163
-        }
-      ],
-      "count": 5
-    },
-    {
-      "name": "Milan Vavroň",
-      "bgg_id": 11961,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 312484,
-          "title": "Lost Ruins of Arnak",
-          "rank": 35
-        },
-        {
-          "bgg_id": 126163,
-          "title": "Tzolk'in: The Mayan Calendar",
-          "rank": 62
-        },
-        {
-          "bgg_id": 96848,
-          "title": "Mage Knight Board Game",
-          "rank": 152
-        },
-        {
-          "bgg_id": 247763,
-          "title": "Underwater Cities",
-          "rank": 177
-        },
-        {
-          "bgg_id": 182028,
-          "title": "Through the Ages: A New Story of Civilization",
-          "rank": 239
+          "rank": 169
         }
       ],
       "count": 5
@@ -2016,27 +1958,27 @@
         {
           "bgg_id": 124742,
           "title": "Android: Netrunner",
-          "rank": 75
+          "rank": 81
         },
         {
           "bgg_id": 103885,
           "title": "Star Wars: X-Wing Miniatures Game",
-          "rank": 122
+          "rank": 129
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         },
         {
           "bgg_id": 100423,
           "title": "Elder Sign",
-          "rank": 138
+          "rank": 148
         },
         {
           "bgg_id": 104162,
           "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
+          "rank": 195
         }
       ],
       "count": 5
@@ -2054,45 +1996,17 @@
         {
           "bgg_id": 173346,
           "title": "7 Wonders Duel",
-          "rank": 11
+          "rank": 9
         },
         {
           "bgg_id": 40692,
           "title": "Small World",
-          "rank": 31
+          "rank": 33
         },
         {
           "bgg_id": 113924,
           "title": "Zombicide",
-          "rank": 229
-        }
-      ],
-      "count": 4
-    },
-    {
-      "name": "Tomasz Jedruszek",
-      "bgg_id": 12019,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 36218,
-          "title": "Dominion",
-          "rank": 3
-        },
-        {
-          "bgg_id": 40834,
-          "title": "Dominion: Intrigue",
-          "rank": 119
-        },
-        {
-          "bgg_id": 154203,
-          "title": "Imperial Settlers",
-          "rank": 158
-        },
-        {
-          "bgg_id": 103343,
-          "title": "A Game of Thrones: The Board Game (Second Edition)",
-          "rank": 246
+          "rank": 243
         }
       ],
       "count": 4
@@ -2105,22 +2019,22 @@
         {
           "bgg_id": 36218,
           "title": "Dominion",
-          "rank": 3
+          "rank": 5
         },
         {
           "bgg_id": 6249,
           "title": "Alhambra",
-          "rank": 88
+          "rank": 94
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         },
         {
           "bgg_id": 15512,
           "title": "Diamant",
-          "rank": 130
+          "rank": 138
         }
       ],
       "count": 4
@@ -2133,78 +2047,22 @@
         {
           "bgg_id": 28143,
           "title": "Race for the Galaxy",
-          "rank": 12
+          "rank": 14
         },
         {
           "bgg_id": 132531,
           "title": "Roll for the Galaxy",
-          "rank": 54
+          "rank": 59
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         },
         {
           "bgg_id": 144733,
           "title": "Russian Railroads",
-          "rank": 217
-        }
-      ],
-      "count": 4
-    },
-    {
-      "name": "Tomáš Kučerovský",
-      "bgg_id": 28450,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 178900,
-          "title": "Codenames",
-          "rank": 14
-        },
-        {
-          "bgg_id": 31481,
-          "title": "Galaxy Trucker",
-          "rank": 97
-        },
-        {
-          "bgg_id": 224037,
-          "title": "Codenames: Duet",
-          "rank": 195
-        },
-        {
-          "bgg_id": 198773,
-          "title": "Codenames: Pictures",
-          "rank": 250
-        }
-      ],
-      "count": 4
-    },
-    {
-      "name": "Filip Murmak",
-      "bgg_id": 114458,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 178900,
-          "title": "Codenames",
-          "rank": 14
-        },
-        {
-          "bgg_id": 312484,
-          "title": "Lost Ruins of Arnak",
-          "rank": 35
-        },
-        {
-          "bgg_id": 182028,
-          "title": "Through the Ages: A New Story of Civilization",
-          "rank": 239
-        },
-        {
-          "bgg_id": 198773,
-          "title": "Codenames: Pictures",
-          "rank": 250
+          "rank": 232
         }
       ],
       "count": 4
@@ -2217,22 +2075,22 @@
         {
           "bgg_id": 13,
           "title": "Catan",
-          "rank": 16
+          "rank": 17
         },
         {
           "bgg_id": 193738,
           "title": "Great Western Trail",
-          "rank": 60
+          "rank": 65
         },
         {
           "bgg_id": 148949,
           "title": "Istanbul",
-          "rank": 79
+          "rank": 86
         },
         {
           "bgg_id": 9674,
           "title": "Ingenious",
-          "rank": 214
+          "rank": 228
         }
       ],
       "count": 4
@@ -2245,22 +2103,22 @@
         {
           "bgg_id": 110327,
           "title": "Lords of Waterdeep",
-          "rank": 24
+          "rank": 26
         },
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 463,
           "title": "Magic: The Gathering",
-          "rank": 95
+          "rank": 100
         },
         {
           "bgg_id": 133038,
           "title": "Pathfinder Adventure Card Game: Rise of the Runelords – Base Set",
-          "rank": 188
+          "rank": 198
         }
       ],
       "count": 4
@@ -2273,22 +2131,50 @@
         {
           "bgg_id": 110327,
           "title": "Lords of Waterdeep",
-          "rank": 24
+          "rank": 26
         },
         {
           "bgg_id": 15987,
           "title": "Arkham Horror",
-          "rank": 94
+          "rank": 99
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         },
         {
           "bgg_id": 68425,
           "title": "Eminent Domain",
-          "rank": 237
+          "rank": 249
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Milan Vavroň",
+      "bgg_id": 11961,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 312484,
+          "title": "Lost Ruins of Arnak",
+          "rank": 31
+        },
+        {
+          "bgg_id": 126163,
+          "title": "Tzolk'in: The Mayan Calendar",
+          "rank": 67
+        },
+        {
+          "bgg_id": 96848,
+          "title": "Mage Knight Board Game",
+          "rank": 158
+        },
+        {
+          "bgg_id": 247763,
+          "title": "Underwater Cities",
+          "rank": 185
         }
       ],
       "count": 4
@@ -2306,17 +2192,73 @@
         {
           "bgg_id": 12942,
           "title": "No Thanks!",
-          "rank": 42
+          "rank": 43
         },
         {
           "bgg_id": 244992,
           "title": "The Mind",
-          "rank": 107
+          "rank": 113
         },
         {
           "bgg_id": 131260,
           "title": "Qwixx",
-          "rank": 149
+          "rank": 155
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Raul Ramos",
+      "bgg_id": 73773,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 316554,
+          "title": "Dune: Imperium",
+          "rank": 46
+        },
+        {
+          "bgg_id": 201808,
+          "title": "Clank!: A Deck-Building Adventure",
+          "rank": 62
+        },
+        {
+          "bgg_id": 397598,
+          "title": "Dune: Imperium – Uprising",
+          "rank": 208
+        },
+        {
+          "bgg_id": 365717,
+          "title": "Clank!: Catacombs",
+          "rank": 229
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Nate Storm",
+      "bgg_id": 31001,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 316554,
+          "title": "Dune: Imperium",
+          "rank": 46
+        },
+        {
+          "bgg_id": 201808,
+          "title": "Clank!: A Deck-Building Adventure",
+          "rank": 62
+        },
+        {
+          "bgg_id": 397598,
+          "title": "Dune: Imperium – Uprising",
+          "rank": 208
+        },
+        {
+          "bgg_id": 365717,
+          "title": "Clank!: Catacombs",
+          "rank": 229
         }
       ],
       "count": 4
@@ -2329,22 +2271,22 @@
         {
           "bgg_id": 224517,
           "title": "Brass: Birmingham",
-          "rank": 65
+          "rank": 57
         },
         {
           "bgg_id": 194655,
           "title": "Santorini",
-          "rank": 77
+          "rank": 84
         },
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
         },
         {
           "bgg_id": 197376,
           "title": "Charterstone",
-          "rank": 216
+          "rank": 231
         }
       ],
       "count": 4
@@ -2357,22 +2299,22 @@
         {
           "bgg_id": 224517,
           "title": "Brass: Birmingham",
-          "rank": 65
+          "rank": 57
         },
         {
           "bgg_id": 194655,
           "title": "Santorini",
-          "rank": 77
+          "rank": 84
         },
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
         },
         {
           "bgg_id": 197376,
           "title": "Charterstone",
-          "rank": 216
+          "rank": 231
         }
       ],
       "count": 4
@@ -2385,48 +2327,25 @@
         {
           "bgg_id": 478,
           "title": "Citadels",
-          "rank": 69
+          "rank": 72
         },
         {
           "bgg_id": 37111,
           "title": "Battlestar Galactica: The Board Game",
-          "rank": 72
+          "rank": 77
         },
         {
           "bgg_id": 15987,
           "title": "Arkham Horror",
-          "rank": 94
+          "rank": 99
         },
         {
           "bgg_id": 39463,
           "title": "Cosmic Encounter",
-          "rank": 104
+          "rank": 109
         }
       ],
       "count": 4
-    },
-    {
-      "name": "Matthias Catrein",
-      "bgg_id": 11933,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 36218,
-          "title": "Dominion",
-          "rank": 3
-        },
-        {
-          "bgg_id": 40834,
-          "title": "Dominion: Intrigue",
-          "rank": 119
-        },
-        {
-          "bgg_id": 15512,
-          "title": "Diamant",
-          "rank": 130
-        }
-      ],
-      "count": 3
     },
     {
       "name": "Doris Matthäus",
@@ -2436,86 +2355,63 @@
         {
           "bgg_id": 822,
           "title": "Carcassonne",
-          "rank": 5
+          "rank": 4
         },
         {
           "bgg_id": 9217,
           "title": "Saint Petersburg",
-          "rank": 157
+          "rank": 163
         },
         {
           "bgg_id": 42,
           "title": "Tigris & Euphrates",
-          "rank": 212
+          "rank": 225
         }
       ],
       "count": 3
     },
     {
-      "name": "Stéphane Gantiez",
-      "bgg_id": 12402,
+      "name": "Matthias Catrein",
+      "bgg_id": 11933,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 178900,
-          "title": "Codenames",
-          "rank": 14
+          "bgg_id": 36218,
+          "title": "Dominion",
+          "rank": 5
         },
         {
-          "bgg_id": 108745,
-          "title": "Seasons",
-          "rank": 128
+          "bgg_id": 40834,
+          "title": "Dominion: Intrigue",
+          "rank": 125
         },
         {
-          "bgg_id": 2653,
-          "title": "Survive: Escape from Atlantis!",
-          "rank": 166
+          "bgg_id": 15512,
+          "title": "Diamant",
+          "rank": 138
         }
       ],
       "count": 3
     },
     {
-      "name": "Dávid Jablonovský",
-      "bgg_id": 119981,
+      "name": "Tomasz Jedruszek",
+      "bgg_id": 12019,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 178900,
-          "title": "Codenames",
-          "rank": 14
+          "bgg_id": 36218,
+          "title": "Dominion",
+          "rank": 5
         },
         {
-          "bgg_id": 224037,
-          "title": "Codenames: Duet",
-          "rank": 195
+          "bgg_id": 40834,
+          "title": "Dominion: Intrigue",
+          "rank": 125
         },
         {
-          "bgg_id": 198773,
-          "title": "Codenames: Pictures",
-          "rank": 250
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "Michaela Kienle",
-      "bgg_id": 26874,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 13,
-          "title": "Catan",
-          "rank": 16
-        },
-        {
-          "bgg_id": 50,
-          "title": "Lost Cities",
-          "rank": 27
-        },
-        {
-          "bgg_id": 9674,
-          "title": "Ingenious",
-          "rank": 214
+          "bgg_id": 154203,
+          "title": "Imperial Settlers",
+          "rank": 164
         }
       ],
       "count": 3
@@ -2528,17 +2424,109 @@
         {
           "bgg_id": 342942,
           "title": "Ark Nova",
-          "rank": 18
+          "rank": 13
         },
         {
           "bgg_id": 162886,
           "title": "Spirit Island",
-          "rank": 43
+          "rank": 40
         },
         {
           "bgg_id": 66362,
           "title": "Glen More",
-          "rank": 219
+          "rank": 234
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Stéphane Gantiez",
+      "bgg_id": 12402,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 178900,
+          "title": "Codenames",
+          "rank": 16
+        },
+        {
+          "bgg_id": 108745,
+          "title": "Seasons",
+          "rank": 136
+        },
+        {
+          "bgg_id": 2653,
+          "title": "Survive: Escape from Atlantis!",
+          "rank": 174
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Tomáš Kučerovský",
+      "bgg_id": 28450,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 178900,
+          "title": "Codenames",
+          "rank": 16
+        },
+        {
+          "bgg_id": 31481,
+          "title": "Galaxy Trucker",
+          "rank": 104
+        },
+        {
+          "bgg_id": 224037,
+          "title": "Codenames: Duet",
+          "rank": 205
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "František Sedláček",
+      "bgg_id": 119983,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 178900,
+          "title": "Codenames",
+          "rank": 16
+        },
+        {
+          "bgg_id": 312484,
+          "title": "Lost Ruins of Arnak",
+          "rank": 31
+        },
+        {
+          "bgg_id": 418059,
+          "title": "SETI: Search for Extraterrestrial Intelligence",
+          "rank": 186
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Michaela Kienle",
+      "bgg_id": 26874,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 13,
+          "title": "Catan",
+          "rank": 17
+        },
+        {
+          "bgg_id": 50,
+          "title": "Lost Cities",
+          "rank": 27
+        },
+        {
+          "bgg_id": 9674,
+          "title": "Ingenious",
+          "rank": 228
         }
       ],
       "count": 3
@@ -2551,17 +2539,17 @@
         {
           "bgg_id": 110327,
           "title": "Lords of Waterdeep",
-          "rank": 24
+          "rank": 26
         },
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 205059,
           "title": "Mansions of Madness: Second Edition",
-          "rank": 123
+          "rank": 130
         }
       ],
       "count": 3
@@ -2574,17 +2562,17 @@
         {
           "bgg_id": 174430,
           "title": "Gloomhaven",
-          "rank": 25
+          "rank": 28
         },
         {
           "bgg_id": 291457,
           "title": "Gloomhaven: Jaws of the Lion",
-          "rank": 118
+          "rank": 124
         },
         {
           "bgg_id": 295770,
           "title": "Frosthaven",
-          "rank": 234
+          "rank": 237
         }
       ],
       "count": 3
@@ -2597,17 +2585,40 @@
         {
           "bgg_id": 2651,
           "title": "Power Grid",
-          "rank": 37
+          "rank": 41
         },
         {
           "bgg_id": 131357,
           "title": "Coup",
-          "rank": 70
+          "rank": 73
         },
         {
           "bgg_id": 15512,
           "title": "Diamant",
-          "rank": 130
+          "rank": 138
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Clay Brooks",
+      "bgg_id": 119957,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 316554,
+          "title": "Dune: Imperium",
+          "rank": 46
+        },
+        {
+          "bgg_id": 397598,
+          "title": "Dune: Imperium – Uprising",
+          "rank": 208
+        },
+        {
+          "bgg_id": 365717,
+          "title": "Clank!: Catacombs",
+          "rank": 229
         }
       ],
       "count": 3
@@ -2620,17 +2631,17 @@
         {
           "bgg_id": 224517,
           "title": "Brass: Birmingham",
-          "rank": 65
+          "rank": 57
         },
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
         },
         {
           "bgg_id": 68425,
           "title": "Eminent Domain",
-          "rank": 237
+          "rank": 249
         }
       ],
       "count": 3
@@ -2643,17 +2654,17 @@
         {
           "bgg_id": 224517,
           "title": "Brass: Birmingham",
-          "rank": 65
+          "rank": 57
         },
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
         },
         {
           "bgg_id": 197376,
           "title": "Charterstone",
-          "rank": 216
+          "rank": 231
         }
       ],
       "count": 3
@@ -2666,17 +2677,17 @@
         {
           "bgg_id": 41114,
           "title": "The Resistance",
-          "rank": 67
+          "rank": 71
         },
         {
           "bgg_id": 100901,
           "title": "Flash Point: Fire Rescue",
-          "rank": 125
+          "rank": 133
         },
         {
           "bgg_id": 128882,
           "title": "The Resistance: Avalon",
-          "rank": 150
+          "rank": 156
         }
       ],
       "count": 3
@@ -2689,17 +2700,17 @@
         {
           "bgg_id": 478,
           "title": "Citadels",
-          "rank": 69
+          "rank": 72
         },
         {
           "bgg_id": 15987,
           "title": "Arkham Horror",
-          "rank": 94
+          "rank": 99
         },
         {
           "bgg_id": 9674,
           "title": "Ingenious",
-          "rank": 214
+          "rank": 228
         }
       ],
       "count": 3
@@ -2712,17 +2723,17 @@
         {
           "bgg_id": 12333,
           "title": "Twilight Struggle",
-          "rank": 71
+          "rank": 76
         },
         {
           "bgg_id": 62219,
           "title": "Dominant Species",
-          "rank": 200
+          "rank": 211
         },
         {
           "bgg_id": 760,
           "title": "Battle Line",
-          "rank": 206
+          "rank": 218
         }
       ],
       "count": 3
@@ -2735,40 +2746,17 @@
         {
           "bgg_id": 37111,
           "title": "Battlestar Galactica: The Board Game",
-          "rank": 72
+          "rank": 77
         },
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 39463,
           "title": "Cosmic Encounter",
-          "rank": 104
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "Oliver Schlemmer",
-      "bgg_id": 34863,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 107529,
-          "title": "Kingdom Builder",
-          "rank": 74
-        },
-        {
-          "bgg_id": 113294,
-          "title": "Escape: The Curse of the Temple",
-          "rank": 174
-        },
-        {
-          "bgg_id": 66188,
-          "title": "Fresco",
-          "rank": 240
+          "rank": 109
         }
       ],
       "count": 3
@@ -2781,17 +2769,17 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
-        },
-        {
-          "bgg_id": 104162,
-          "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
+          "rank": 89
         },
         {
           "bgg_id": 336986,
           "title": "Flamecraft",
-          "rank": 185
+          "rank": 191
+        },
+        {
+          "bgg_id": 104162,
+          "title": "Descent: Journeys in the Dark (Second Edition)",
+          "rank": 195
         }
       ],
       "count": 3
@@ -2804,40 +2792,17 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 205059,
           "title": "Mansions of Madness: Second Edition",
-          "rank": 123
+          "rank": 130
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
-        }
-      ],
-      "count": 3
-    },
-    {
-      "name": "Mihajlo Dimitrievski",
-      "bgg_id": 70533,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 236457,
-          "title": "Architects of the West Kingdom",
-          "rank": 92
-        },
-        {
-          "bgg_id": 170042,
-          "title": "Raiders of the North Sea",
-          "rank": 187
-        },
-        {
-          "bgg_id": 266810,
-          "title": "Paladins of the West Kingdom",
-          "rank": 249
+          "rank": 132
         }
       ],
       "count": 3
@@ -2850,17 +2815,17 @@
         {
           "bgg_id": 15987,
           "title": "Arkham Horror",
-          "rank": 94
+          "rank": 99
         },
         {
           "bgg_id": 205059,
           "title": "Mansions of Madness: Second Edition",
-          "rank": 123
+          "rank": 130
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         }
       ],
       "count": 3
@@ -2873,17 +2838,17 @@
         {
           "bgg_id": 15987,
           "title": "Arkham Horror",
-          "rank": 94
+          "rank": 99
         },
         {
           "bgg_id": 103885,
           "title": "Star Wars: X-Wing Miniatures Game",
-          "rank": 122
+          "rank": 129
         },
         {
           "bgg_id": 164153,
           "title": "Star Wars: Imperial Assault",
-          "rank": 189
+          "rank": 199
         }
       ],
       "count": 3
@@ -2896,17 +2861,17 @@
         {
           "bgg_id": 121921,
           "title": "Robinson Crusoe: Adventures on the Cursed Island",
-          "rank": 109
+          "rank": 115
         },
         {
           "bgg_id": 128882,
           "title": "The Resistance: Avalon",
-          "rank": 150
+          "rank": 156
         },
         {
           "bgg_id": 154203,
           "title": "Imperial Settlers",
-          "rank": 158
+          "rank": 164
         }
       ],
       "count": 3
@@ -2919,17 +2884,17 @@
         {
           "bgg_id": 123260,
           "title": "Suburbia",
-          "rank": 121
+          "rank": 127
         },
         {
           "bgg_id": 155426,
           "title": "Castles of Mad King Ludwig",
-          "rank": 134
+          "rank": 144
         },
         {
           "bgg_id": 147949,
           "title": "One Night Ultimate Werewolf",
-          "rank": 168
+          "rank": 178
         }
       ],
       "count": 3
@@ -2947,7 +2912,7 @@
         {
           "bgg_id": 346703,
           "title": "7 Wonders: Architects",
-          "rank": 142
+          "rank": 131
         }
       ],
       "count": 2
@@ -2960,12 +2925,12 @@
         {
           "bgg_id": 36218,
           "title": "Dominion",
-          "rank": 3
+          "rank": 5
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
+          "rank": 125
         }
       ],
       "count": 2
@@ -2978,30 +2943,12 @@
         {
           "bgg_id": 36218,
           "title": "Dominion",
-          "rank": 3
+          "rank": 5
         },
         {
           "bgg_id": 40834,
           "title": "Dominion: Intrigue",
-          "rank": 119
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Pascal Quidault",
-      "bgg_id": 14878,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 148228,
-          "title": "Splendor",
-          "rank": 6
-        },
-        {
-          "bgg_id": 146508,
-          "title": "T.I.M.E Stories",
-          "rank": 207
+          "rank": 125
         }
       ],
       "count": 2
@@ -3014,12 +2961,30 @@
         {
           "bgg_id": 230802,
           "title": "Azul",
-          "rank": 7
+          "rank": 6
         },
         {
           "bgg_id": 215,
           "title": "Tichu",
-          "rank": 111
+          "rank": 117
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Pascal Quidault",
+      "bgg_id": 14878,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 148228,
+          "title": "Splendor",
+          "rank": 7
+        },
+        {
+          "bgg_id": 146508,
+          "title": "T.I.M.E Stories",
+          "rank": 219
         }
       ],
       "count": 2
@@ -3037,7 +3002,7 @@
         {
           "bgg_id": 16992,
           "title": "Tsuro",
-          "rank": 96
+          "rank": 102
         }
       ],
       "count": 2
@@ -3055,43 +3020,7 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Josh Cappel",
-      "bgg_id": 9731,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 30549,
-          "title": "Pandemic",
-          "rank": 9
-        },
-        {
-          "bgg_id": 33160,
-          "title": "Endeavor",
-          "rank": 220
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Tom Thiel",
-      "bgg_id": 16910,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 30549,
-          "title": "Pandemic",
-          "rank": 9
-        },
-        {
-          "bgg_id": 42,
-          "title": "Tigris & Euphrates",
-          "rank": 212
+          "rank": 89
         }
       ],
       "count": 2
@@ -3109,7 +3038,7 @@
         {
           "bgg_id": 15512,
           "title": "Diamant",
-          "rank": 130
+          "rank": 138
         }
       ],
       "count": 2
@@ -3145,25 +3074,79 @@
         {
           "bgg_id": 271324,
           "title": "It's a Wonderful World",
-          "rank": 78
+          "rank": 79
         }
       ],
       "count": 2
     },
     {
-      "name": "František Sedláček",
-      "bgg_id": 119983,
+      "name": "Josh Cappel",
+      "bgg_id": 9731,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 30549,
+          "title": "Pandemic",
+          "rank": 11
+        },
+        {
+          "bgg_id": 33160,
+          "title": "Endeavor",
+          "rank": 235
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Tom Thiel",
+      "bgg_id": 16910,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 30549,
+          "title": "Pandemic",
+          "rank": 11
+        },
+        {
+          "bgg_id": 42,
+          "title": "Tigris & Euphrates",
+          "rank": 225
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Dávid Jablonovský",
+      "bgg_id": 119981,
       "type": "boardgameartist",
       "games": [
         {
           "bgg_id": 178900,
           "title": "Codenames",
-          "rank": 14
+          "rank": 16
+        },
+        {
+          "bgg_id": 224037,
+          "title": "Codenames: Duet",
+          "rank": 205
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Filip Murmak",
+      "bgg_id": 114458,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 178900,
+          "title": "Codenames",
+          "rank": 16
         },
         {
           "bgg_id": 312484,
           "title": "Lost Ruins of Arnak",
-          "rank": 35
+          "rank": 31
         }
       ],
       "count": 2
@@ -3176,12 +3159,12 @@
         {
           "bgg_id": 13,
           "title": "Catan",
-          "rank": 16
+          "rank": 17
         },
         {
           "bgg_id": 463,
           "title": "Magic: The Gathering",
-          "rank": 95
+          "rank": 100
         }
       ],
       "count": 2
@@ -3194,12 +3177,12 @@
         {
           "bgg_id": 13,
           "title": "Catan",
-          "rank": 16
+          "rank": 17
         },
         {
           "bgg_id": 373106,
           "title": "Sky Team",
-          "rank": 143
+          "rank": 87
         }
       ],
       "count": 2
@@ -3212,12 +3195,12 @@
         {
           "bgg_id": 13,
           "title": "Catan",
-          "rank": 16
+          "rank": 17
         },
         {
           "bgg_id": 42,
           "title": "Tigris & Euphrates",
-          "rank": 212
+          "rank": 225
         }
       ],
       "count": 2
@@ -3235,97 +3218,7 @@
         {
           "bgg_id": 357563,
           "title": "Akropolis",
-          "rank": 225
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Steven Belledin",
-      "bgg_id": 14936,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 110327,
-          "title": "Lords of Waterdeep",
-          "rank": 24
-        },
-        {
-          "bgg_id": 463,
-          "title": "Magic: The Gathering",
-          "rank": 95
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Zoltan Boros",
-      "bgg_id": 19412,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 110327,
-          "title": "Lords of Waterdeep",
-          "rank": 24
-        },
-        {
-          "bgg_id": 463,
-          "title": "Magic: The Gathering",
-          "rank": 95
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Eric Deschamps",
-      "bgg_id": 15019,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 110327,
-          "title": "Lords of Waterdeep",
-          "rank": 24
-        },
-        {
-          "bgg_id": 463,
-          "title": "Magic: The Gathering",
-          "rank": 95
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Eric Williams (I)",
-      "bgg_id": 18461,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 110327,
-          "title": "Lords of Waterdeep",
-          "rank": 24
-        },
-        {
-          "bgg_id": 62219,
-          "title": "Dominant Species",
-          "rank": 200
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Josh T. McDowell",
-      "bgg_id": 78961,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 174430,
-          "title": "Gloomhaven",
-          "rank": 25
-        },
-        {
-          "bgg_id": 295770,
-          "title": "Frosthaven",
-          "rank": 234
+          "rank": 241
         }
       ],
       "count": 2
@@ -3338,12 +3231,102 @@
         {
           "bgg_id": 54043,
           "title": "Jaipur",
-          "rank": 26
+          "rank": 24
         },
         {
           "bgg_id": 73439,
           "title": "Troyes",
-          "rank": 161
+          "rank": 168
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Steven Belledin",
+      "bgg_id": 14936,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 110327,
+          "title": "Lords of Waterdeep",
+          "rank": 26
+        },
+        {
+          "bgg_id": 463,
+          "title": "Magic: The Gathering",
+          "rank": 100
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Zoltan Boros",
+      "bgg_id": 19412,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 110327,
+          "title": "Lords of Waterdeep",
+          "rank": 26
+        },
+        {
+          "bgg_id": 463,
+          "title": "Magic: The Gathering",
+          "rank": 100
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Eric Deschamps",
+      "bgg_id": 15019,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 110327,
+          "title": "Lords of Waterdeep",
+          "rank": 26
+        },
+        {
+          "bgg_id": 463,
+          "title": "Magic: The Gathering",
+          "rank": 100
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Eric Williams (I)",
+      "bgg_id": 18461,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 110327,
+          "title": "Lords of Waterdeep",
+          "rank": 26
+        },
+        {
+          "bgg_id": 62219,
+          "title": "Dominant Species",
+          "rank": 211
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Josh T. McDowell",
+      "bgg_id": 78961,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 174430,
+          "title": "Gloomhaven",
+          "rank": 28
+        },
+        {
+          "bgg_id": 295770,
+          "title": "Frosthaven",
+          "rank": 237
         }
       ],
       "count": 2
@@ -3356,48 +3339,48 @@
         {
           "bgg_id": 199561,
           "title": "Sagrada",
-          "rank": 30
+          "rank": 29
         },
         {
           "bgg_id": 150376,
           "title": "Dead of Winter: A Crossroads Game",
-          "rank": 100
+          "rank": 107
         }
       ],
       "count": 2
     },
     {
-      "name": "Laura Michaud",
-      "bgg_id": 145855,
+      "name": "Ondřej Hrdina",
+      "bgg_id": 115373,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 98778,
-          "title": "Hanabi",
-          "rank": 32
+          "bgg_id": 312484,
+          "title": "Lost Ruins of Arnak",
+          "rank": 31
         },
         {
-          "bgg_id": 352515,
-          "title": "Trio",
-          "rank": 222
+          "bgg_id": 418059,
+          "title": "SETI: Search for Extraterrestrial Intelligence",
+          "rank": 186
         }
       ],
       "count": 2
     },
     {
-      "name": "Nan Rangsima",
-      "bgg_id": 79989,
+      "name": "Jiří Kůs",
+      "bgg_id": 127825,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 133473,
-          "title": "Sushi Go!",
-          "rank": 34
+          "bgg_id": 312484,
+          "title": "Lost Ruins of Arnak",
+          "rank": 31
         },
         {
-          "bgg_id": 192291,
-          "title": "Sushi Go Party!",
-          "rank": 73
+          "bgg_id": 418059,
+          "title": "SETI: Search for Extraterrestrial Intelligence",
+          "rank": 186
         }
       ],
       "count": 2
@@ -3410,12 +3393,66 @@
         {
           "bgg_id": 312484,
           "title": "Lost Ruins of Arnak",
+          "rank": 31
+        },
+        {
+          "bgg_id": 418059,
+          "title": "SETI: Search for Extraterrestrial Intelligence",
+          "rank": 186
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Laura Michaud",
+      "bgg_id": 145855,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 98778,
+          "title": "Hanabi",
+          "rank": 34
+        },
+        {
+          "bgg_id": 352515,
+          "title": "Trio",
+          "rank": 166
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Andrew Bosley",
+      "bgg_id": 40597,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 199792,
+          "title": "Everdell",
           "rank": 35
         },
         {
-          "bgg_id": 182028,
-          "title": "Through the Ages: A New Story of Civilization",
-          "rank": 239
+          "bgg_id": 286096,
+          "title": "Tapestry",
+          "rank": 114
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Cody Jones",
+      "bgg_id": 63969,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 199792,
+          "title": "Everdell",
+          "rank": 35
+        },
+        {
+          "bgg_id": 147020,
+          "title": "Star Realms",
+          "rank": 47
         }
       ],
       "count": 2
@@ -3433,97 +3470,25 @@
         {
           "bgg_id": 45,
           "title": "Perudo",
-          "rank": 211
+          "rank": 224
         }
       ],
       "count": 2
     },
     {
-      "name": "Lars-Arne \"Maura\" Kalusky",
-      "bgg_id": 11827,
+      "name": "Nan Rangsima",
+      "bgg_id": 79989,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 2651,
-          "title": "Power Grid",
+          "bgg_id": 133473,
+          "title": "Sushi Go!",
           "rank": 37
         },
         {
-          "bgg_id": 40834,
-          "title": "Dominion: Intrigue",
-          "rank": 119
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Uros Vuckovic",
-      "bgg_id": 90478,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 172,
-          "title": "For Sale",
-          "rank": 38
-        },
-        {
-          "bgg_id": 131357,
-          "title": "Coup",
-          "rank": 70
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Klaus Wilinski",
-      "bgg_id": 12895,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 172,
-          "title": "For Sale",
-          "rank": 38
-        },
-        {
-          "bgg_id": 41,
-          "title": "Can't Stop",
-          "rank": 59
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Andrew Bosley",
-      "bgg_id": 40597,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 199792,
-          "title": "Everdell",
-          "rank": 40
-        },
-        {
-          "bgg_id": 286096,
-          "title": "Tapestry",
-          "rank": 108
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Cody Jones",
-      "bgg_id": 63969,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 199792,
-          "title": "Everdell",
-          "rank": 40
-        },
-        {
-          "bgg_id": 147020,
-          "title": "Star Realms",
-          "rank": 44
+          "bgg_id": 192291,
+          "title": "Sushi Go Party!",
+          "rank": 78
         }
       ],
       "count": 2
@@ -3536,12 +3501,12 @@
         {
           "bgg_id": 162886,
           "title": "Spirit Island",
-          "rank": 43
+          "rank": 40
         },
         {
           "bgg_id": 463,
           "title": "Magic: The Gathering",
-          "rank": 95
+          "rank": 100
         }
       ],
       "count": 2
@@ -3554,12 +3519,12 @@
         {
           "bgg_id": 162886,
           "title": "Spirit Island",
-          "rank": 43
+          "rank": 40
         },
         {
           "bgg_id": 164153,
           "title": "Star Wars: Imperial Assault",
-          "rank": 189
+          "rank": 199
         }
       ],
       "count": 2
@@ -3572,84 +3537,66 @@
         {
           "bgg_id": 162886,
           "title": "Spirit Island",
-          "rank": 43
+          "rank": 40
         },
         {
           "bgg_id": 102652,
           "title": "Sentinels of the Multiverse",
-          "rank": 156
+          "rank": 162
         }
       ],
       "count": 2
     },
     {
-      "name": "Nicolas Fructus",
-      "bgg_id": 12935,
+      "name": "Lars-Arne \"Maura\" Kalusky",
+      "bgg_id": 11827,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 70919,
-          "title": "Takenoko",
-          "rank": 47
+          "bgg_id": 2651,
+          "title": "Power Grid",
+          "rank": 41
         },
         {
-          "bgg_id": 113924,
-          "title": "Zombicide",
-          "rank": 229
+          "bgg_id": 40834,
+          "title": "Dominion: Intrigue",
+          "rank": 125
         }
       ],
       "count": 2
     },
     {
-      "name": "Raul Ramos",
-      "bgg_id": 73773,
+      "name": "Uros Vuckovic",
+      "bgg_id": 90478,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 316554,
-          "title": "Dune: Imperium",
-          "rank": 49
+          "bgg_id": 172,
+          "title": "For Sale",
+          "rank": 42
         },
         {
-          "bgg_id": 201808,
-          "title": "Clank!: A Deck-Building Adventure",
-          "rank": 56
+          "bgg_id": 131357,
+          "title": "Coup",
+          "rank": 73
         }
       ],
       "count": 2
     },
     {
-      "name": "Nate Storm",
-      "bgg_id": 31001,
+      "name": "Klaus Wilinski",
+      "bgg_id": 12895,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 316554,
-          "title": "Dune: Imperium",
-          "rank": 49
+          "bgg_id": 172,
+          "title": "For Sale",
+          "rank": 42
         },
         {
-          "bgg_id": 201808,
-          "title": "Clank!: A Deck-Building Adventure",
-          "rank": 56
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Christopher Hosch",
-      "bgg_id": 50786,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 205637,
-          "title": "Arkham Horror: The Card Game",
-          "rank": 50
-        },
-        {
-          "bgg_id": 77423,
-          "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "bgg_id": 41,
+          "title": "Can't Stop",
+          "rank": 53
         }
       ],
       "count": 2
@@ -3662,30 +3609,48 @@
         {
           "bgg_id": 124361,
           "title": "Concordia",
-          "rank": 51
+          "rank": 49
         },
         {
           "bgg_id": 121921,
           "title": "Robinson Crusoe: Adventures on the Cursed Island",
-          "rank": 109
+          "rank": 115
         }
       ],
       "count": 2
     },
     {
-      "name": "Mirko Suzuki",
-      "bgg_id": 12836,
+      "name": "Nicolas Fructus",
+      "bgg_id": 12935,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 132531,
-          "title": "Roll for the Galaxy",
-          "rank": 54
+          "bgg_id": 70919,
+          "title": "Takenoko",
+          "rank": 50
         },
         {
-          "bgg_id": 143884,
-          "title": "Machi Koro",
-          "rank": 80
+          "bgg_id": 113924,
+          "title": "Zombicide",
+          "rank": 243
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Christopher Hosch",
+      "bgg_id": 50786,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 205637,
+          "title": "Arkham Horror: The Card Game",
+          "rank": 52
+        },
+        {
+          "bgg_id": 77423,
+          "title": "The Lord of the Rings: The Card Game",
+          "rank": 89
         }
       ],
       "count": 2
@@ -3698,12 +3663,12 @@
         {
           "bgg_id": 41,
           "title": "Can't Stop",
-          "rank": 59
+          "rank": 53
         },
         {
           "bgg_id": 45,
           "title": "Perudo",
-          "rank": 211
+          "rank": 224
         }
       ],
       "count": 2
@@ -3716,48 +3681,30 @@
         {
           "bgg_id": 41,
           "title": "Can't Stop",
-          "rank": 59
+          "rank": 53
         },
         {
           "bgg_id": 19857,
           "title": "Glory to Rome",
-          "rank": 144
+          "rank": 152
         }
       ],
       "count": 2
     },
     {
-      "name": "Marco Armbruster",
-      "bgg_id": 120549,
+      "name": "Kyle Ferrin",
+      "bgg_id": 65224,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 284083,
-          "title": "The Crew: The Quest for Planet Nine",
-          "rank": 61
+          "bgg_id": 237182,
+          "title": "Root",
+          "rank": 54
         },
         {
-          "bgg_id": 324856,
-          "title": "The Crew: Mission Deep Sea",
-          "rank": 155
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "C. B. Canga",
-      "bgg_id": 34356,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 65244,
-          "title": "Forbidden Island",
-          "rank": 64
-        },
-        {
-          "bgg_id": 136063,
-          "title": "Forbidden Desert",
-          "rank": 183
+          "bgg_id": 359871,
+          "title": "Arcs",
+          "rank": 227
         }
       ],
       "count": 2
@@ -3770,12 +3717,66 @@
         {
           "bgg_id": 224517,
           "title": "Brass: Birmingham",
-          "rank": 65
+          "rank": 57
         },
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Mirko Suzuki",
+      "bgg_id": 12836,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 132531,
+          "title": "Roll for the Galaxy",
+          "rank": 59
+        },
+        {
+          "bgg_id": 143884,
+          "title": "Machi Koro",
+          "rank": 88
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Marco Armbruster",
+      "bgg_id": 120549,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 284083,
+          "title": "The Crew: The Quest for Planet Nine",
+          "rank": 66
+        },
+        {
+          "bgg_id": 324856,
+          "title": "The Crew: Mission Deep Sea",
+          "rank": 143
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "C. B. Canga",
+      "bgg_id": 34356,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 65244,
+          "title": "Forbidden Island",
+          "rank": 69
+        },
+        {
+          "bgg_id": 136063,
+          "title": "Forbidden Desert",
+          "rank": 194
         }
       ],
       "count": 2
@@ -3788,12 +3789,12 @@
         {
           "bgg_id": 41114,
           "title": "The Resistance",
-          "rank": 67
+          "rank": 71
         },
         {
           "bgg_id": 131357,
           "title": "Coup",
-          "rank": 70
+          "rank": 73
         }
       ],
       "count": 2
@@ -3806,12 +3807,12 @@
         {
           "bgg_id": 131357,
           "title": "Coup",
-          "rank": 70
+          "rank": 73
         },
         {
           "bgg_id": 350184,
           "title": "Earth",
-          "rank": 146
+          "rank": 112
         }
       ],
       "count": 2
@@ -3824,12 +3825,12 @@
         {
           "bgg_id": 12333,
           "title": "Twilight Struggle",
-          "rank": 71
+          "rank": 76
         },
         {
           "bgg_id": 62219,
           "title": "Dominant Species",
-          "rank": 200
+          "rank": 211
         }
       ],
       "count": 2
@@ -3842,12 +3843,12 @@
         {
           "bgg_id": 12333,
           "title": "Twilight Struggle",
-          "rank": 71
+          "rank": 76
         },
         {
           "bgg_id": 760,
           "title": "Battle Line",
-          "rank": 206
+          "rank": 218
         }
       ],
       "count": 2
@@ -3860,12 +3861,12 @@
         {
           "bgg_id": 37111,
           "title": "Battlestar Galactica: The Board Game",
-          "rank": 72
+          "rank": 77
         },
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         }
       ],
       "count": 2
@@ -3878,12 +3879,30 @@
         {
           "bgg_id": 37111,
           "title": "Battlestar Galactica: The Board Game",
-          "rank": 72
+          "rank": 77
         },
         {
           "bgg_id": 39463,
           "title": "Cosmic Encounter",
-          "rank": 104
+          "rank": 109
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Oliver Schlemmer",
+      "bgg_id": 34863,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 107529,
+          "title": "Kingdom Builder",
+          "rank": 80
+        },
+        {
+          "bgg_id": 113294,
+          "title": "Escape: The Curse of the Temple",
+          "rank": 182
         }
       ],
       "count": 2
@@ -3896,12 +3915,12 @@
         {
           "bgg_id": 124742,
           "title": "Android: Netrunner",
-          "rank": 75
+          "rank": 81
         },
         {
           "bgg_id": 122522,
           "title": "Smash Up",
-          "rank": 137
+          "rank": 147
         }
       ],
       "count": 2
@@ -3914,12 +3933,12 @@
         {
           "bgg_id": 124742,
           "title": "Android: Netrunner",
-          "rank": 75
+          "rank": 81
         },
         {
           "bgg_id": 104162,
           "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
+          "rank": 195
         }
       ],
       "count": 2
@@ -3932,12 +3951,12 @@
         {
           "bgg_id": 124742,
           "title": "Android: Netrunner",
-          "rank": 75
+          "rank": 81
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         }
       ],
       "count": 2
@@ -3950,12 +3969,12 @@
         {
           "bgg_id": 143884,
           "title": "Machi Koro",
-          "rank": 80
+          "rank": 88
         },
         {
           "bgg_id": 158899,
           "title": "Colt Express",
-          "rank": 120
+          "rank": 126
         }
       ],
       "count": 2
@@ -3968,12 +3987,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 39463,
           "title": "Cosmic Encounter",
-          "rank": 104
+          "rank": 109
         }
       ],
       "count": 2
@@ -3986,12 +4005,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 205059,
           "title": "Mansions of Madness: Second Edition",
-          "rank": 123
+          "rank": 130
         }
       ],
       "count": 2
@@ -4004,12 +4023,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 12,
           "title": "Ra",
-          "rank": 102
+          "rank": 91
         }
       ],
       "count": 2
@@ -4022,12 +4041,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 463,
           "title": "Magic: The Gathering",
-          "rank": 95
+          "rank": 100
         }
       ],
       "count": 2
@@ -4040,12 +4059,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 146508,
           "title": "T.I.M.E Stories",
-          "rank": 207
+          "rank": 219
         }
       ],
       "count": 2
@@ -4058,12 +4077,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 103885,
           "title": "Star Wars: X-Wing Miniatures Game",
-          "rank": 122
+          "rank": 129
         }
       ],
       "count": 2
@@ -4076,12 +4095,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 103885,
           "title": "Star Wars: X-Wing Miniatures Game",
-          "rank": 122
+          "rank": 129
         }
       ],
       "count": 2
@@ -4094,12 +4113,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 103885,
           "title": "Star Wars: X-Wing Miniatures Game",
-          "rank": 122
+          "rank": 129
         }
       ],
       "count": 2
@@ -4112,12 +4131,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 146021,
           "title": "Eldritch Horror",
-          "rank": 124
+          "rank": 132
         }
       ],
       "count": 2
@@ -4130,192 +4149,12 @@
         {
           "bgg_id": 77423,
           "title": "The Lord of the Rings: The Card Game",
-          "rank": 82
+          "rank": 89
         },
         {
           "bgg_id": 164153,
           "title": "Star Wars: Imperial Assault",
-          "rank": 189
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Thierry Masson",
-      "bgg_id": 12317,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 170216,
-          "title": "Blood Rage",
-          "rank": 87
-        },
-        {
-          "bgg_id": 45,
-          "title": "Perudo",
-          "rank": 211
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Jörg Asselborn",
-      "bgg_id": 11796,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 6249,
-          "title": "Alhambra",
-          "rank": 88
-        },
-        {
-          "bgg_id": 15512,
-          "title": "Diamant",
-          "rank": 130
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Jo Hartwig",
-      "bgg_id": 962,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 6249,
-          "title": "Alhambra",
-          "rank": 88
-        },
-        {
-          "bgg_id": 102680,
-          "title": "Trajan",
-          "rank": 223
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "David Richards",
-      "bgg_id": 77485,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 209685,
-          "title": "Century: Spice Road",
-          "rank": 93
-        },
-        {
-          "bgg_id": 150376,
-          "title": "Dead of Winter: A Crossroads Game",
-          "rank": 100
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Fernanda Suárez",
-      "bgg_id": 70730,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 209685,
-          "title": "Century: Spice Road",
-          "rank": 93
-        },
-        {
-          "bgg_id": 150376,
-          "title": "Dead of Winter: A Crossroads Game",
-          "rank": 100
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Dave Allsop",
-      "bgg_id": 13924,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 463,
-          "title": "Magic: The Gathering",
-          "rank": 95
-        },
-        {
-          "bgg_id": 122522,
-          "title": "Smash Up",
-          "rank": 137
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Christopher Burdett",
-      "bgg_id": 19411,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 463,
-          "title": "Magic: The Gathering",
-          "rank": 95
-        },
-        {
-          "bgg_id": 164153,
-          "title": "Star Wars: Imperial Assault",
-          "rank": 189
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Radim Pech",
-      "bgg_id": 11938,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 31481,
-          "title": "Galaxy Trucker",
-          "rank": 97
-        },
-        {
-          "bgg_id": 182028,
-          "title": "Through the Ages: A New Story of Civilization",
-          "rank": 239
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Ossi Hiekkala",
-      "bgg_id": 19023,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 72125,
-          "title": "Eclipse: New Dawn for the Galaxy",
-          "rank": 98
-        },
-        {
-          "bgg_id": 199478,
-          "title": "Flamme Rouge",
-          "rank": 213
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Alanna Cervenak",
-      "bgg_id": 73851,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 63888,
-          "title": "Innovation",
-          "rank": 99
-        },
-        {
-          "bgg_id": 161417,
-          "title": "Red7",
-          "rank": 196
+          "rank": 199
         }
       ],
       "count": 2
@@ -4328,246 +4167,156 @@
         {
           "bgg_id": 12,
           "title": "Ra",
-          "rank": 102
+          "rank": 91
         },
         {
           "bgg_id": 42,
           "title": "Tigris & Euphrates",
-          "rank": 212
+          "rank": 225
         }
       ],
       "count": 2
     },
     {
-      "name": "Paul Niemeyer",
-      "bgg_id": 11997,
+      "name": "Thierry Masson",
+      "bgg_id": 12317,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 25613,
-          "title": "Through the Ages: A Story of Civilization",
-          "rank": 105
+          "bgg_id": 170216,
+          "title": "Blood Rage",
+          "rank": 93
         },
         {
-          "bgg_id": 37380,
-          "title": "Roll Through the Ages: The Bronze Age",
-          "rank": 114
+          "bgg_id": 45,
+          "title": "Perudo",
+          "rank": 224
         }
       ],
       "count": 2
     },
     {
-      "name": "Mateusz Bielski",
-      "bgg_id": 38917,
+      "name": "Jörg Asselborn",
+      "bgg_id": 11796,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 121921,
-          "title": "Robinson Crusoe: Adventures on the Cursed Island",
-          "rank": 109
+          "bgg_id": 6249,
+          "title": "Alhambra",
+          "rank": 94
         },
         {
-          "bgg_id": 154203,
-          "title": "Imperial Settlers",
-          "rank": 158
+          "bgg_id": 15512,
+          "title": "Diamant",
+          "rank": 138
         }
       ],
       "count": 2
     },
     {
-      "name": "François Bruel",
-      "bgg_id": 3025,
+      "name": "Jo Hartwig",
+      "bgg_id": 962,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 215,
-          "title": "Tichu",
-          "rank": 111
+          "bgg_id": 6249,
+          "title": "Alhambra",
+          "rank": 94
         },
         {
-          "bgg_id": 8203,
-          "title": "Hey, That's My Fish!",
+          "bgg_id": 102680,
+          "title": "Trajan",
+          "rank": 239
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Mihajlo Dimitrievski",
+      "bgg_id": 70533,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 236457,
+          "title": "Architects of the West Kingdom",
+          "rank": 97
+        },
+        {
+          "bgg_id": 170042,
+          "title": "Raiders of the North Sea",
+          "rank": 197
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "David Richards",
+      "bgg_id": 77485,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 209685,
+          "title": "Century: Spice Road",
+          "rank": 98
+        },
+        {
+          "bgg_id": 150376,
+          "title": "Dead of Winter: A Crossroads Game",
+          "rank": 107
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Fernanda Suárez",
+      "bgg_id": 70730,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 209685,
+          "title": "Century: Spice Road",
+          "rank": 98
+        },
+        {
+          "bgg_id": 150376,
+          "title": "Dead of Winter: A Crossroads Game",
+          "rank": 107
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Dave Allsop",
+      "bgg_id": 13924,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 463,
+          "title": "Magic: The Gathering",
+          "rank": 100
+        },
+        {
+          "bgg_id": 122522,
+          "title": "Smash Up",
           "rank": 147
         }
       ],
       "count": 2
     },
     {
-      "name": "TANSAN Inc.",
-      "bgg_id": 74499,
+      "name": "Christopher Burdett",
+      "bgg_id": 19411,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 264055,
-          "title": "Draftosaurus",
-          "rank": 117
+          "bgg_id": 463,
+          "title": "Magic: The Gathering",
+          "rank": 100
         },
         {
-          "bgg_id": 161417,
-          "title": "Red7",
-          "rank": 196
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Francesca Baerald",
-      "bgg_id": 79079,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 291457,
-          "title": "Gloomhaven: Jaws of the Lion",
-          "rank": 118
-        },
-        {
-          "bgg_id": 295770,
-          "title": "Frosthaven",
-          "rank": 234
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "David Demaret",
-      "bgg_id": 66266,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 291457,
-          "title": "Gloomhaven: Jaws of the Lion",
-          "rank": 118
-        },
-        {
-          "bgg_id": 295770,
-          "title": "Frosthaven",
-          "rank": 234
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Alexander Jung",
-      "bgg_id": 12123,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 40834,
-          "title": "Dominion: Intrigue",
-          "rank": 119
-        },
-        {
-          "bgg_id": 9220,
-          "title": "Saboteur",
-          "rank": 181
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Ollin Timm",
-      "bgg_id": 62217,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 123260,
-          "title": "Suburbia",
-          "rank": 121
-        },
-        {
-          "bgg_id": 155426,
-          "title": "Castles of Mad King Ludwig",
-          "rank": 134
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "J. Lonnee",
-      "bgg_id": 49771,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 91536,
-          "title": "Quarriors!",
-          "rank": 132
-        },
-        {
-          "bgg_id": 96848,
-          "title": "Mage Knight Board Game",
-          "rank": 152
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Chris Raimo",
-      "bgg_id": 50792,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 91536,
-          "title": "Quarriors!",
-          "rank": 132
-        },
-        {
-          "bgg_id": 96848,
-          "title": "Mage Knight Board Game",
-          "rank": 152
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Peter Whitley",
-      "bgg_id": 18317,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 10547,
-          "title": "Betrayal at House on the Hill",
-          "rank": 145
-        },
-        {
-          "bgg_id": 18,
-          "title": "RoboRally",
-          "rank": 186
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Sylvain Decaux",
-      "bgg_id": 50680,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 8203,
-          "title": "Hey, That's My Fish!",
-          "rank": 147
-        },
-        {
-          "bgg_id": 104162,
-          "title": "Descent: Journeys in the Dark (Second Edition)",
-          "rank": 184
-        }
-      ],
-      "count": 2
-    },
-    {
-      "name": "Gong Studios",
-      "bgg_id": 122536,
-      "type": "boardgameartist",
-      "games": [
-        {
-          "bgg_id": 265736,
-          "title": "Tiny Towns",
-          "rank": 171
-        },
-        {
-          "bgg_id": 197376,
-          "title": "Charterstone",
-          "rank": 216
+          "bgg_id": 164153,
+          "title": "Star Wars: Imperial Assault",
+          "rank": 199
         }
       ],
       "count": 2
@@ -4580,30 +4329,264 @@
         {
           "bgg_id": 385761,
           "title": "Faraway",
-          "rank": 175
+          "rank": 101
         },
         {
           "bgg_id": 353545,
           "title": "Next Station: London",
-          "rank": 235
+          "rank": 247
         }
       ],
       "count": 2
     },
     {
-      "name": "Uildrim",
-      "bgg_id": 69038,
+      "name": "Ossi Hiekkala",
+      "bgg_id": 19023,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 247763,
-          "title": "Underwater Cities",
-          "rank": 177
+          "bgg_id": 72125,
+          "title": "Eclipse: New Dawn for the Galaxy",
+          "rank": 105
         },
         {
-          "bgg_id": 166384,
-          "title": "Spyfall",
-          "rank": 201
+          "bgg_id": 199478,
+          "title": "Flamme Rouge",
+          "rank": 226
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Alanna Cervenak",
+      "bgg_id": 73851,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 63888,
+          "title": "Innovation",
+          "rank": 106
+        },
+        {
+          "bgg_id": 161417,
+          "title": "Red7",
+          "rank": 206
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Paul Niemeyer",
+      "bgg_id": 11997,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 25613,
+          "title": "Through the Ages: A Story of Civilization",
+          "rank": 110
+        },
+        {
+          "bgg_id": 37380,
+          "title": "Roll Through the Ages: The Bronze Age",
+          "rank": 119
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Mateusz Bielski",
+      "bgg_id": 38917,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 121921,
+          "title": "Robinson Crusoe: Adventures on the Cursed Island",
+          "rank": 115
+        },
+        {
+          "bgg_id": 154203,
+          "title": "Imperial Settlers",
+          "rank": 164
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "François Bruel",
+      "bgg_id": 3025,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 215,
+          "title": "Tichu",
+          "rank": 117
+        },
+        {
+          "bgg_id": 8203,
+          "title": "Hey, That's My Fish!",
+          "rank": 154
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "TANSAN Inc.",
+      "bgg_id": 74499,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 264055,
+          "title": "Draftosaurus",
+          "rank": 123
+        },
+        {
+          "bgg_id": 161417,
+          "title": "Red7",
+          "rank": 206
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Francesca Baerald",
+      "bgg_id": 79079,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 291457,
+          "title": "Gloomhaven: Jaws of the Lion",
+          "rank": 124
+        },
+        {
+          "bgg_id": 295770,
+          "title": "Frosthaven",
+          "rank": 237
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "David Demaret",
+      "bgg_id": 66266,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 291457,
+          "title": "Gloomhaven: Jaws of the Lion",
+          "rank": 124
+        },
+        {
+          "bgg_id": 295770,
+          "title": "Frosthaven",
+          "rank": 237
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Alexander Jung",
+      "bgg_id": 12123,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 40834,
+          "title": "Dominion: Intrigue",
+          "rank": 125
+        },
+        {
+          "bgg_id": 9220,
+          "title": "Saboteur",
+          "rank": 189
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Ollin Timm",
+      "bgg_id": 62217,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 123260,
+          "title": "Suburbia",
+          "rank": 127
+        },
+        {
+          "bgg_id": 155426,
+          "title": "Castles of Mad King Ludwig",
+          "rank": 144
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "J. Lonnee",
+      "bgg_id": 49771,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 91536,
+          "title": "Quarriors!",
+          "rank": 141
+        },
+        {
+          "bgg_id": 96848,
+          "title": "Mage Knight Board Game",
+          "rank": 158
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Chris Raimo",
+      "bgg_id": 50792,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 91536,
+          "title": "Quarriors!",
+          "rank": 141
+        },
+        {
+          "bgg_id": 96848,
+          "title": "Mage Knight Board Game",
+          "rank": 158
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Peter Whitley",
+      "bgg_id": 18317,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 10547,
+          "title": "Betrayal at House on the Hill",
+          "rank": 153
+        },
+        {
+          "bgg_id": 18,
+          "title": "RoboRally",
+          "rank": 196
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Sylvain Decaux",
+      "bgg_id": 50680,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 8203,
+          "title": "Hey, That's My Fish!",
+          "rank": 154
+        },
+        {
+          "bgg_id": 104162,
+          "title": "Descent: Journeys in the Dark (Second Edition)",
+          "rank": 195
         }
       ],
       "count": 2
@@ -4616,12 +4599,48 @@
         {
           "bgg_id": 329839,
           "title": "So Clover!",
-          "rank": 180
+          "rank": 160
         },
         {
           "bgg_id": 25669,
           "title": "Qwirkle",
-          "rank": 228
+          "rank": 242
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Gong Studios",
+      "bgg_id": 122536,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 265736,
+          "title": "Tiny Towns",
+          "rank": 176
+        },
+        {
+          "bgg_id": 197376,
+          "title": "Charterstone",
+          "rank": 231
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Uildrim",
+      "bgg_id": 69038,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 247763,
+          "title": "Underwater Cities",
+          "rank": 185
+        },
+        {
+          "bgg_id": 166384,
+          "title": "Spyfall",
+          "rank": 212
         }
       ],
       "count": 2
@@ -4632,14 +4651,14 @@
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 167355,
-          "title": "Nemesis",
-          "rank": 192
-        },
-        {
           "bgg_id": 363622,
           "title": "The Castles of Burgundy: Special Edition",
-          "rank": 227
+          "rank": 190
+        },
+        {
+          "bgg_id": 167355,
+          "title": "Nemesis",
+          "rank": 202
         }
       ],
       "count": 2
@@ -4650,14 +4669,14 @@
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 167355,
-          "title": "Nemesis",
-          "rank": 192
-        },
-        {
           "bgg_id": 363622,
           "title": "The Castles of Burgundy: Special Edition",
-          "rank": 227
+          "rank": 190
+        },
+        {
+          "bgg_id": 167355,
+          "title": "Nemesis",
+          "rank": 202
         }
       ],
       "count": 2
@@ -4668,32 +4687,50 @@
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 167355,
-          "title": "Nemesis",
-          "rank": 192
-        },
-        {
           "bgg_id": 363622,
           "title": "The Castles of Burgundy: Special Edition",
-          "rank": 227
+          "rank": 190
+        },
+        {
+          "bgg_id": 167355,
+          "title": "Nemesis",
+          "rank": 202
         }
       ],
       "count": 2
     },
     {
-      "name": "Štěpán Drašťák",
-      "bgg_id": 152613,
+      "name": "Eckhard Freytag",
+      "bgg_id": 12011,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 224037,
-          "title": "Codenames: Duet",
-          "rank": 195
+          "bgg_id": 150145,
+          "title": "Skull King",
+          "rank": 207
         },
         {
-          "bgg_id": 198773,
-          "title": "Codenames: Pictures",
-          "rank": 250
+          "bgg_id": 28720,
+          "title": "Brass: Lancashire",
+          "rank": 210
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Derek Herring",
+      "bgg_id": 115889,
+      "type": "boardgameartist",
+      "games": [
+        {
+          "bgg_id": 397598,
+          "title": "Dune: Imperium – Uprising",
+          "rank": 208
+        },
+        {
+          "bgg_id": 365717,
+          "title": "Clank!: Catacombs",
+          "rank": 229
         }
       ],
       "count": 2
@@ -4706,29 +4743,29 @@
         {
           "bgg_id": 28720,
           "title": "Brass: Lancashire",
-          "rank": 199
+          "rank": 210
         },
         {
           "bgg_id": 65781,
           "title": "London",
-          "rank": 236
+          "rank": 248
         }
       ],
       "count": 2
     },
     {
-      "name": "David Cochard",
-      "bgg_id": 12692,
+      "name": "Fiore GmbH",
+      "bgg_id": 61842,
       "type": "boardgameartist",
       "games": [
         {
-          "bgg_id": 45315,
-          "title": "Dungeon Lords",
-          "rank": 210
+          "bgg_id": 411567,
+          "title": "The Gang",
+          "rank": 223
         },
         {
-          "bgg_id": 198773,
-          "title": "Codenames: Pictures",
+          "bgg_id": 276025,
+          "title": "Maracaibo",
           "rank": 250
         }
       ],
@@ -4742,12 +4779,12 @@
         {
           "bgg_id": 42,
           "title": "Tigris & Euphrates",
-          "rank": 212
+          "rank": 225
         },
         {
           "bgg_id": 68425,
           "title": "Eminent Domain",
-          "rank": 237
+          "rank": 249
         }
       ],
       "count": 2
@@ -4760,12 +4797,12 @@
         {
           "bgg_id": 113924,
           "title": "Zombicide",
-          "rank": 229
+          "rank": 243
         },
         {
           "bgg_id": 246192,
           "title": "Gizmos",
-          "rank": 230
+          "rank": 244
         }
       ],
       "count": 2
