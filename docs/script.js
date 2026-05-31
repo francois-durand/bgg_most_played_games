@@ -618,8 +618,8 @@ function formatWeightRow(g) {
 }
 
 function weightLabel() {
-  return `<a href="https://boardgamegeek.com/wiki/page/Weight" ` +
-         `target="_blank" rel="noopener">Weight</a> (\u201Ccomplexity\u201D)`;
+  return `Complexity (<a href="https://boardgamegeek.com/wiki/page/Weight" ` +
+         `target="_blank" rel="noopener">BGG weight</a>)`;
 }
 
 function designerLabel(g) {
