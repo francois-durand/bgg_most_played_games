@@ -40,12 +40,17 @@ def parse_int_range(s, with_values=False):
     """Parse a range string into {min, max[, values]}. Returns None on failure.
 
     Handles '30', '30 Min', '1-5', '3–4' (en-dash), '1, 3-5' (comma list).
-    The +/×/× quirks of BGG don't normally appear in our captured strings, but
-    if they do, the regex just picks up the integers and ignores the rest.
+    Also handles the BGG '+' suffix that appears in community polls when the
+    poll's last option was 'more than N': '3-5+' becomes effectively '3-6',
+    because the player count exceeds the official maximum (which is what
+    BGG's poll mechanism encodes with that last "+" option).
     """
     if s is None:
         return None
     norm = s.replace("\u2013", "-").replace("\u2014", "-")
+    # Expand "N+" → "N N+1" (handled before number extraction so both ends
+    # of a "3-5+" or "5+" are captured).
+    norm = re.sub(r"(\d+)\+", lambda m: "{} {}".format(m.group(1), int(m.group(1)) + 1), norm)
     nums = [int(n) for n in re.findall(r"\d+", norm)]
     if not nums:
         return None
@@ -94,16 +99,18 @@ def parse_players(raw):
 
     # Community and Best come from the secondary text:
     # "Community: 1-5 — Best: 3-4"   or "Community: 2 — Best: 2"
+    # The "+" suffix may appear (e.g. "Community: 3-5+") when BGG's poll
+    # had a "more than N" terminal option; parse_int_range expands it.
     secondary = raw.get("players_secondary_text") or ""
     community = None
     best = None
     # Community: between 'Community:' and 'Best:' (or end)
     m_comm = re.search(
-        r"Community:\s*([\d\u2013\u2014\-,\s]+?)\s*(?:[\u2014\-]\s*Best|$)",
+        r"Community:\s*([\d\u2013\u2014\-,\s+]+?)\s*(?:[\u2014\-]\s*Best|$)",
         secondary)
     if m_comm:
         community = parse_int_range(m_comm.group(1), with_values=True)
-    m_best = re.search(r"Best:\s*([\d\u2013\u2014\-,\s]+)", secondary)
+    m_best = re.search(r"Best:\s*([\d\u2013\u2014\-,\s+]+)", secondary)
     if m_best:
         best = parse_int_range(m_best.group(1), with_values=True)
 

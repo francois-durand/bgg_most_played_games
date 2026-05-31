@@ -27,6 +27,7 @@ import scrape_metadata
 import build_scores
 import build_games
 import build_web_data
+import check_coverage
 import prepare_geeklist
 
 
@@ -47,12 +48,17 @@ def main():
     print("\n=== 4. Build games.json ===")
     build_games.build_games()
 
+    # Sanity check on the scraped data: warn if any field's coverage is lower
+    # than expected. Catches BGG-side HTML changes that would break the parser.
+    print("\n=== 5. Coverage report ===")
+    check_coverage.check_coverage()
+
     # 3. Merge scores + games for the web UI, and generate the geeklist
     #    text for manual paste into BGG.
-    print("\n=== 5. Build web payload (docs/web_data.json, docs/credits_data.json) ===")
+    print("\n=== 6. Build web payload (docs/web_data.json, docs/credits_data.json) ===")
     build_web_data.build_web_data()
 
-    print("\n=== 6. Generate geeklist.txt ===")
+    print("\n=== 7. Generate geeklist.txt ===")
     prepare_geeklist.main()
 
     # 4. Manual steps from here on.

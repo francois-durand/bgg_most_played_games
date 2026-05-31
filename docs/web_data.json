@@ -4753,7 +4753,18 @@
           "min": 2,
           "max": 8
         },
-        "community": null,
+        "community": {
+          "min": 4,
+          "max": 9,
+          "values": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
         "best": {
           "min": 6,
           "max": 8,
@@ -10052,7 +10063,16 @@
           "min": 3,
           "max": 6
         },
-        "community": null,
+        "community": {
+          "min": 4,
+          "max": 7,
+          "values": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
         "best": {
           "min": 5,
           "max": 6,
@@ -16292,7 +16312,17 @@
           "min": 3,
           "max": 7
         },
-        "community": null,
+        "community": {
+          "min": 4,
+          "max": 8,
+          "values": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
         "best": {
           "min": 6,
           "max": 7,
@@ -16828,7 +16858,15 @@
           "min": 1,
           "max": 2
         },
-        "community": null,
+        "community": {
+          "min": 1,
+          "max": 3,
+          "values": [
+            1,
+            2,
+            3
+          ]
+        },
         "best": {
           "min": 2,
           "max": 2,
@@ -25984,7 +26022,15 @@
           "min": 1,
           "max": 2
         },
-        "community": null,
+        "community": {
+          "min": 1,
+          "max": 3,
+          "values": [
+            1,
+            2,
+            3
+          ]
+        },
         "best": {
           "min": 2,
           "max": 2,
@@ -27471,7 +27517,15 @@
           "min": 2,
           "max": 4
         },
-        "community": null,
+        "community": {
+          "min": 3,
+          "max": 5,
+          "values": [
+            3,
+            4,
+            5
+          ]
+        },
         "best": {
           "min": 4,
           "max": 4,
@@ -32520,7 +32574,15 @@
           "min": 3,
           "max": 5
         },
-        "community": null,
+        "community": {
+          "min": 4,
+          "max": 6,
+          "values": [
+            4,
+            5,
+            6
+          ]
+        },
         "best": {
           "min": 5,
           "max": 5,
@@ -33246,7 +33308,16 @@
           "min": 2,
           "max": 4
         },
-        "community": null,
+        "community": {
+          "min": 2,
+          "max": 5,
+          "values": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
         "best": {
           "min": 4,
           "max": 4,
@@ -37587,7 +37658,14 @@
           "min": 2,
           "max": 2
         },
-        "community": null,
+        "community": {
+          "min": 2,
+          "max": 3,
+          "values": [
+            2,
+            3
+          ]
+        },
         "best": {
           "min": 2,
           "max": 2,
@@ -54670,7 +54748,17 @@
           "min": 1,
           "max": 4
         },
-        "community": null,
+        "community": {
+          "min": 1,
+          "max": 5,
+          "values": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
         "best": {
           "min": 3,
           "max": 4,
@@ -70061,7 +70149,18 @@
           "min": 2,
           "max": 8
         },
-        "community": null,
+        "community": {
+          "min": 4,
+          "max": 9,
+          "values": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
         "best": {
           "min": 6,
           "max": 6,
