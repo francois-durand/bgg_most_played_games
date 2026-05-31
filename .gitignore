@@ -5,16 +5,9 @@
 cache/
 
 # Generated outputs (big, regenerated on demand)
-images/
-raw_data.json
-games.json
-scores.json
-geeklist.txt
-
-# Legacy CSV outputs (kept around for now during the migration)
-data.csv
-pivot.csv
-pivot_extended.csv
+/games.json
+/scores.json
+/geeklist.txt
 
 # Python
 __pycache__/
