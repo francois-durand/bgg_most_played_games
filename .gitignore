@@ -13,7 +13,6 @@ games.json
 data.csv
 pivot.csv
 pivot_extended.csv
-geeklist.txt
 
 # Python
 __pycache__/
