@@ -327,7 +327,7 @@ function renderList(games) {
     `;
     return;
   }
-  $list.innerHTML = games.map(renderCard).join("");
+  $list.innerHTML = games.map((g, i) => renderCard(g, i)).join("");
   /* Reapply the expanded state from our Set, so toggling filters doesn't
      collapse the cards the user opened. */
   for (const id of state.expanded) {
@@ -398,14 +398,27 @@ function resetFiltersToSearch(name) {
 
 /* --- Card rendering ------------------------------------------------------ */
 
-function renderCard(g) {
+/* Number of cards considered "above the fold" — their images load eagerly
+   (no lazy attribute) and the very first one gets fetchpriority=high. The
+   rest of the 250 stays lazy and only loads as the user scrolls. */
+const EAGER_CARD_COUNT = 4;
+
+function renderCard(g, index = 0) {
+  /* loading="lazy" is what we want for the long tail (240+ images that may
+     never be scrolled to), BUT the first few must NOT be lazy because they
+     ARE the LCP. The browser otherwise defers their fetch and LCP drags. */
+  const loadingAttr = index < EAGER_CARD_COUNT ? "" : `loading="lazy"`;
+  /* fetchpriority=high on the very first image hints to the browser:
+     prioritize this one above other resources. Makes a measurable LCP gain
+     on slow networks. */
+  const priorityAttr = index === 0 ? `fetchpriority="high"` : "";
   return `
     <article class="card" data-bgg-id="${g.bgg_id}">
       <a class="card-image-link" href="${escapeAttr(g.bgg_url)}" target="_blank" rel="noopener"
          style="background-image: url('${escapeAttr(g.image_url)}');">
         <img class="card-image" src="${escapeAttr(g.image_url)}"
              alt="${escapeAttr(g.title)} cover"
-             loading="lazy" decoding="async">
+             ${loadingAttr} ${priorityAttr} decoding="async">
       </a>
       <div class="card-body">
         <div class="card-rank-line">

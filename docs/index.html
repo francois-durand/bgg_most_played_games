@@ -13,11 +13,20 @@
   <link rel="preload" href="current_geeklist.json" as="fetch" crossorigin>
 
   <!-- EB Garamond for display (titles); system fonts for body.
-       The font request is non-blocking thanks to display=swap; text shows
-       in the fallback system font, then upgrades when the font is ready. -->
+       Loaded non-blocking via the media=print + onload trick: the browser
+       treats this stylesheet as for printing only (so it doesn't block the
+       initial render), then JS flips media to "all" once loaded. The
+       <noscript> fallback handles users with JS disabled.
+       Combined with display=swap (in the URL), text renders immediately
+       in the system font and upgrades to EB Garamond when it's ready. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  </noscript>
 
   <link rel="stylesheet" href="style.css">
 </head>
