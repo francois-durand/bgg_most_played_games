@@ -8,6 +8,8 @@ cache/
 images/
 raw_data.json
 games.json
+scores.json
+geeklist.txt
 
 # Legacy CSV outputs (kept around for now during the migration)
 data.csv

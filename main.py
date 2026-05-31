@@ -1,46 +1,74 @@
-from scrape_data import scrape_data
-from exploit_data import exploit_data
-from prepare_geeklist import prepare_geeklist
-from prepare_extended_table import prepare_extended_table
+"""End-to-end pipeline for one edition of the most-played-games ranking.
 
-# TODO For next year
-# * Fetch correctly the list of authors for games with multiple authors.
-# * Record not only the minimal and maximal number of players, but also the string itself (especially for special cases
-#   such as "1, 3-5" for example.
-# * Add "rank" to the pivot file.
-# * Add column "id thing"?
-# * Add column "string"? Such as "[thing=25669][/thing] (240)," for example.
-# * Add column "playing_time_avg"?
-# * In geeklist, add a line with basic facts about the game, such as #players, duration, etc?
-# * Generally speaking, merge csv_pivot with csv_pivot_extended. This will probably lead to a refactoring of
-#   scrape_data, exploit_data and prepare_extended_table.
-# Prepare the thematic lists (by minimal age, playing time, etc.) automatically.
+This script is both an executable and a manual. Each step is documented in
+the function calls below; the inline comments explain what to do between
+automated stages (the manual ones — reviewing artifacts, publishing the
+geeklist, updating the geeklist URL).
 
-# Settings
+Workflow per edition:
+  1. Set END_YEAR (and confirm END_MONTH = 5) in config.py.
+  2. Run main.py. It will scrape (resumable, incremental), compute scores,
+     build the merged web payload, and generate geeklist.txt.
+  3. Review scores.json, games.json, and geeklist.txt.
+  4. Publish the geeklist on BGG using geeklist.txt.
+  5. Update docs/current_geeklist.json with the new geeklist URL/id.
+  6. Commit & push (docs/* goes live via GitHub Pages).
+  7. When everything checks out, run archive_edition.py to freeze this
+     edition into archive/<year>.json AND move the artifacts to a dated
+     'Published_version_April_YYYY' folder.
 
-START_YEAR = 2010
-START_MONTH = 1
-END_YEAR = 2024
-END_MONTH = 5  # First month NOT taken into account
+You don't have to run main.py as one shot — every step is also runnable
+on its own from PyCharm. main.py mostly documents the order and skips
+nothing.
+"""
 
-CSV_DATA = 'data.csv'
-CSV_PIVOT = 'pivot.csv'
-CSV_PIVOT_EXTENDED = 'pivot_extended.csv'
-FILE_GEEKLIST = 'geeklist.txt'
-SEP = ';'  # To be readable by the French version of Excel. If you use the English version: SEP = ','.
-
-
-def point_function(rank):
-    return rank**(-.5)
+import scrape_rankings
+import scrape_metadata
+import build_scores
+import build_games
+import build_web_data
+import prepare_geeklist
 
 
-# Let's go!
+def main():
+    # 1. Scrape BGG. Both scrapers are resumable and cache aware: if the
+    #    cache already has a month / game, the corresponding file isn't
+    #    re-fetched. Re-running is cheap.
+    print("\n=== 1. Scrape monthly rankings ===")
+    scrape_rankings.scrape_rankings()
 
-scrape_data(start_year=START_YEAR, start_month=START_MONTH, end_year=END_YEAR, end_month=END_MONTH,
-            csv_data=CSV_DATA, sep=SEP, n_hundreds=1)
+    print("\n=== 2. Scrape game metadata ===")
+    scrape_metadata.scrape_metadata()
 
-exploit_data(csv_data=CSV_DATA, csv_pivot=CSV_PIVOT, sep=SEP, point_function=point_function)
+    # 2. Compute the per-game scores and metadata for the current edition.
+    print("\n=== 3. Build scores.json ===")
+    build_scores.build_scores()
 
-prepare_geeklist(csv_pivot=CSV_PIVOT, file_geeklist=FILE_GEEKLIST, sep=SEP)
+    print("\n=== 4. Build games.json ===")
+    build_games.build_games()
 
-prepare_extended_table(csv_pivot=CSV_PIVOT, csv_pivot_extended=CSV_PIVOT_EXTENDED, sep=SEP)
+    # 3. Merge scores + games for the web UI, and generate the geeklist
+    #    text for manual paste into BGG.
+    print("\n=== 5. Build web payload (docs/web_data.json, docs/credits_data.json) ===")
+    build_web_data.build_web_data()
+
+    print("\n=== 6. Generate geeklist.txt ===")
+    prepare_geeklist.main()
+
+    # 4. Manual steps from here on.
+    print()
+    print("=" * 70)
+    print("Automated steps done. Manual steps remaining:")
+    print("=" * 70)
+    print("  1. Review scores.json / games.json / geeklist.txt at the project root.")
+    print("  2. Publish the geeklist on BGG using geeklist.txt.")
+    print("  3. Update docs/current_geeklist.json with the new BGG URL/id.")
+    print("  4. Commit & push (GitHub Pages will pick up docs/* automatically).")
+    print()
+    print("Then, once everything is published and verified:")
+    print("  5. Run archive_edition.py to freeze this edition.")
+    print()
+
+
+if __name__ == "__main__":
+    main()
