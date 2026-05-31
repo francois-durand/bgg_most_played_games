@@ -44,9 +44,9 @@ def parse_int_range(s, with_values=False):
     Also handles the BGG '+' suffix that appears in community polls when
     the poll's last option was 'more than N': '3-5+' is treated as
     '3-6' for filtering purposes (min/max/values), but a `display` key is
-    set to '3–5+' (with en-dash) so the UI can show the original meaning
-    rather than the inflated upper bound. The `display` key is only set
-    when a '+' was present in the source.
+    set to the original string (with dashes normalized to en-dash) so the
+    UI can show the original meaning rather than the inflated upper bound.
+    The `display` key is only set when a '+' was present in the source.
     """
     if s is None:
         return None
@@ -54,14 +54,17 @@ def parse_int_range(s, with_values=False):
     had_plus = "+" in norm
     # Expand "N+" → "N N+1" (handled before number extraction so both ends
     # of a "3-5+" or "5+" are captured).
-    norm = re.sub(r"(\d+)\+", lambda m: "{} {}".format(m.group(1), int(m.group(1)) + 1), norm)
-    nums = [int(n) for n in re.findall(r"\d+", norm)]
+    expanded = re.sub(
+        r"(\d+)\+",
+        lambda m: "{} {}".format(m.group(1), int(m.group(1)) + 1),
+        norm)
+    nums = [int(n) for n in re.findall(r"\d+", expanded)]
     if not nums:
         return None
     result = {"min": min(nums), "max": max(nums)}
     if with_values:
         values = set()
-        for part in re.split(r"[,\s]+", norm):
+        for part in re.split(r"[,\s]+", expanded):
             if "-" in part:
                 bits = part.split("-")
                 try:
@@ -74,16 +77,10 @@ def parse_int_range(s, with_values=False):
                 values.add(int(part))
         result["values"] = sorted(values)
     if had_plus:
-        # Build a display string showing the original "+" semantics. We use
-        # the parsed min/max-1 (= the value before our expansion) and append
-        # "+". Single-number case ("5+") shows "5+"; range case ("3-5+")
-        # shows "3–5+" with an en-dash for typographic consistency.
-        lo = result["min"]
-        hi_original = result["max"] - 1
-        if lo == hi_original:
-            result["display"] = "{}+".format(lo)
-        else:
-            result["display"] = "{}\u2013{}+".format(lo, hi_original)
+        # Use the original input verbatim — it's the most faithful
+        # representation of BGG's intent. We just swap "-" back to en-dash
+        # for typographic consistency with the rest of the UI.
+        result["display"] = s.replace("-", "\u2013").strip()
     return result
 
 
