@@ -1,27 +1,28 @@
 /* Collection page — overrides the main stylesheet's palette.
    Loaded AFTER ../style.css, so values defined here win.
 
-   Identity strategy: a slightly warmer, rosier background distinguishes
-   the collection page from the public ranking. The cards stay white,
-   so they pop against the warmer ground. Terracotta only shows up at
-   moments of interaction (hover, focus).
+   Identity strategy: same cream background as the main site (keeps title
+   and intro perfectly readable), but cards and panels get a slightly
+   thicker terracotta border. This sets the identity on every visible
+   container, so the page reads "personal collection" at every scroll
+   position. Terracotta also lights up the buttons on hover.
 */
 
 :root {
-  --bg:          #f0e8d4;     /* sable — warm beige, "board game box" feel */
-  --rule:        #e1d6bb;     /* matched separator color */
-  --rule-soft:   #e8dec6;
-  --accent-up:   #a0522d;     /* terracotta — only on interaction */
+  --accent-up: #a0522d;  /* terracotta */
 }
 
-/* Soft terracotta wash in the header, replacing the gold radial-gradient. */
-.site-header {
-  background:
-    radial-gradient(ellipse at top, rgba(160, 82, 45, 0.07), transparent 70%),
-    var(--bg);
+/* Cards: thicker terracotta border. */
+.card {
+  border: 2px solid var(--accent-up);
 }
 
-/* Hover on Show more / Expand all in terracotta. */
+/* Filters panel: same treatment for visual consistency. */
+.filters-panel {
+  border: 2px solid var(--accent-up);
+}
+
+/* Hover on Show more / Expand all buttons in terracotta. */
 .card-toggle:hover,
 .list-control-button:hover {
   color: var(--accent-up);
