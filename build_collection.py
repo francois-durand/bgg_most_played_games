@@ -28,7 +28,7 @@ import scrape_metadata
 import build_games  # reuse parsers
 
 
-GAME_FAMILY_PREFIX = "Game: "
+GAME_FAMILY_PREFIXES = ("Game: ", "Series: ")
 
 
 def build_collection():
@@ -60,11 +60,23 @@ def build_collection():
             it["raw"] = json.load(f)
     items = [it for it in items if it["raw"] is not None]
 
-    # Cluster map: family_id -> [items sharing this 'Game: X' family].
+    # Cluster map: family_id -> [items sharing this 'Game: X' / 'Series: X'
+    # family]. Used as the primary rattachement signal.
     cluster = {}
     for it in items:
         for fam_id in _game_family_ids(it["raw"]):
             cluster.setdefault(fam_id, []).append(it)
+
+    # Title index for standalones: normalized title -> standalone item.
+    # Used by the title-prefix heuristic ("X: Y" expansion → "X" standalone)
+    # when families alone don't catch the relationship.
+    standalones_by_title = {}
+    for it in items:
+        if it["itemtype"] != "standalone":
+            continue
+        eng_title = (it["raw"].get("credits_table") or {}).get("primary_name") or ""
+        if eng_title:
+            standalones_by_title[_normalize(eng_title)] = it
 
     items_by_id = {it["bgg_id"]: it for it in items}
     standalones_out = []
@@ -72,7 +84,7 @@ def build_collection():
         if it["itemtype"] != "standalone":
             continue
         standalones_out.append(_build_standalone_entry(
-            it, items_by_id, cluster, french_titles))
+            it, items_by_id, cluster, standalones_by_title, french_titles))
 
     # Default sort: my_rating desc, then title asc. The UI re-sorts client-side
     # anyway, but a stable default makes diffs across builds nicer.
@@ -185,19 +197,44 @@ def _resolve_title(bgg_id, raw, french_titles):
     return (raw.get("credits_table") or {}).get("primary_name") or "?"
 
 
+def _title_matches_prefix(exp_title, std_title, standalones_by_title):
+    """Return True iff `exp_title` looks like an expansion of the standalone
+    whose title is `std_title`, using the BGG naming convention "X: Y".
+
+    For a multi-colon title like "Star Wars: Imperial Assault: Twin Shadows",
+    the most specific matching prefix (= the longest prefix that matches
+    SOME standalone in the collection) wins. This avoids attaching the
+    expansion to both "Star Wars" and "Star Wars: Imperial Assault" when
+    both are owned.
+    """
+    if not exp_title or not std_title or ":" not in exp_title:
+        return False
+    norm_std = _normalize(std_title)
+    parts = exp_title.split(":")
+
+    # Find the longest prefix that matches *any* standalone we own.
+    best_prefix = None
+    for end in range(len(parts) - 1, 0, -1):
+        candidate = _normalize(":".join(parts[:end]).strip())
+        if candidate and candidate in standalones_by_title:
+            best_prefix = candidate
+            break
+    # Attach only if this game's title is the best (most specific) match.
+    return best_prefix is not None and best_prefix == norm_std
+
 def _game_family_ids(raw):
     out = set()
     families = (raw.get("credits_table") or {}).get("family") or []
     for f in families:
         name = (f.get("name") or "")
-        if name.startswith(GAME_FAMILY_PREFIX):
+        if any(name.startswith(p) for p in GAME_FAMILY_PREFIXES):
             fid = f.get("id")
             if fid is not None:
                 out.add(fid)
     return out
 
 
-def _build_standalone_entry(it, items_by_id, cluster, french_titles):
+def _build_standalone_entry(it, items_by_id, cluster, standalones_by_title, french_titles):
     raw = it["raw"]
     bgg_id = it["bgg_id"]
     title = _resolve_title(bgg_id, raw, french_titles)
@@ -218,10 +255,18 @@ def _build_standalone_entry(it, items_by_id, cluster, french_titles):
     categories      = build_games.collect_links(ct, "boardgamecategory")
     families        = build_games.collect_links(ct, "boardgamefamily")
 
-    # Owned expansions sharing a 'Game: X' family with this game.
-    my_fam_ids = _game_family_ids(raw)
+    # --- Expansion attachment -----------------------------------------------
+    # Owned expansions are attached to this standalone via three additive
+    # signals, in this order (each adds to the set, no precedence game):
+    #   1. shared family in 'Game: X' or 'Series: X'
+    #   2. expansion's English title starts with '<this game's title>: '
+    # The title heuristic catches cases where BGG's family taxonomy is sparse
+    # (Diamant, Photosynthesis, etc.) but the naming convention is regular.
     seen_exp_ids = set()
     expansion_items = []
+
+    # (1) family-based attachment
+    my_fam_ids = _game_family_ids(raw)
     for fam_id in my_fam_ids:
         for member in cluster.get(fam_id, []):
             if member["itemtype"] != "expansion":
@@ -230,6 +275,20 @@ def _build_standalone_entry(it, items_by_id, cluster, french_titles):
                 continue
             seen_exp_ids.add(member["bgg_id"])
             expansion_items.append(member)
+
+    # (2) title-based heuristic — only relevant when this standalone's title
+    # could be the prefix of some other item's title.
+    norm_eng = _normalize(eng_title)
+    for member in items_by_id.values():
+        if member["itemtype"] != "expansion":
+            continue
+        if member["bgg_id"] in seen_exp_ids:
+            continue
+        member_title = (member["raw"].get("credits_table") or {}).get("primary_name") or ""
+        if _title_matches_prefix(member_title, eng_title, standalones_by_title):
+            seen_exp_ids.add(member["bgg_id"])
+            expansion_items.append(member)
+
     expansion_items.sort(key=lambda m: _resolve_title(
         m["bgg_id"], m["raw"], french_titles).lower())
     expansions_out = [

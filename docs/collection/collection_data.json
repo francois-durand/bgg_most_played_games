@@ -1472,8 +1472,14 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "fresco fresco wolfgang panning marco ruskowski marcel sußelbeck oliver schlemmer queen games arclight games competo / marektoy devir evrikus piatnik distribution action queue grid movement market set collection simultaneous action selection turn order: stat-based worker placement renaissance game: fresco series: yellow wave box (queen) theme: art theme: painting / paintings",
+      "expansions": [
+        {
+          "bgg_id": 195267,
+          "title": "Kingdom Builder: Harvest",
+          "bgg_url": "https://boardgamegeek.com/boardgame/195267"
+        }
+      ],
+      "search_blob": "fresco fresco wolfgang panning marco ruskowski marcel sußelbeck oliver schlemmer queen games arclight games competo / marektoy devir evrikus piatnik distribution action queue grid movement market set collection simultaneous action selection turn order: stat-based worker placement renaissance game: fresco series: yellow wave box (queen) theme: art theme: painting / paintings kingdom builder: harvest",
       "search_index": {
         "publishers": [
           {
@@ -2973,8 +2979,64 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "the 7th continent the 7th continent ludovic roudy bruno sautter ludovic roudy serious poulp area movement cooperative game hand management map addition modular board narrative choice / paragraph scenario / mission / campaign game solo / solitaire game storytelling variable player powers adventure card game exploration science fiction components: map (continental / national scale) components: miniatures components: official music soundtrack crowdfunding: kickstarter mechanism: campaign games misc: limited replayability misc: made by panda misc: watch it played how to videos players: games with solitaire rules series: the 7th continent",
+      "expansions": [
+        {
+          "bgg_id": 236206,
+          "title": "The 7th Continent: Dans les airs, sous la terre",
+          "bgg_url": "https://boardgamegeek.com/boardgame/236206"
+        },
+        {
+          "bgg_id": 186987,
+          "title": "The 7th Continent: Face aux Éléments",
+          "bgg_url": "https://boardgamegeek.com/boardgame/186987"
+        },
+        {
+          "bgg_id": 312514,
+          "title": "The 7th Continent: La Prison des Vents",
+          "bgg_url": "https://boardgamegeek.com/boardgame/312514"
+        },
+        {
+          "bgg_id": 311177,
+          "title": "The 7th Continent: Le Chant du Cristal",
+          "bgg_url": "https://boardgamegeek.com/boardgame/311177"
+        },
+        {
+          "bgg_id": 185743,
+          "title": "The 7th Continent: Le Chemin de Pénitence",
+          "bgg_url": "https://boardgamegeek.com/boardgame/185743"
+        },
+        {
+          "bgg_id": 183660,
+          "title": "The 7th Continent: Le Labyrinthe de Glace",
+          "bgg_url": "https://boardgamegeek.com/boardgame/183660"
+        },
+        {
+          "bgg_id": 184904,
+          "title": "The 7th Continent: Le Marais de L'Épouvante",
+          "bgg_url": "https://boardgamegeek.com/boardgame/184904"
+        },
+        {
+          "bgg_id": 184186,
+          "title": "The 7th Continent: Le Sanctuaire Interdit",
+          "bgg_url": "https://boardgamegeek.com/boardgame/184186"
+        },
+        {
+          "bgg_id": 237497,
+          "title": "The 7th Continent: Les Racines Volantes",
+          "bgg_url": "https://boardgamegeek.com/boardgame/237497"
+        },
+        {
+          "bgg_id": 312513,
+          "title": "The 7th Continent: Les Veines de la Terre",
+          "bgg_url": "https://boardgamegeek.com/boardgame/312513"
+        },
+        {
+          "bgg_id": 236854,
+          "title": "The 7th Continent: Lâcher la Bête!",
+          "bgg_url": "https://boardgamegeek.com/boardgame/236854"
+        }
+      ],
+      "search_blob": "the 7th continent the 7th continent ludovic roudy bruno sautter ludovic roudy serious poulp area movement cooperative game hand management map addition modular board narrative choice / paragraph scenario / mission / campaign game solo / solitaire game storytelling variable player powers adventure card game exploration science fiction components: map (continental / national scale) components: miniatures components: official music soundtrack crowdfunding: kickstarter mechanism: campaign games misc: limited replayability misc: made by panda misc: watch it played how to videos players: games with solitaire rules series: the 7th continent the 7th continent: dans les airs, sous la terre the 7th continent: face aux elements the 7th continent: la prison des vents the 7th continent: le chant du cristal the 7th continent: le chemin de penitence the 7th continent: le labyrinthe de glace the 7th continent: le marais de l'epouvante the 7th continent: le sanctuaire interdit the 7th continent: les racines volantes the 7th continent: les veines de la terre the 7th continent: lacher la bete!",
       "search_index": {
         "publishers": [
           {
@@ -8842,8 +8904,14 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "photosynthesis photosynthesis hjalmar hach sabrina miramon blue orange (eu) blue orange games 2 pionki asmodee broadway toys ltd dino toys s. r. o. fantasmagoria feelindigo foxmind israel gemklub happy baobab heidelberger spieleverlag lautapelit.fi mandala jogos portal games siam board games twoplus games action points area majority / influence bias end game bonuses hexagon grid income turn order: progressive abstract strategy economic category: combinatorial components: 3-dimensional (3d) components: dynamic event boards digital implementations: board game arena misc: mensa select misc: watch it played how to videos theme: biology theme: nature theme: science theme: trees and forests",
+      "expansions": [
+        {
+          "bgg_id": 314036,
+          "title": "Photosynthesis: Under the Moonlight",
+          "bgg_url": "https://boardgamegeek.com/boardgame/314036"
+        }
+      ],
+      "search_blob": "photosynthesis photosynthesis hjalmar hach sabrina miramon blue orange (eu) blue orange games 2 pionki asmodee broadway toys ltd dino toys s. r. o. fantasmagoria feelindigo foxmind israel gemklub happy baobab heidelberger spieleverlag lautapelit.fi mandala jogos portal games siam board games twoplus games action points area majority / influence bias end game bonuses hexagon grid income turn order: progressive abstract strategy economic category: combinatorial components: 3-dimensional (3d) components: dynamic event boards digital implementations: board game arena misc: mensa select misc: watch it played how to videos theme: biology theme: nature theme: science theme: trees and forests photosynthesis: under the moonlight",
       "search_index": {
         "publishers": [
           {
@@ -14459,8 +14527,14 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "the city the city thomas lehmann klemens franz joao tereso amigo 999 games aurum, inc. eagle-gryphon games g3 gigamic hand management income multi-use cards race set collection simultaneous action selection tags card game city building components: multi-use cards crowdfunding: kickstarter series: bookshelf (gryphon games) theme: city",
+      "expansions": [
+        {
+          "bgg_id": 360880,
+          "title": "Diamant: Mise en Garde et Trahison",
+          "bgg_url": "https://boardgamegeek.com/boardgame/360880"
+        }
+      ],
+      "search_blob": "the city the city thomas lehmann klemens franz joao tereso amigo 999 games aurum, inc. eagle-gryphon games g3 gigamic hand management income multi-use cards race set collection simultaneous action selection tags card game city building components: multi-use cards crowdfunding: kickstarter series: bookshelf (gryphon games) theme: city diamant: mise en garde et trahison",
       "search_index": {
         "publishers": [
           {
@@ -15908,8 +15982,19 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "diamant diamant bruno faidutti alan r. moon jorg asselborn matthias catrein mila harbar robert islas prapach lapamnuaysap paul mafayon claus stephan christof tisch eagle-gryphon games iello schmidt spiele sunriver games 2 pionki albi arclight games aurum, inc. brain games compaya.hu: gamer cafe kft. coolplay devir funagain games7days grow jogos e brinquedos hobby world kaissa chess & games lautapelit.fi lavka games mancalamaro pegasus spiele portal games siam board games swan panasia co., ltd. yes papa games move through deck push your luck simultaneous action selection bluffing card game exploration components: gems/crystals components: player screens country: peru digital implementations: board game arena digital implementations: brettspielwelt digital implementations: tabletop simulator mod (tts) occupation: adventurer / explorer series: bookshelf (gryphon games) theme: archaeology / paleontology",
+      "expansions": [
+        {
+          "bgg_id": 360880,
+          "title": "Diamant: Mise en Garde et Trahison",
+          "bgg_url": "https://boardgamegeek.com/boardgame/360880"
+        },
+        {
+          "bgg_id": 333432,
+          "title": "Diamant: Treason! Micro-Expansion",
+          "bgg_url": "https://boardgamegeek.com/boardgame/333432"
+        }
+      ],
+      "search_blob": "diamant diamant bruno faidutti alan r. moon jorg asselborn matthias catrein mila harbar robert islas prapach lapamnuaysap paul mafayon claus stephan christof tisch eagle-gryphon games iello schmidt spiele sunriver games 2 pionki albi arclight games aurum, inc. brain games compaya.hu: gamer cafe kft. coolplay devir funagain games7days grow jogos e brinquedos hobby world kaissa chess & games lautapelit.fi lavka games mancalamaro pegasus spiele portal games siam board games swan panasia co., ltd. yes papa games move through deck push your luck simultaneous action selection bluffing card game exploration components: gems/crystals components: player screens country: peru digital implementations: board game arena digital implementations: brettspielwelt digital implementations: tabletop simulator mod (tts) occupation: adventurer / explorer series: bookshelf (gryphon games) theme: archaeology / paleontology diamant: mise en garde et trahison diamant: treason! micro-expansion",
       "search_index": {
         "publishers": [
           {
