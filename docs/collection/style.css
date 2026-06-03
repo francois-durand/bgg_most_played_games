@@ -1,17 +1,49 @@
 /* Collection page — overrides the main stylesheet's palette.
    Loaded AFTER ../style.css, so values defined here win.
-   The only difference for now is the accent color: terracotta instead of
-   the main page's green. This signals "you're on the personal collection
-   page, not the public ranking" without redoing the whole visual identity.
+   The accent color is terracotta instead of the main page's green; we also
+   reuse it for several identity touches so the page feels distinctly
+   "personal" (vs. the public ranking's editorial neutrality).
 */
 
 :root {
-  --accent-up: #a0522d;  /* terracotta */
+  --accent-up: #a0522d;       /* terracotta — main accent */
+  --accent-warm: #8a3f1f;     /* darker terracotta for hover/focus */
 }
 
-/* "My rating" stands out a bit, in the same warm-gold tone we use for
-   match-row, since it's the personal-flavor signal of the collection. */
+/* (1) Title in terracotta — strongest identity signal, top of the page. */
+.site-title {
+  color: var(--accent-up);
+}
+
+/* (1) Subtle wash in the header, replacing the gold radial-gradient with
+   a terracotta one. Same idea, same opacity, different hue. */
+.site-header {
+  background:
+    radial-gradient(ellipse at top, rgba(160, 82, 45, 0.06), transparent 70%),
+    var(--bg);
+}
+
+/* (2) "My rating" row in terracotta — the personal-flavor data point
+   gets the personal-identity color. */
 .card-extras dt.rating-row,
 .card-extras dd.rating-row {
-  color: var(--accent-new);
+  color: var(--accent-up);
+  font-weight: 500;
+}
+
+/* (5) Input/select focus state in terracotta — the moment the user
+   interacts, the page color confirms where they are. */
+.filter-input:focus,
+.filter-select:focus,
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-up);
+  box-shadow: 0 0 0 2px rgba(160, 82, 45, 0.15);
+}
+
+/* (5) Hover on the Show more / Expand all buttons in terracotta. */
+.card-toggle:hover,
+.list-control-button:hover {
+  color: var(--accent-up);
+  border-color: var(--accent-up);
 }
