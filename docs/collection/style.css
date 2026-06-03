@@ -14,12 +14,12 @@
 
 /* Cards: thicker terracotta border. */
 .card {
-  border: 2px solid var(--accent-up);
+  border: 1.5px solid var(--accent-up);
 }
 
 /* Filters panel: same treatment for visual consistency. */
 .filters-panel {
-  border: 2px solid var(--accent-up);
+  border: 1.5px solid var(--accent-up);
 }
 
 /* Hover on Show more / Expand all buttons in terracotta. */
