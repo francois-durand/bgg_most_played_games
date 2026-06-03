@@ -74,11 +74,6 @@
       ],
       "expansions": [
         {
-          "bgg_id": 202976,
-          "title": "7 Wonders Duel: Panthéon",
-          "bgg_url": "https://boardgamegeek.com/boardgame/202976"
-        },
-        {
           "bgg_id": 247315,
           "title": "7 Wonders: Armada",
           "bgg_url": "https://boardgamegeek.com/boardgame/247315"
@@ -104,7 +99,7 @@
           "bgg_url": "https://boardgamegeek.com/boardgame/92539"
         }
       ],
-      "search_blob": "7 wonders 7 wonders antoine bauza dimitri chappuis miguel coimbra etienne hebinger cyril nouvel repos production adc blackfire entertainment asterion press galapagos jogos gemklub hobby japan kaissa chess & games korea boardgames lautapelit.fi lifestyle boardgames ltd neotroy games rebel sp. z o.o. siam board games closed drafting end game bonuses hand management melding and splaying multi-use cards neighbor scope once-per-game abilities score-and-reset game set collection simultaneous action selection tags tech trees / tech tracks variable player powers variable set-up ancient card game city building civilization economic ancient: babylon ancient: egypt ancient: greece category: dized tutorial constructions: lighthouses constructions: pyramids constructions: the hanging gardens of babylon digital implementations: board game arena digital implementations: brettspielwelt digital implementations: google play game: 7 wonders mechanism: artificial player mechanism: tableau building misc: bgg hall of fame misc: dice tower hall of fame misc: watch it played how to videos players: games with expansions that change player count 7 wonders duel: pantheon 7 wonders: armada 7 wonders: babel 7 wonders: cities 7 wonders: edifice 7 wonders: leaders",
+      "search_blob": "7 wonders 7 wonders antoine bauza dimitri chappuis miguel coimbra etienne hebinger cyril nouvel repos production adc blackfire entertainment asterion press galapagos jogos gemklub hobby japan kaissa chess & games korea boardgames lautapelit.fi lifestyle boardgames ltd neotroy games rebel sp. z o.o. siam board games closed drafting end game bonuses hand management melding and splaying multi-use cards neighbor scope once-per-game abilities score-and-reset game set collection simultaneous action selection tags tech trees / tech tracks variable player powers variable set-up ancient card game city building civilization economic ancient: babylon ancient: egypt ancient: greece category: dized tutorial constructions: lighthouses constructions: pyramids constructions: the hanging gardens of babylon digital implementations: board game arena digital implementations: brettspielwelt digital implementations: google play game: 7 wonders mechanism: artificial player mechanism: tableau building misc: bgg hall of fame misc: dice tower hall of fame misc: watch it played how to videos players: games with expansions that change player count 7 wonders: armada 7 wonders: babel 7 wonders: cities 7 wonders: edifice 7 wonders: leaders",
       "search_index": {
         "publishers": [
           {
@@ -1472,14 +1467,8 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [
-        {
-          "bgg_id": 195267,
-          "title": "Kingdom Builder: Harvest",
-          "bgg_url": "https://boardgamegeek.com/boardgame/195267"
-        }
-      ],
-      "search_blob": "fresco fresco wolfgang panning marco ruskowski marcel sußelbeck oliver schlemmer queen games arclight games competo / marektoy devir evrikus piatnik distribution action queue grid movement market set collection simultaneous action selection turn order: stat-based worker placement renaissance game: fresco series: yellow wave box (queen) theme: art theme: painting / paintings kingdom builder: harvest",
+      "expansions": [],
+      "search_blob": "fresco fresco wolfgang panning marco ruskowski marcel sußelbeck oliver schlemmer queen games arclight games competo / marektoy devir evrikus piatnik distribution action queue grid movement market set collection simultaneous action selection turn order: stat-based worker placement renaissance game: fresco series: yellow wave box (queen) theme: art theme: painting / paintings",
       "search_index": {
         "publishers": [
           {
@@ -3235,34 +3224,9 @@
           "bgg_id": 202976,
           "title": "7 Wonders Duel: Panthéon",
           "bgg_url": "https://boardgamegeek.com/boardgame/202976"
-        },
-        {
-          "bgg_id": 247315,
-          "title": "7 Wonders: Armada",
-          "bgg_url": "https://boardgamegeek.com/boardgame/247315"
-        },
-        {
-          "bgg_id": 154638,
-          "title": "7 Wonders: Babel",
-          "bgg_url": "https://boardgamegeek.com/boardgame/154638"
-        },
-        {
-          "bgg_id": 111661,
-          "title": "7 Wonders: Cities",
-          "bgg_url": "https://boardgamegeek.com/boardgame/111661"
-        },
-        {
-          "bgg_id": 378839,
-          "title": "7 Wonders: Edifice",
-          "bgg_url": "https://boardgamegeek.com/boardgame/378839"
-        },
-        {
-          "bgg_id": 92539,
-          "title": "7 Wonders: Leaders",
-          "bgg_url": "https://boardgamegeek.com/boardgame/92539"
         }
       ],
-      "search_blob": "7 wonders duel 7 wonders duel antoine bauza bruno cathala miguel coimbra repos production adc blackfire entertainment asmodee asterion press boardgame space coolplay galapagos jogos gemklub hobby japan kadabra kaissa chess & games korea boardgames lautapelit.fi lifestyle boardgames ltd ludicus games ponva d.o.o. pridemage games rebel sp. z o.o. siam board games sombreros production ігромаг end game bonuses income melding and splaying modular board multi-use cards once-per-game abilities open drafting score-and-reset game set collection sudden death ending tags tech trees / tech tracks track movement tug of war variable set-up ancient card game city building civilization economic ancient: babylon ancient: egypt ancient: greece ancient: rome constructions: lighthouses constructions: pyramids digital implementations: board game arena digital implementations: google play game: 7 wonders game: 7 wonders duel mechanism: tableau building misc: watch it played how to videos players: games with expansions that add solo play players: two-player only games versions & editions: two-player versions of more-player games 7 wonders duel: pantheon 7 wonders: armada 7 wonders: babel 7 wonders: cities 7 wonders: edifice 7 wonders: leaders",
+      "search_blob": "7 wonders duel 7 wonders duel antoine bauza bruno cathala miguel coimbra repos production adc blackfire entertainment asmodee asterion press boardgame space coolplay galapagos jogos gemklub hobby japan kadabra kaissa chess & games korea boardgames lautapelit.fi lifestyle boardgames ltd ludicus games ponva d.o.o. pridemage games rebel sp. z o.o. siam board games sombreros production ігромаг end game bonuses income melding and splaying modular board multi-use cards once-per-game abilities open drafting score-and-reset game set collection sudden death ending tags tech trees / tech tracks track movement tug of war variable set-up ancient card game city building civilization economic ancient: babylon ancient: egypt ancient: greece ancient: rome constructions: lighthouses constructions: pyramids digital implementations: board game arena digital implementations: google play game: 7 wonders game: 7 wonders duel mechanism: tableau building misc: watch it played how to videos players: games with expansions that add solo play players: two-player only games versions & editions: two-player versions of more-player games 7 wonders duel: pantheon",
       "search_index": {
         "publishers": [
           {
@@ -9787,29 +9751,8 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [
-        {
-          "bgg_id": 137396,
-          "title": "Kingdom Builder: Crossroads",
-          "bgg_url": "https://boardgamegeek.com/boardgame/137396"
-        },
-        {
-          "bgg_id": 195267,
-          "title": "Kingdom Builder: Harvest",
-          "bgg_url": "https://boardgamegeek.com/boardgame/195267"
-        },
-        {
-          "bgg_id": 179622,
-          "title": "Kingdom Builder: Marshlands",
-          "bgg_url": "https://boardgamegeek.com/boardgame/179622"
-        },
-        {
-          "bgg_id": 117793,
-          "title": "Kingdom Builder: Nomads",
-          "bgg_url": "https://boardgamegeek.com/boardgame/117793"
-        }
-      ],
-      "search_blob": "winter kingdom winter kingdom donald x. vaccarino markus erdt dennis lohausen queen games devir area majority / influence chaining enclosure grid movement hexagon grid modular board network and route building pattern building tile placement variable set-up medieval territory building admin: better description needed! crowdfunding: kickstarter digital implementations: tabletop simulator mod (tts) digital implementations: tabletopia game: kingdom builder kingdom builder: crossroads kingdom builder: harvest kingdom builder: marshlands kingdom builder: nomads",
+      "expansions": [],
+      "search_blob": "winter kingdom winter kingdom donald x. vaccarino markus erdt dennis lohausen queen games devir area majority / influence chaining enclosure grid movement hexagon grid modular board network and route building pattern building tile placement variable set-up medieval territory building admin: better description needed! crowdfunding: kickstarter digital implementations: tabletop simulator mod (tts) digital implementations: tabletopia game: kingdom builder",
       "search_index": {
         "publishers": [
           {
@@ -12176,7 +12119,7 @@
     },
     {
       "bgg_id": 245654,
-      "title": "Railroad ink: Édition grand bleu",
+      "title": "Railroad ink: Édition Grand Bleu",
       "english_title": "Railroad Ink: Deep Blue Edition",
       "year": 2018,
       "image_url": "https://cf.geekdo-images.com/x3hjEgkxZE9M96o6wgj6Tw__itemrep/img/MpwGSYawrf0hcH-7Gc0z-lhUCvo=/fit-in/246x300/filters:strip_icc()/pic4097632.png",
@@ -14527,14 +14470,8 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [
-        {
-          "bgg_id": 360880,
-          "title": "Diamant: Mise en Garde et Trahison",
-          "bgg_url": "https://boardgamegeek.com/boardgame/360880"
-        }
-      ],
-      "search_blob": "the city the city thomas lehmann klemens franz joao tereso amigo 999 games aurum, inc. eagle-gryphon games g3 gigamic hand management income multi-use cards race set collection simultaneous action selection tags card game city building components: multi-use cards crowdfunding: kickstarter series: bookshelf (gryphon games) theme: city diamant: mise en garde et trahison",
+      "expansions": [],
+      "search_blob": "the city the city thomas lehmann klemens franz joao tereso amigo 999 games aurum, inc. eagle-gryphon games g3 gigamic hand management income multi-use cards race set collection simultaneous action selection tags card game city building components: multi-use cards crowdfunding: kickstarter series: bookshelf (gryphon games) theme: city",
       "search_index": {
         "publishers": [
           {
@@ -18755,14 +18692,8 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [
-        {
-          "bgg_id": 240909,
-          "title": "Kingdomino: Age of Giants",
-          "bgg_url": "https://boardgamegeek.com/boardgame/240909"
-        }
-      ],
-      "search_blob": "dragomino dragomino bruno cathala marie fort wilfried fort bruno cathala maeva da silva christine deschamps marie fort wilfried fort blue orange (eu) blue orange games cmon global limited coiledspring games feelindigo foxgames gemklub kaissa chess & games lautapelit.fi lifestyle boardgames ltd mebo games mindok mipl papergames (iii) pegasus spiele rebel sp. z o.o. swan panasia co., ltd. tower tactic games open drafting pattern building tile placement turn order: stat-based children's game fantasy territory building category: dized tutorial components: wooden pieces & boards creatures: dragons game: kingdomino misc: longpack games versions & editions: junior versions of grown-up games kingdomino: age of giants",
+      "expansions": [],
+      "search_blob": "dragomino dragomino bruno cathala marie fort wilfried fort bruno cathala maeva da silva christine deschamps marie fort wilfried fort blue orange (eu) blue orange games cmon global limited coiledspring games feelindigo foxgames gemklub kaissa chess & games lautapelit.fi lifestyle boardgames ltd mebo games mindok mipl papergames (iii) pegasus spiele rebel sp. z o.o. swan panasia co., ltd. tower tactic games open drafting pattern building tile placement turn order: stat-based children's game fantasy territory building category: dized tutorial components: wooden pieces & boards creatures: dragons game: kingdomino misc: longpack games versions & editions: junior versions of grown-up games",
       "search_index": {
         "publishers": [
           {

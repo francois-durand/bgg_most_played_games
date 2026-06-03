@@ -466,11 +466,10 @@ function formatMyRatingRow(g) {
 
 function formatExpansionsRow(g) {
   if (!g.expansions || !g.expansions.length) return null;
-  /* Each expansion: title linked to its BGG page. No magnifier — these are
-     classifications, not entities to filter by. */
+  /* One per line — the list reads more clearly than a continuous chain. */
   return g.expansions
     .map(e => `<a href="${escapeAttr(e.bgg_url)}" target="_blank" rel="noopener">${escapeHtml(e.title)}</a>`)
-    .join(`<span class="meta-sep">·</span>`);
+    .join("<br>");
 }
 
 /* --- Match disclosure --------------------------------------------------- */

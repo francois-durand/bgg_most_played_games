@@ -278,7 +278,8 @@ def scrape_game(driver, bgg_id):
 
     Returns the metadata dict, or None on failure.
     """
-    # Step 1: resolve the canonical slug.
+    # Step 1: resolve the canonical slug. Also harvest "expandsboardgame"
+    # from the JSON preload while we're here — it's only on the main page.
     driver.get("https://boardgamegeek.com/boardgame/{}".format(bgg_id))
     try:
         WebDriverWait(driver, PAGE_LOAD_TIMEOUT).until(
@@ -290,6 +291,8 @@ def scrape_game(driver, bgg_id):
         return None
 
     slug = _slug_from_url(driver.current_url, bgg_id)
+    main_page_source = driver.page_source
+    expands_boardgames = _extract_expands_boardgames(main_page_source)
 
     # Step 2: load the real credits page (with slug).
     if slug:
@@ -325,6 +328,7 @@ def scrape_game(driver, bgg_id):
     data = {
         "bgg_id": bgg_id,
         "image_url": extract_image(driver),
+        "expands_boardgames": expands_boardgames,
         "players_official": None,
         "players_secondary_text": None,
         "players_secondary_spans": [],
@@ -352,6 +356,55 @@ def scrape_game(driver, bgg_id):
         print("\n  [note] no designers found for id {}.".format(bgg_id), end=" ")
 
     return data
+
+
+def _extract_expands_boardgames(page_source):
+    """Extract the list of boardgames that this item is an expansion of.
+
+    BGG embeds the relationship in a JSON literal on the main /boardgame/<id>
+    page: a `GEEK.geekitemPreload = { ... }` assignment that contains, among
+    other things, an `expandsboardgame` array. We don't need a full JSON
+    parser for this; a regex finds the array slice, then we parse just that.
+
+    Returns a list of {name, bgg_id} dicts (possibly empty for standalones).
+    """
+    # Find the JSON array literal after the "expandsboardgame": key. We grab
+    # the bracket-balanced slice without trying to parse the whole preload.
+    m = re.search(r'"expandsboardgame"\s*:\s*(\[)', page_source)
+    if not m:
+        return []
+    start = m.start(1)
+    depth = 0
+    i = start
+    while i < len(page_source):
+        ch = page_source[i]
+        if ch == "[":
+            depth += 1
+        elif ch == "]":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+        i += 1
+    else:
+        return []  # unbalanced; defensive
+    array_text = page_source[start:end]
+    try:
+        items = json.loads(array_text)
+    except json.JSONDecodeError:
+        return []
+    out = []
+    for it in items or []:
+        if not isinstance(it, dict):
+            continue
+        try:
+            out.append({
+                "name": it.get("name") or "",
+                "bgg_id": int(it.get("objectid")),
+            })
+        except (TypeError, ValueError):
+            continue
+    return out
 
 
 def _has_link_type(credits_table, link_type):
