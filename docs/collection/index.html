@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Board Game Collection</title>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='14' font-size='14'%3E🎲%3C/text%3E%3C/svg%3E">
+
+  <link rel="preload" href="collection_data.json" as="fetch" crossorigin>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  </noscript>
+
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">My Board Game Collection</h1>
+      <p class="site-subtitle" id="site-subtitle"></p>
+      <p class="site-intro" id="site-intro">
+        The board games I personally own, with the metadata I use to pick
+        what to bring on holiday: number of players, duration, complexity,
+        and so on. Sorted by my personal rating by default.
+      </p>
+    </div>
+  </header>
+
+  <main class="content">
+    <aside class="filters-panel">
+      <button type="button" id="filters-toggle" class="filters-header" aria-expanded="false">
+        <span class="filters-title">Filters ▾</span>
+      </button>
+
+      <div id="filters-body" class="filters-body" hidden>
+        <div class="filter-row">
+          <label class="filter-label" for="search-input">Search</label>
+          <div class="filter-control">
+            <input type="search" id="search-input" class="filter-input search-input"
+                   placeholder="Title, designer, mechanic, family, …">
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <label class="filter-label">Players</label>
+          <div class="filter-control">
+            <select id="players-source" class="filter-select">
+              <option value="official">official</option>
+              <option value="community">community</option>
+              <option value="best">best</option>
+            </select>
+            <div class="player-checkboxes">
+              <label class="check"><input type="checkbox" name="players" value="1"> 1</label>
+              <label class="check"><input type="checkbox" name="players" value="2"> 2</label>
+              <label class="check"><input type="checkbox" name="players" value="3"> 3</label>
+              <label class="check"><input type="checkbox" name="players" value="4"> 4</label>
+              <label class="check"><input type="checkbox" name="players" value="5"> 5</label>
+              <label class="check"><input type="checkbox" name="players" value="6"> 6</label>
+              <label class="check"><input type="checkbox" name="players" value="7+"> 7+</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <label class="filter-label" for="duration-min">Duration</label>
+          <div class="filter-control">
+            <input type="number" id="duration-min" class="filter-input narrow" placeholder="min" min="0">
+            <span class="filter-sep">–</span>
+            <input type="number" id="duration-max" class="filter-input narrow" placeholder="max" min="0">
+            <span class="filter-unit">min</span>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <label class="filter-label">Age</label>
+          <div class="filter-control">
+            <select id="age-source" class="filter-select">
+              <option value="official">official</option>
+              <option value="community">community</option>
+            </select>
+            <span class="filter-unit">Suitable for</span>
+            <input type="number" id="age-suitable" class="filter-input narrow" min="0">
+            <span class="filter-sep">·</span>
+            <span class="filter-unit">Min age ≥</span>
+            <input type="number" id="age-min" class="filter-input narrow" min="0">
+          </div>
+        </div>
+
+        <div class="filter-footer">
+          <span id="result-count" class="result-count">— games</span>
+          <button type="button" id="reset-filters" class="list-control-button" disabled>
+            Reset filters
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <div class="list-controls">
+      <label for="sort-select">Sort:</label>
+      <select id="sort-select" class="filter-select">
+        <option value="my_rating-desc" selected>My rating (highest first)</option>
+        <option value="my_rating-asc">My rating (lowest first)</option>
+        <option value="title-asc">Title (A→Z)</option>
+        <option value="title-desc">Title (Z→A)</option>
+        <option value="year-desc">Year (newest first)</option>
+        <option value="year-asc">Year (oldest first)</option>
+        <option value="weight-asc">Complexity (lightest)</option>
+        <option value="weight-desc">Complexity (heaviest)</option>
+        <option value="age_official-asc">Age — official (youngest)</option>
+        <option value="age_official-desc">Age — official (oldest)</option>
+        <option value="age_community-asc">Age — community (youngest)</option>
+        <option value="age_community-desc">Age — community (oldest)</option>
+      </select>
+      <button type="button" id="toggle-all" class="list-control-button">
+        Expand all ▾
+      </button>
+    </div>
+
+    <div id="game-list" class="game-list"></div>
+    <p id="status" class="status">Loading collection…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="../index.html">← Back to "Most Played Games"</a> ·
+      Personal collection, built from BGG metadata
+    </p>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>
+    ↑
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

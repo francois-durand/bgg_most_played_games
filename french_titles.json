@@ -1,0 +1,691 @@
+{
+  "_comment": "Maintained manually. Maps BGG IDs (game and expansion) to French titles. Used by the collection page; falls back to the English title from BGG when an entry is null. Run maintain_french_titles.py to scaffold new entries when you add games to your collection.",
+  "50": {
+    "english": "Lost Cities",
+    "french": "Lost Cities"
+  },
+  "171": {
+    "english": "Chess",
+    "french": "Échecs"
+  },
+  "320": {
+    "english": "Scrabble",
+    "french": "Scrabble"
+  },
+  "432": {
+    "english": "Take 5",
+    "french": "6 qui prend!"
+  },
+  "463": {
+    "english": "Magic: The Gathering",
+    "french": "Magic: The Gathering"
+  },
+  "1198": {
+    "english": "SET",
+    "french": "SET"
+  },
+  "1219": {
+    "english": "Labyrinth",
+    "french": "Labyrinthe"
+  },
+  "1961": {
+    "english": "5 Alive",
+    "french": "5 Alive"
+  },
+  "2223": {
+    "english": "UNO",
+    "french": "UNO"
+  },
+  "2318": {
+    "english": "Scrabble Junior",
+    "french": "Scrabble Junior"
+  },
+  "2394": {
+    "english": "Dominoes",
+    "french": "Dominos"
+  },
+  "2453": {
+    "english": "Blokus",
+    "french": "Blokus"
+  },
+  "2629": {
+    "english": "Ramses II",
+    "french": "Ramsès"
+  },
+  "2955": {
+    "english": "Mexica",
+    "french": "Mexica"
+  },
+  "3076": {
+    "english": "Puerto Rico",
+    "french": "Puerto Rico"
+  },
+  "3570": {
+    "english": "Chicken Cha Cha Cha",
+    "french": "Pique Plume"
+  },
+  "3837": {
+    "english": "Rat-a-Tat Cat",
+    "french": "Rat-a-Tat Cat"
+  },
+  "5782": {
+    "english": "Coloretto",
+    "french": "Coloretto"
+  },
+  "6931": {
+    "english": "Katamino",
+    "french": "Katamino"
+  },
+  "8098": {
+    "english": "Jungle Speed",
+    "french": "Jungle Speed"
+  },
+  "8203": {
+    "english": "Hey, That's My Fish!",
+    "french": "Pinguine! Deluxe!"
+  },
+  "8229": {
+    "english": "Pearladöra",
+    "french": "Armadöra"
+  },
+  "11945": {
+    "english": "Linq",
+    "french": "Linq"
+  },
+  "12942": {
+    "english": "No Thanks!",
+    "french": "Non merci"
+  },
+  "14996": {
+    "english": "Ticket to Ride: Europe",
+    "french": "Les Aventuriers du Rail: Europe"
+  },
+  "15512": {
+    "english": "Diamant",
+    "french": "Diamant"
+  },
+  "18745": {
+    "english": "Sun Tzu",
+    "french": "Sun Tzu"
+  },
+  "21882": {
+    "english": "Blue Moon City",
+    "french": "Blue Moon City"
+  },
+  "25669": {
+    "english": "Qwirkle",
+    "french": "Qwirkle"
+  },
+  "27073": {
+    "english": "Pipolo",
+    "french": "Pipolo"
+  },
+  "28023": {
+    "english": "Jamaica",
+    "french": "Jamaica"
+  },
+  "29138": {
+    "english": "Katamino Duo",
+    "french": "Gagne ton papa !"
+  },
+  "29356": {
+    "english": "My First Scrabble",
+    "french": "Mon premier Scrabble"
+  },
+  "31159": {
+    "english": "Piratatak",
+    "french": "Piratatak"
+  },
+  "31260": {
+    "english": "Agricola",
+    "french": "Agricola"
+  },
+  "33088": {
+    "english": "Chabyrinthe",
+    "french": "Chabyrinthe"
+  },
+  "36218": {
+    "english": "Dominion",
+    "french": "Dominion"
+  },
+  "40692": {
+    "english": "Small World",
+    "french": "Small World"
+  },
+  "40958": {
+    "english": "6 nimmt! Junior",
+    "french": "6 qui Prend ! Junior"
+  },
+  "41010": {
+    "english": "My First Carcassonne",
+    "french": "Mon Premier Carcassonne"
+  },
+  "41860": {
+    "english": "Kangaroo",
+    "french": "Kang-a-roo"
+  },
+  "42215": {
+    "english": "Tobago",
+    "french": "Tobago"
+  },
+  "43578": {
+    "english": "Monster Chase",
+    "french": "La Chasse aux Monstres"
+  },
+  "53953": {
+    "english": "Thunderstone",
+    "french": "Thunderstone"
+  },
+  "55660": {
+    "english": "Dixit: Quest",
+    "french": "Dixit: Quest"
+  },
+  "63214": {
+    "english": "Thunderstone: La Colère des Éléments",
+    "french": "Thunderstone: La Colère des Éléments"
+  },
+  "63268": {
+    "english": "Spot it!",
+    "french": "Dobble"
+  },
+  "66188": {
+    "english": "Fresco",
+    "french": "Fresco"
+  },
+  "68448": {
+    "english": "7 Wonders",
+    "french": "7 Wonders"
+  },
+  "70919": {
+    "english": "Takenoko",
+    "french": "Takenoko"
+  },
+  "70940": {
+    "english": "Thunderstone : Légion de Doomgate",
+    "french": "Thunderstone : Légion de Doomgate"
+  },
+  "80933": {
+    "english": "Sandwich",
+    "french": "Sandwich"
+  },
+  "85897": {
+    "english": "Thunderstone : Le pic du dragon",
+    "french": "Thunderstone : Le pic du dragon"
+  },
+  "88126": {
+    "english": "Time's Up! Family",
+    "french": "Time's Up! Family"
+  },
+  "90305": {
+    "english": "Cargo Noir",
+    "french": "Cargo Noir"
+  },
+  "91098": {
+    "english": "Je compose des mots",
+    "french": "Je compose des mots"
+  },
+  "92415": {
+    "english": "Skull",
+    "french": "Skull"
+  },
+  "92539": {
+    "english": "7 Wonders: Leaders",
+    "french": "7 Wonders: Leaders"
+  },
+  "92828": {
+    "english": "Dixit: Odyssey",
+    "french": "Dixit: Odyssey"
+  },
+  "98778": {
+    "english": "Hanabi",
+    "french": "Hanabi"
+  },
+  "100670": {
+    "english": "Défis Nature",
+    "french": "Défis Nature"
+  },
+  "103649": {
+    "english": "The City",
+    "french": "The City"
+  },
+  "107529": {
+    "english": "Kingdom Builder",
+    "french": "Kingdom Builder"
+  },
+  "110327": {
+    "english": "Lords of Waterdeep",
+    "french": "Lords of Waterdeep"
+  },
+  "111661": {
+    "english": "7 Wonders: Cities",
+    "french": "7 Wonders: Cities"
+  },
+  "117793": {
+    "english": "Kingdom Builder: Nomads",
+    "french": "Kingdom Builder: Nomads"
+  },
+  "121041": {
+    "english": "Pluckin' Pairs",
+    "french": "Qui paire gagne"
+  },
+  "121288": {
+    "english": "Dixit: Journey",
+    "french": "Dixit: Journey"
+  },
+  "123260": {
+    "english": "Suburbia",
+    "french": "Suburbia"
+  },
+  "129622": {
+    "english": "Love Letter",
+    "french": "Love Letter"
+  },
+  "131260": {
+    "english": "Qwixx",
+    "french": "Qwixx"
+  },
+  "132532": {
+    "english": "Here, Fishy, Fishy!",
+    "french": "Ma première pêche"
+  },
+  "133473": {
+    "english": "Sushi Go!",
+    "french": "Sushi Go!"
+  },
+  "134342": {
+    "english": "Lords of Waterdeep: Scoundrels of Skullport",
+    "french": "Lords of Waterdeep: Scoundrels of Skullport"
+  },
+  "137290": {
+    "english": "Nosferatu",
+    "french": "Nosferatu"
+  },
+  "137396": {
+    "english": "Kingdom Builder: Crossroads",
+    "french": "Kingdom Builder: Crossroads"
+  },
+  "139030": {
+    "english": "Mascarade",
+    "french": "Mascarade"
+  },
+  "140933": {
+    "english": "Blueprints",
+    "french": "Blueprints"
+  },
+  "141007": {
+    "english": "Carcassonne Big Box 3",
+    "french": "Carcassonne Big Box 3"
+  },
+  "145325": {
+    "english": "Dixit: Origins",
+    "french": "Dixit: Origins"
+  },
+  "147020": {
+    "english": "Star Realms",
+    "french": "Star Realms"
+  },
+  "147151": {
+    "english": "Concept",
+    "french": "Concept"
+  },
+  "147949": {
+    "english": "One Night Ultimate Werewolf",
+    "french": "Loup Garou pour Une Nuit"
+  },
+  "154638": {
+    "english": "7 Wonders: Babel",
+    "french": "7 Wonders: Babel"
+  },
+  "156189": {
+    "english": "Dixit: Daydreams",
+    "french": "Dixit: Daydreams"
+  },
+  "156566": {
+    "english": "Lords of Xidit",
+    "french": "Lords of Xidit"
+  },
+  "158899": {
+    "english": "Colt Express",
+    "french": "Colt Express"
+  },
+  "161417": {
+    "english": "Red7",
+    "french": "Red7"
+  },
+  "166702": {
+    "english": "Star Realms: Crisis – Bases & Battleships",
+    "french": "Star Realms: Crisis – Bases & Battleships"
+  },
+  "166704": {
+    "english": "Star Realms: Crisis – Fleets & Fortresses",
+    "french": "Star Realms: Crisis – Fleets & Fortresses"
+  },
+  "167791": {
+    "english": "Terraforming Mars",
+    "french": "Terraforming Mars"
+  },
+  "170969": {
+    "english": "Gigamons",
+    "french": "La Chasse aux Gigamons"
+  },
+  "172225": {
+    "english": "Exploding Kittens",
+    "french": "Exploding Kittens"
+  },
+  "172242": {
+    "english": "Exploding Kittens: NSFW Edition",
+    "french": "Exploding Kittens: NSFW Edition"
+  },
+  "173346": {
+    "english": "7 Wonders Duel",
+    "french": "7 Wonders Duel"
+  },
+  "174090": {
+    "english": "Dixit: Memories",
+    "french": "Dixit: Memories"
+  },
+  "174219": {
+    "english": "Time's Up! Kids",
+    "french": "Time's Up! Kids"
+  },
+  "178900": {
+    "english": "Codenames",
+    "french": "Codenames"
+  },
+  "179622": {
+    "english": "Kingdom Builder: Marshlands",
+    "french": "Kingdom Builder: Marshlands"
+  },
+  "180263": {
+    "english": "The 7th Continent",
+    "french": "The 7th Continent"
+  },
+  "182631": {
+    "english": "Star Realms: Colony Wars",
+    "french": "Star Realms: Colony Wars"
+  },
+  "183660": {
+    "english": "The 7th Continent: The Icy Maze",
+    "french": "The 7th Continent: Le Labyrinthe de Glace"
+  },
+  "184186": {
+    "english": "The 7th Continent: The Forbidden Sanctuary",
+    "french": "The 7th Continent: Le Sanctuaire Interdit"
+  },
+  "184904": {
+    "english": "The 7th Continent: Swamp of Madness",
+    "french": "The 7th Continent: Le Marais de L'Épouvante"
+  },
+  "185743": {
+    "english": "The 7th Continent: Path of Repentance",
+    "french": "The 7th Continent: Le Chemin de Pénitence"
+  },
+  "186987": {
+    "english": "The 7th Continent: Facing the Elements",
+    "french": "The 7th Continent: Face aux Éléments"
+  },
+  "192291": {
+    "english": "Sushi Go Party!",
+    "french": "Sushi Go Party!"
+  },
+  "192598": {
+    "english": "Tous au poulailler",
+    "french": "Tous au poulailler"
+  },
+  "195267": {
+    "english": "Kingdom Builder: Harvest",
+    "french": "Kingdom Builder: Harvest"
+  },
+  "200871": {
+    "english": "Hanna Honeybee",
+    "french": "Abella l'abeille"
+  },
+  "202976": {
+    "english": "7 Wonders Duel: Pantheon",
+    "french": "7 Wonders Duel: Panthéon"
+  },
+  "204135": {
+    "english": "Skyjo",
+    "french": "Skyjo"
+  },
+  "204583": {
+    "english": "Kingdomino",
+    "french": "Kingdomino"
+  },
+  "205761": {
+    "english": "Dixit: Revelations",
+    "french": "Dixit: Revelations"
+  },
+  "208501": {
+    "english": "Star Realms: United – Command",
+    "french": "Star Realms: United – Command"
+  },
+  "208503": {
+    "english": "Star Realms: United – Assault",
+    "french": "Star Realms: United – Assault"
+  },
+  "218333": {
+    "english": "Rhino Hero: Super Battle",
+    "french": "Rhino Hero: Super Battle"
+  },
+  "218603": {
+    "english": "Photosynthesis",
+    "french": "Photosynthesis"
+  },
+  "230802": {
+    "english": "Azul",
+    "french": "Azul"
+  },
+  "234439": {
+    "english": "Karuba Junior",
+    "french": "Karuba Junior"
+  },
+  "234553": {
+    "english": "Dixit: Harmonies",
+    "french": "Dixit: Harmonies"
+  },
+  "235655": {
+    "english": "Dragon's Breath",
+    "french": "Trésor de Glace"
+  },
+  "236206": {
+    "english": "The 7th Continent: What Goes Up, Must Come Down",
+    "french": "The 7th Continent: Dans les airs, sous la terre"
+  },
+  "236854": {
+    "english": "The 7th Continent: Comfort Creatures",
+    "french": "The 7th Continent: Lâcher la Bête!"
+  },
+  "237497": {
+    "english": "The 7th Continent: The Flying Roots",
+    "french": "The 7th Continent: Les Racines Volantes"
+  },
+  "237630": {
+    "english": "Cortex Challenge 2: Kids",
+    "french": "Cortex 2 Challenge Kids!"
+  },
+  "240909": {
+    "english": "Kingdomino: Age of Giants",
+    "french": "Kingdomino: Age of Giants"
+  },
+  "244320": {
+    "english": "SOS Dino",
+    "french": "SOS Dino"
+  },
+  "244817": {
+    "english": "Farmini",
+    "french": "Farmini"
+  },
+  "245654": {
+    "english": "Railroad Ink: Deep Blue Edition",
+    "french": "Railroad ink: Édition grand bleu"
+  },
+  "247314": {
+    "english": "Concept Kids: Animals",
+    "french": "Concept Kids: Animaux"
+  },
+  "247315": {
+    "english": "7 Wonders: Armada",
+    "french": "7 Wonders: Armada"
+  },
+  "251678": {
+    "english": "Railroad Ink: Blazing Red Edition",
+    "french": "Railroad Ink: Édition Rouge Ardent"
+  },
+  "253684": {
+    "english": "Spring Meadow",
+    "french": "Spring Meadow"
+  },
+  "254640": {
+    "english": "Just One",
+    "french": "Just One"
+  },
+  "255262": {
+    "english": "Agricola: All Creatures Big and Small – The Big Box",
+    "french": "Agricola 2 joueurs: La Big Box"
+  },
+  "255819": {
+    "english": "Super Mario Match: The Crazy Cube Game",
+    "french": "Match Marvel"
+  },
+  "256237": {
+    "english": "Dixit: Anniversary",
+    "french": "Dixit: Anniversary"
+  },
+  "261580": {
+    "english": "Yam's Junior",
+    "french": "Yam's Junior"
+  },
+  "262543": {
+    "english": "Wavelength",
+    "french": "Wavelength"
+  },
+  "264055": {
+    "english": "Draftosaurus",
+    "french": "Draftosaurus"
+  },
+  "266083": {
+    "english": "L.L.A.M.A.",
+    "french": "Lama"
+  },
+  "266192": {
+    "english": "Wingspan",
+    "french": "Wingspan"
+  },
+  "279613": {
+    "english": "Unlock!: Timeless Adventures",
+    "french": "Unlock!: Timeless Adventures"
+  },
+  "284083": {
+    "english": "The Crew: The Quest for Planet Nine",
+    "french": "The Crew: En quête de la neuvième planète"
+  },
+  "287742": {
+    "english": "TIME Stories Revolution: The Hadal Project",
+    "french": "TIME Stories Revolution: The Hadal Project"
+  },
+  "300010": {
+    "english": "Dragomino",
+    "french": "Dragomino"
+  },
+  "301112": {
+    "english": "Dixit: Mirrors",
+    "french": "Dixit: Mirrors"
+  },
+  "303554": {
+    "english": "Winter Kingdom",
+    "french": "Winter Kingdom"
+  },
+  "311177": {
+    "english": "The 7th Continent: The Crystal's Song",
+    "french": "The 7th Continent: Le Chant du Cristal"
+  },
+  "312513": {
+    "english": "The 7th Continent: The Veins of the Earth",
+    "french": "The 7th Continent: Les Veines de la Terre"
+  },
+  "312514": {
+    "english": "The 7th Continent: A Prison of Clouds",
+    "french": "The 7th Continent: La Prison des Vents"
+  },
+  "313241": {
+    "english": "Micons",
+    "french": "Toutim"
+  },
+  "314036": {
+    "english": "Photosynthesis: Under the Moonlight",
+    "french": "Photosynthesis: Under the Moonlight"
+  },
+  "319754": {
+    "english": "Peek-a-Mouse",
+    "french": "La Maison des Souris"
+  },
+  "320766": {
+    "english": "3 Little Pigs",
+    "french": "3 Little Pigs"
+  },
+  "320843": {
+    "english": "Little Mime",
+    "french": "Little Mime"
+  },
+  "320846": {
+    "english": "Little Match",
+    "french": "Little Match"
+  },
+  "324856": {
+    "english": "The Crew: Mission Deep Sea",
+    "french": "The Crew: Mission Sous-Marine"
+  },
+  "328479": {
+    "english": "Living Forest",
+    "french": "Living Forest"
+  },
+  "329839": {
+    "english": "So Clover!",
+    "french": "So Clover!"
+  },
+  "349219": {
+    "english": "ANTIFA: Le Jeu",
+    "french": "ANTIFA: Le Jeu"
+  },
+  "360880": {
+    "english": "Diamant: Caution and Betrayal",
+    "french": "Diamant: Mise en Garde et Trahison"
+  },
+  "370591": {
+    "english": "Dorfromantik: The Board Game",
+    "french": "Dorfromantik: Le Jeu de Société"
+  },
+  "374866": {
+    "english": "Robotrick",
+    "french": "Robotrick"
+  },
+  "375651": {
+    "english": "That's Not a Hat",
+    "french": "That's Not a Hat"
+  },
+  "378839": {
+    "english": "7 Wonders: Edifice",
+    "french": "7 Wonders: Edifice"
+  },
+  "392491": {
+    "english": "Taco Kitten Pizza",
+    "french": "Taco Chaton Pizza"
+  },
+  "401002": {
+    "english": "My Puzzle Adventure: Dragon",
+    "french": "Mon Puzzle Aventure: Dragon"
+  },
+  "420360": {
+    "english": "Mimose & Sam et le Voleur de Fruits",
+    "french": "Mimose & Sam et le Voleur de Fruits"
+  },
+  "437938": {
+    "english": "Top Ten Adventures",
+    "french": "Top Ten Adventures"
+  },
+  "447655": {
+    "english": "My Puzzle Adventure: Ochre Land",
+    "french": "Mon Puzzle Aventure: Terre Ocre"
+  }
+}

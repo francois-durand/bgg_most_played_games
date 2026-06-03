@@ -1,0 +1,17 @@
+/* Collection page — overrides the main stylesheet's palette.
+   Loaded AFTER ../style.css, so values defined here win.
+   The only difference for now is the accent color: terracotta instead of
+   the main page's green. This signals "you're on the personal collection
+   page, not the public ranking" without redoing the whole visual identity.
+*/
+
+:root {
+  --accent-up: #a0522d;  /* terracotta */
+}
+
+/* "My rating" stands out a bit, in the same warm-gold tone we use for
+   match-row, since it's the personal-flavor signal of the collection. */
+.card-extras dt.rating-row,
+.card-extras dd.rating-row {
+  color: var(--accent-new);
+}
