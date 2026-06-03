@@ -8,9 +8,9 @@
 */
 
 :root {
-  --bg:          #f5ede4;     /* slightly rosy cream */
-  --rule:        #e6dccc;     /* matched separator color */
-  --rule-soft:   #ede3d5;
+  --bg:          #f0e8d4;     /* sable — warm beige, "board game box" feel */
+  --rule:        #e1d6bb;     /* matched separator color */
+  --rule-soft:   #e8dec6;
   --accent-up:   #a0522d;     /* terracotta — only on interaction */
 }
 
