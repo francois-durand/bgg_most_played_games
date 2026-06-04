@@ -104,21 +104,23 @@
     </aside>
 
     <div class="list-controls">
-      <label for="sort-select">Sort:</label>
-      <select id="sort-select" class="filter-select">
-        <option value="my_rating-desc" selected>My rating (highest first)</option>
-        <option value="my_rating-asc">My rating (lowest first)</option>
-        <option value="title-asc">Title (A→Z)</option>
-        <option value="title-desc">Title (Z→A)</option>
-        <option value="year-desc">Year (newest first)</option>
-        <option value="year-asc">Year (oldest first)</option>
-        <option value="weight-asc">Complexity (lightest)</option>
-        <option value="weight-desc">Complexity (heaviest)</option>
-        <option value="age_official-asc">Age — official (youngest)</option>
-        <option value="age_official-desc">Age — official (oldest)</option>
-        <option value="age_community-asc">Age — community (youngest)</option>
-        <option value="age_community-desc">Age — community (oldest)</option>
-      </select>
+      <label class="sort-label">
+        Sort:
+        <select id="sort-select" class="filter-select">
+          <option value="my_rating-desc" selected>My rating (highest first)</option>
+          <option value="my_rating-asc">My rating (lowest first)</option>
+          <option value="title-asc">Title (A→Z)</option>
+          <option value="title-desc">Title (Z→A)</option>
+          <option value="year-desc">Year (newest first)</option>
+          <option value="year-asc">Year (oldest first)</option>
+          <option value="weight-asc">Complexity (lightest)</option>
+          <option value="weight-desc">Complexity (heaviest)</option>
+          <option value="age_official-asc">Age — official (youngest)</option>
+          <option value="age_official-desc">Age — official (oldest)</option>
+          <option value="age_community-asc">Age — community (youngest)</option>
+          <option value="age_community-desc">Age — community (oldest)</option>
+        </select>
+      </label>
       <button type="button" id="toggle-all" class="list-control-button">
         Expand all ▾
       </button>
