@@ -258,18 +258,27 @@ function filterGames(games, f) {
 
 const SORT_KEYS = {
   "my_rating":      g => g.my_rating,
-  "title":          g => (g.title || "").toLowerCase(),
+  "title":          g => (g.title || ""),
   "year":           g => g.year,
   "weight":         g => g.weight,
   "age_official":   g => g.age && g.age.official,
   "age_community":  g => g.age && g.age.community,
 };
 
+/* Compare two strings the way humans expect: accented letters sort with
+   their unaccented counterparts ("Échecs" between "Echo" and "Edit", not
+   after "Zebra"), case-insensitive. Locale "fr" is fine for our content. */
+const STRING_COLLATOR = new Intl.Collator("fr", {
+  sensitivity: "base",
+  numeric: true,
+});
+
 function sortGames(games, sortValue) {
   /* sortValue is e.g. "my_rating-desc" or "title-asc". */
   const [key, dir] = sortValue.split("-");
   const getter = SORT_KEYS[key] || SORT_KEYS["my_rating"];
   const sign = dir === "desc" ? -1 : 1;
+  const isStringKey = (key === "title");
 
   /* Stable sort, with null/undefined values always sent to the end regardless
      of direction (so they don't pollute the top of the list when sorting by
@@ -280,14 +289,19 @@ function sortGames(games, sortValue) {
     const vb = getter(b);
     const aMissing = (va == null);
     const bMissing = (vb == null);
-    const ta = (a.title || "").toLowerCase();
-    const tb = (b.title || "").toLowerCase();
-    if (aMissing && bMissing) return ta < tb ? -1 : (ta > tb ? 1 : 0);
+    const ta = (a.title || "");
+    const tb = (b.title || "");
+    if (aMissing && bMissing) return STRING_COLLATOR.compare(ta, tb);
     if (aMissing) return 1;
     if (bMissing) return -1;
-    if (va < vb) return -1 * sign;
-    if (va > vb) return  1 * sign;
-    return ta < tb ? -1 : (ta > tb ? 1 : 0);
+    let cmp;
+    if (isStringKey) {
+      cmp = STRING_COLLATOR.compare(va, vb);
+    } else {
+      cmp = (va < vb) ? -1 : (va > vb ? 1 : 0);
+    }
+    if (cmp !== 0) return cmp * sign;
+    return STRING_COLLATOR.compare(ta, tb);
   });
 }
 
