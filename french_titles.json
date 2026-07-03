@@ -264,13 +264,13 @@
     "english": "Kingdom Builder: Nomads",
     "french": "Kingdom Builder: Nomads"
   },
+  "119657": {
+    "english": "Dixit 3: Journey",
+    "french": "Dixit: Journey"
+  },
   "121041": {
     "english": "Pluckin' Pairs",
     "french": "Qui paire gagne"
-  },
-  "121288": {
-    "english": "Dixit: Journey",
-    "french": "Dixit: Journey"
   },
   "123260": {
     "english": "Suburbia",
@@ -316,9 +316,17 @@
     "english": "Carcassonne Big Box 3",
     "french": "Carcassonne Big Box 3"
   },
+  "144984": {
+    "english": "Mascarade: Usurper",
+    "french": "Mascarade: Usurpateur"
+  },
   "145325": {
     "english": "Dixit: Origins",
     "french": "Dixit: Origins"
+  },
+  "146565": {
+    "english": "Mascarade: The Damned",
+    "french": "Mascarade: Le Maudit"
   },
   "147020": {
     "english": "Star Realms",
@@ -584,6 +592,10 @@
     "english": "TIME Stories Revolution: The Hadal Project",
     "french": "TIME Stories Revolution: The Hadal Project"
   },
+  "290448": {
+    "english": "Wingspan: European Expansion",
+    "french": "Wingspan: Extension Europe"
+  },
   "300010": {
     "english": "Dragomino",
     "french": "Dragomino"
@@ -648,6 +660,10 @@
     "english": "ANTIFA: Le Jeu",
     "french": "ANTIFA: Le Jeu"
   },
+  "352515": {
+    "english": "Trio",
+    "french": "Trio"
+  },
   "360880": {
     "english": "Diamant: Caution and Betrayal",
     "french": "Diamant: Mise en Garde et Trahison"
@@ -672,9 +688,17 @@
     "english": "Taco Kitten Pizza",
     "french": "Taco Chaton Pizza"
   },
+  "393325": {
+    "english": "Captain Flip",
+    "french": "Captain Flip"
+  },
   "401002": {
     "english": "My Puzzle Adventure: Dragon",
     "french": "Mon Puzzle Aventure: Dragon"
+  },
+  "420087": {
+    "english": "Flip 7",
+    "french": "Flip 7"
   },
   "420360": {
     "english": "Mimose & Sam et le Voleur de Fruits",

@@ -1411,11 +1411,6 @@
       ],
       "expansions": [
         {
-          "bgg_id": 119657,
-          "title": "Dixit 3: Journey",
-          "bgg_url": "https://boardgamegeek.com/boardgame/119657"
-        },
-        {
           "bgg_id": 256237,
           "title": "Dixit: Anniversary",
           "bgg_url": "https://boardgamegeek.com/boardgame/256237"
@@ -1429,6 +1424,11 @@
           "bgg_id": 234553,
           "title": "Dixit: Harmonies",
           "bgg_url": "https://boardgamegeek.com/boardgame/234553"
+        },
+        {
+          "bgg_id": 119657,
+          "title": "Dixit: Journey",
+          "bgg_url": "https://boardgamegeek.com/boardgame/119657"
         },
         {
           "bgg_id": 174090,
@@ -1456,7 +1456,7 @@
           "bgg_url": "https://boardgamegeek.com/boardgame/205761"
         }
       ],
-      "search_blob": "dixit: odyssey dixit: odyssey jean-louis roubira marie cardouat piero libellud adc blackfire entertainment asterion press galapagos jogos gemklub hobbity.eu hobby japan kadabra kaissa chess & games lanlalen lautapelit.fi lifestyle boardgames ltd rebel sp. z o.o. swan panasia co., ltd. ігромаг storytelling targeted clues voting card game humor party game game: dixit mechanism: image interpretation mechanism: judging games dixit 3: journey dixit: anniversary dixit: daydreams dixit: harmonies dixit: memories dixit: mirrors dixit: origins dixit: quest dixit: revelations",
+      "search_blob": "dixit: odyssey dixit: odyssey jean-louis roubira marie cardouat piero libellud adc blackfire entertainment asterion press galapagos jogos gemklub hobbity.eu hobby japan kadabra kaissa chess & games lanlalen lautapelit.fi lifestyle boardgames ltd rebel sp. z o.o. swan panasia co., ltd. ігромаг storytelling targeted clues voting card game humor party game game: dixit mechanism: image interpretation mechanism: judging games dixit: anniversary dixit: daydreams dixit: harmonies dixit: journey dixit: memories dixit: mirrors dixit: origins dixit: quest dixit: revelations",
       "search_index": {
         "publishers": [
           {
@@ -4560,6 +4560,164 @@
       }
     },
     {
+      "bgg_id": 393325,
+      "title": "Captain Flip",
+      "english_title": null,
+      "year": 2024,
+      "image_url": "https://cf.geekdo-images.com/7vSkMR7exNsU7ZfRgJKodQ__itemrep/img/pAxG8Eg5SkFZqzqeW2XhYoGFZTc=/fit-in/246x300/filters:strip_icc()/pic7784394.png",
+      "bgg_url": "https://boardgamegeek.com/boardgame/393325",
+      "players": {
+        "official": {
+          "min": 2,
+          "max": 5
+        },
+        "community": {
+          "min": 2,
+          "max": 5,
+          "values": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "best": {
+          "min": 3,
+          "max": 3,
+          "values": [
+            3
+          ]
+        }
+      },
+      "playing_time": {
+        "min": 20,
+        "max": 20
+      },
+      "age": {
+        "official": 8,
+        "community": 6
+      },
+      "weight": 1.22,
+      "my_rating": 8.0,
+      "designers": [
+        {
+          "name": "Remo Conzadori",
+          "id": 49759,
+          "type": "boardgamedesigner"
+        },
+        {
+          "name": "Paolo Mori",
+          "id": 7640,
+          "type": "boardgamedesigner"
+        }
+      ],
+      "solo_designers": [],
+      "artists": [
+        {
+          "name": "Jonathan Aucomte",
+          "id": 102639,
+          "type": "boardgameartist"
+        }
+      ],
+      "expansions": [],
+      "search_blob": "captain flip captain flip remo conzadori paolo mori jonathan aucomte playpunk evrikus advantage token end game bonuses grid coverage memory multiple maps push your luck tile placement nautical pirates category: dized tutorial crowdfunding: xinwuji digital implementations: board game arena digital implementations: game park misc: longpack games theme: pirates",
+      "search_index": {
+        "publishers": [
+          {
+            "name": "PlayPunk",
+            "id": 54347,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Evrikus",
+            "id": 38574,
+            "type": "boardgamepublisher"
+          }
+        ],
+        "mechanics": [
+          {
+            "name": "Advantage Token",
+            "id": 2847,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "End Game Bonuses",
+            "id": 2875,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Grid Coverage",
+            "id": 2978,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Memory",
+            "id": 2047,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Multiple Maps",
+            "id": 2965,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Push Your Luck",
+            "id": 2661,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Tile Placement",
+            "id": 2002,
+            "type": "boardgamemechanic"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Nautical",
+            "id": 1008,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Pirates",
+            "id": 1090,
+            "type": "boardgamecategory"
+          }
+        ],
+        "families": [
+          {
+            "name": "Category: DIZED Tutorial",
+            "id": 77906,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Crowdfunding: Xinwuji",
+            "id": 114715,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Digital Implementations: Board Game Arena",
+            "id": 70360,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Digital Implementations: Game Park",
+            "id": 80918,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Misc: LongPack Games",
+            "id": 59705,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Theme: Pirates",
+            "id": 74823,
+            "type": "boardgamefamily"
+          }
+        ]
+      }
+    },
+    {
       "bgg_id": 178900,
       "title": "Codenames",
       "english_title": null,
@@ -5585,6 +5743,247 @@
           {
             "name": "Players: Games with Solitaire Rules",
             "id": 5666,
+            "type": "boardgamefamily"
+          }
+        ]
+      }
+    },
+    {
+      "bgg_id": 420087,
+      "title": "Flip 7",
+      "english_title": null,
+      "year": 2024,
+      "image_url": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__itemrep/img/5JLNPGM983Wl2Uu2v-7JQihdFMA=/fit-in/246x300/filters:strip_icc()/pic8780246.jpg",
+      "bgg_url": "https://boardgamegeek.com/boardgame/420087",
+      "players": {
+        "official": {
+          "min": 3,
+          "max": 18
+        },
+        "community": {
+          "min": 3,
+          "max": 8,
+          "values": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "best": {
+          "min": 5,
+          "max": 6,
+          "values": [
+            5,
+            6
+          ]
+        }
+      },
+      "playing_time": {
+        "min": 20,
+        "max": 20
+      },
+      "age": {
+        "official": 8,
+        "community": 6
+      },
+      "weight": 1.03,
+      "my_rating": 8.0,
+      "designers": [
+        {
+          "name": "Eric Olsen",
+          "id": 14171,
+          "type": "boardgamedesigner"
+        }
+      ],
+      "solo_designers": [],
+      "artists": [
+        {
+          "name": "O'Neil Mabile",
+          "id": 165987,
+          "type": "boardgameartist"
+        }
+      ],
+      "expansions": [],
+      "search_blob": "flip 7 flip 7 eric olsen o'neil mabile the op games 999 games boardgame space brain games catch up games engames fun games shop gameology (gameology romania) ghenos games grok games hakubia kaissa chess & games kosmos mercurio mindok mipl randolph rebel sp. z o.o. reflexshop interrupts push your luck score-and-reset game take that card game children's game novel-based number party game authors: dr. seuss books: how the grinch stole christmas category: dized tutorial digital implementations: board game arena holidays: christmas misc: external score sheet required",
+      "search_index": {
+        "publishers": [
+          {
+            "name": "The Op Games",
+            "id": 634,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "999 Games",
+            "id": 267,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Boardgame Space",
+            "id": 34501,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Brain Games",
+            "id": 7162,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Catch Up Games",
+            "id": 28651,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Engames",
+            "id": 39390,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Fun Games Shop",
+            "id": 56105,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Gameology (Gameology Romania)",
+            "id": 47851,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Ghenos Games",
+            "id": 4785,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Grok Games",
+            "id": 42325,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "HaKubia",
+            "id": 23382,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Kaissa Chess & Games",
+            "id": 6214,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "KOSMOS",
+            "id": 37,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Mercurio",
+            "id": 7772,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "MINDOK",
+            "id": 7992,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "MIPL",
+            "id": 51614,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Randolph",
+            "id": 28648,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Rebel Sp. z o.o.",
+            "id": 7466,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Reflexshop",
+            "id": 36563,
+            "type": "boardgamepublisher"
+          }
+        ],
+        "mechanics": [
+          {
+            "name": "Interrupts",
+            "id": 2837,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Push Your Luck",
+            "id": 2661,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Score-and-Reset Game",
+            "id": 2823,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Take That",
+            "id": 2686,
+            "type": "boardgamemechanic"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Card Game",
+            "id": 1002,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Children's Game",
+            "id": 1041,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Novel-based",
+            "id": 1093,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Number",
+            "id": 1098,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Party Game",
+            "id": 1030,
+            "type": "boardgamecategory"
+          }
+        ],
+        "families": [
+          {
+            "name": "Authors: Dr. Seuss",
+            "id": 7761,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Books: How the Grinch Stole Christmas",
+            "id": 112315,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Category: DIZED Tutorial",
+            "id": 77906,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Digital Implementations: Board Game Arena",
+            "id": 70360,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Holidays: Christmas",
+            "id": 6364,
+            "type": "boardgamefamily"
+          },
+          {
+            "name": "Misc: External Score Sheet Required",
+            "id": 117012,
             "type": "boardgamefamily"
           }
         ]
@@ -8439,6 +8838,245 @@
           }
         ],
         "families": [
+          {
+            "name": "Misc: LongPack Games",
+            "id": 59705,
+            "type": "boardgamefamily"
+          }
+        ]
+      }
+    },
+    {
+      "bgg_id": 352515,
+      "title": "Trio",
+      "english_title": null,
+      "year": 2021,
+      "image_url": "https://cf.geekdo-images.com/d9F0ZDqcN3J7J92WckyraQ__itemrep/img/PM9irc2PPSp1oV7lVKuXhmMUlsI=/fit-in/246x300/filters:strip_icc()/pic7605785.jpg",
+      "bgg_url": "https://boardgamegeek.com/boardgame/352515",
+      "players": {
+        "official": {
+          "min": 3,
+          "max": 6
+        },
+        "community": {
+          "min": 3,
+          "max": 6,
+          "values": [
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "best": {
+          "min": 4,
+          "max": 5,
+          "values": [
+            4,
+            5
+          ]
+        }
+      },
+      "playing_time": {
+        "min": 15,
+        "max": 15
+      },
+      "age": {
+        "official": 6,
+        "community": 6
+      },
+      "weight": 1.08,
+      "my_rating": 8.0,
+      "designers": [
+        {
+          "name": "宮野 華也 (Kaya Miyano)",
+          "id": 72830,
+          "type": "boardgamedesigner"
+        }
+      ],
+      "solo_designers": [],
+      "artists": [
+        {
+          "name": "Laura Michaud",
+          "id": 145855,
+          "type": "boardgameartist"
+        },
+        {
+          "name": "別府さい (Sai Beppu)",
+          "id": 108040,
+          "type": "boardgameartist"
+        }
+      ],
+      "expansions": [],
+      "search_blob": "trio trio 宮野 華也 (kaya miyano) laura michaud 別府さい (sai beppu) cocktail games mob+ (mob plus) brain games broadway toys ltd cmon global limited devir engames foxmind israel games7days ghenos games happy camper kaissa chess & games lautapelit.fi lifestyle boardgames ltd ludicus games mipl papergames (iii) randolph rebel sp. z o.o. reflexshop rexhry tower tactic games twoplus games underdog games (ii) matching memory questions and answers set collection animals card game memory digital implementations: board game arena misc: longpack games",
+      "search_index": {
+        "publishers": [
+          {
+            "name": "Cocktail Games",
+            "id": 2691,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Mob+ (Mob Plus)",
+            "id": 50472,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Brain Games",
+            "id": 7162,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Broadway Toys LTD",
+            "id": 9068,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "CMON Global Limited",
+            "id": 21608,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Devir",
+            "id": 2366,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Engames",
+            "id": 39390,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "FoxMind Israel",
+            "id": 19047,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Games7Days",
+            "id": 48438,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Ghenos Games",
+            "id": 4785,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Happy Camper",
+            "id": 55478,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Kaissa Chess & Games",
+            "id": 6214,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Lautapelit.fi",
+            "id": 3218,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Lifestyle Boardgames Ltd",
+            "id": 9325,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Ludicus Games",
+            "id": 30399,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "MIPL",
+            "id": 51614,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "PaperGames (III)",
+            "id": 32581,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Randolph",
+            "id": 28648,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Rebel Sp. z o.o.",
+            "id": 7466,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Reflexshop",
+            "id": 36563,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Rexhry",
+            "id": 21053,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Tower Tactic Games",
+            "id": 39774,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "TWOPLUS Games",
+            "id": 9215,
+            "type": "boardgamepublisher"
+          },
+          {
+            "name": "Underdog Games (II)",
+            "id": 46428,
+            "type": "boardgamepublisher"
+          }
+        ],
+        "mechanics": [
+          {
+            "name": "Matching",
+            "id": 3007,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Memory",
+            "id": 2047,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Questions and Answers",
+            "id": 3102,
+            "type": "boardgamemechanic"
+          },
+          {
+            "name": "Set Collection",
+            "id": 2004,
+            "type": "boardgamemechanic"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Animals",
+            "id": 1089,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Card Game",
+            "id": 1002,
+            "type": "boardgamecategory"
+          },
+          {
+            "name": "Memory",
+            "id": 1045,
+            "type": "boardgamecategory"
+          }
+        ],
+        "families": [
+          {
+            "name": "Digital Implementations: Board Game Arena",
+            "id": 70360,
+            "type": "boardgamefamily"
+          },
           {
             "name": "Misc: LongPack Games",
             "id": 59705,
@@ -14154,8 +14792,14 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "wingspan wingspan elizabeth hargrave david j. studley ana maria martinez jaramillo natalia rojas greg may beth sobel stonemaier games 999 games angry lion games arclight games asmodee automa factory bluebird games brain games delta vision publishing divercentro feuerland spiele ghenos games grok games kaissa chess & games korea boardgames lautapelit.fi lavka games ludofy creative maldito games matagot mindok mipl neotroy games rebel sp. z o.o. regatul jocurilor siam board games surfin' meeple china ігромаг action queue dice rolling end game bonuses hand management once-per-game abilities open drafting set collection solo / solitaire game turn order: progressive animals card game educational animals: birds animals: crows / ravens / magpies animals: ducks animals: eagles animals: geese animals: owls animals: turkeys components: control boards components: dice with icons components: drop tower components: game trayz inside digital implementations: apple app store digital implementations: board game arena digital implementations: google play digital implementations: steam digital implementations: tabletop simulator mod (tts) digital implementations: tabletopia game: wingspan mechanism: tableau building misc: made by panda misc: watch it played how to videos organizations: automa factory players: games with solitaire rules theme: biology theme: ecology theme: nature",
+      "expansions": [
+        {
+          "bgg_id": 290448,
+          "title": "Wingspan: Extension Europe",
+          "bgg_url": "https://boardgamegeek.com/boardgame/290448"
+        }
+      ],
+      "search_blob": "wingspan wingspan elizabeth hargrave david j. studley ana maria martinez jaramillo natalia rojas greg may beth sobel stonemaier games 999 games angry lion games arclight games asmodee automa factory bluebird games brain games delta vision publishing divercentro feuerland spiele ghenos games grok games kaissa chess & games korea boardgames lautapelit.fi lavka games ludofy creative maldito games matagot mindok mipl neotroy games rebel sp. z o.o. regatul jocurilor siam board games surfin' meeple china ігромаг action queue dice rolling end game bonuses hand management once-per-game abilities open drafting set collection solo / solitaire game turn order: progressive animals card game educational animals: birds animals: crows / ravens / magpies animals: ducks animals: eagles animals: geese animals: owls animals: turkeys components: control boards components: dice with icons components: drop tower components: game trayz inside digital implementations: apple app store digital implementations: board game arena digital implementations: google play digital implementations: steam digital implementations: tabletop simulator mod (tts) digital implementations: tabletopia game: wingspan mechanism: tableau building misc: made by panda misc: watch it played how to videos organizations: automa factory players: games with solitaire rules theme: biology theme: ecology theme: nature wingspan: extension europe",
       "search_index": {
         "publishers": [
           {
@@ -17126,8 +17770,19 @@
           "type": "boardgameartist"
         }
       ],
-      "expansions": [],
-      "search_blob": "mascarade mascarade bruno faidutti jeremy masson repos production adc blackfire entertainment asmodee asterion press buro hobby japan jolly thinkers swan panasia co., ltd. hidden roles memory variable player powers bluffing card game medieval party game theme: witches",
+      "expansions": [
+        {
+          "bgg_id": 146565,
+          "title": "Mascarade: Le Maudit",
+          "bgg_url": "https://boardgamegeek.com/boardgame/146565"
+        },
+        {
+          "bgg_id": 144984,
+          "title": "Mascarade: Usurpateur",
+          "bgg_url": "https://boardgamegeek.com/boardgame/144984"
+        }
+      ],
+      "search_blob": "mascarade mascarade bruno faidutti jeremy masson repos production adc blackfire entertainment asmodee asterion press buro hobby japan jolly thinkers swan panasia co., ltd. hidden roles memory variable player powers bluffing card game medieval party game theme: witches mascarade: le maudit mascarade: usurpateur",
       "search_index": {
         "publishers": [
           {
