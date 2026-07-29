@@ -1,715 +1,893 @@
 {
-  "_comment": "Maintained manually. Maps BGG IDs (game and expansion) to French titles. Used by the collection page; falls back to the English title from BGG when an entry is null. Run maintain_french_titles.py to scaffold new entries when you add games to your collection.",
+  "_comment": "Maintained manually. Maps BGG IDs (game and expansion) to extra info used by the collection page: english/french title, and an estimated minimum age. 'french' defaults to the english title (edit it by hand when it differs). 'age' is your own estimated minimum age, left null until you set it by hand (never auto-filled from BGG). Run maintain_my_collection_extra_info.py to scaffold new entries when you add games to your collection.",
   "50": {
     "english": "Lost Cities",
-    "french": "Lost Cities"
+    "french": "Lost Cities",
+    "age": null
   },
   "171": {
     "english": "Chess",
-    "french": "Échecs"
+    "french": "Échecs",
+    "age": null
   },
   "320": {
     "english": "Scrabble",
-    "french": "Scrabble"
+    "french": "Scrabble",
+    "age": null
   },
   "432": {
     "english": "Take 5",
-    "french": "6 qui prend!"
+    "french": "6 qui prend!",
+    "age": null
   },
   "463": {
     "english": "Magic: The Gathering",
-    "french": "Magic: The Gathering"
+    "french": "Magic: The Gathering",
+    "age": null
   },
   "1198": {
     "english": "SET",
-    "french": "SET"
+    "french": "SET",
+    "age": null
   },
   "1219": {
     "english": "Labyrinth",
-    "french": "Labyrinthe"
+    "french": "Labyrinthe",
+    "age": null
   },
   "1961": {
     "english": "5 Alive",
-    "french": "5 Alive"
+    "french": "5 Alive",
+    "age": null
   },
   "2223": {
     "english": "UNO",
-    "french": "UNO"
+    "french": "UNO",
+    "age": null
   },
   "2318": {
     "english": "Scrabble Junior",
-    "french": "Scrabble Junior"
+    "french": "Scrabble Junior",
+    "age": null
   },
   "2394": {
     "english": "Dominoes",
-    "french": "Dominos"
+    "french": "Dominos",
+    "age": null
   },
   "2453": {
     "english": "Blokus",
-    "french": "Blokus"
+    "french": "Blokus",
+    "age": null
   },
   "2629": {
     "english": "Ramses II",
-    "french": "Ramsès"
+    "french": "Ramsès",
+    "age": null
   },
   "2955": {
     "english": "Mexica",
-    "french": "Mexica"
+    "french": "Mexica",
+    "age": null
   },
   "3076": {
     "english": "Puerto Rico",
-    "french": "Puerto Rico"
+    "french": "Puerto Rico",
+    "age": null
   },
   "3570": {
     "english": "Chicken Cha Cha Cha",
-    "french": "Pique Plume"
+    "french": "Pique Plume",
+    "age": null
   },
   "3837": {
     "english": "Rat-a-Tat Cat",
-    "french": "Rat-a-Tat Cat"
+    "french": "Rat-a-Tat Cat",
+    "age": null
   },
   "5782": {
     "english": "Coloretto",
-    "french": "Coloretto"
+    "french": "Coloretto",
+    "age": null
   },
   "6931": {
     "english": "Katamino",
-    "french": "Katamino"
+    "french": "Katamino",
+    "age": null
   },
   "8098": {
     "english": "Jungle Speed",
-    "french": "Jungle Speed"
+    "french": "Jungle Speed",
+    "age": null
   },
   "8203": {
     "english": "Hey, That's My Fish!",
-    "french": "Pinguine! Deluxe!"
+    "french": "Pinguine! Deluxe!",
+    "age": null
   },
   "8229": {
     "english": "Pearladöra",
-    "french": "Armadöra"
+    "french": "Armadöra",
+    "age": null
   },
   "11945": {
     "english": "Linq",
-    "french": "Linq"
+    "french": "Linq",
+    "age": null
   },
   "12942": {
     "english": "No Thanks!",
-    "french": "Non merci"
+    "french": "Non merci",
+    "age": null
   },
   "14996": {
     "english": "Ticket to Ride: Europe",
-    "french": "Les Aventuriers du Rail: Europe"
+    "french": "Les Aventuriers du Rail: Europe",
+    "age": null
   },
   "15512": {
     "english": "Diamant",
-    "french": "Diamant"
+    "french": "Diamant",
+    "age": null
   },
   "18745": {
     "english": "Sun Tzu",
-    "french": "Sun Tzu"
+    "french": "Sun Tzu",
+    "age": null
   },
   "21882": {
     "english": "Blue Moon City",
-    "french": "Blue Moon City"
+    "french": "Blue Moon City",
+    "age": null
   },
   "25669": {
     "english": "Qwirkle",
-    "french": "Qwirkle"
+    "french": "Qwirkle",
+    "age": null
   },
   "27073": {
     "english": "Pipolo",
-    "french": "Pipolo"
+    "french": "Pipolo",
+    "age": null
   },
   "28023": {
     "english": "Jamaica",
-    "french": "Jamaica"
+    "french": "Jamaica",
+    "age": null
   },
   "29138": {
     "english": "Katamino Duo",
-    "french": "Gagne ton papa !"
+    "french": "Gagne ton papa !",
+    "age": null
   },
   "29356": {
     "english": "My First Scrabble",
-    "french": "Mon premier Scrabble"
+    "french": "Mon premier Scrabble",
+    "age": null
   },
   "31159": {
     "english": "Piratatak",
-    "french": "Piratatak"
+    "french": "Piratatak",
+    "age": null
   },
   "31260": {
     "english": "Agricola",
-    "french": "Agricola"
+    "french": "Agricola",
+    "age": null
   },
   "33088": {
     "english": "Chabyrinthe",
-    "french": "Chabyrinthe"
+    "french": "Chabyrinthe",
+    "age": null
   },
   "36218": {
     "english": "Dominion",
-    "french": "Dominion"
+    "french": "Dominion",
+    "age": null
   },
   "40692": {
     "english": "Small World",
-    "french": "Small World"
+    "french": "Small World",
+    "age": null
   },
   "40958": {
     "english": "6 nimmt! Junior",
-    "french": "6 qui Prend ! Junior"
+    "french": "6 qui Prend ! Junior",
+    "age": null
   },
   "41010": {
     "english": "My First Carcassonne",
-    "french": "Mon Premier Carcassonne"
+    "french": "Mon Premier Carcassonne",
+    "age": null
   },
   "41860": {
     "english": "Kangaroo",
-    "french": "Kang-a-roo"
+    "french": "Kang-a-roo",
+    "age": null
   },
   "42215": {
     "english": "Tobago",
-    "french": "Tobago"
+    "french": "Tobago",
+    "age": null
   },
   "43578": {
     "english": "Monster Chase",
-    "french": "La Chasse aux Monstres"
+    "french": "La Chasse aux Monstres",
+    "age": null
   },
   "53953": {
     "english": "Thunderstone",
-    "french": "Thunderstone"
+    "french": "Thunderstone",
+    "age": null
   },
   "55660": {
     "english": "Dixit: Quest",
-    "french": "Dixit: Quest"
+    "french": "Dixit: Quest",
+    "age": null
   },
   "63214": {
     "english": "Thunderstone: La Colère des Éléments",
-    "french": "Thunderstone: La Colère des Éléments"
+    "french": "Thunderstone: La Colère des Éléments",
+    "age": null
   },
   "63268": {
     "english": "Spot it!",
-    "french": "Dobble"
+    "french": "Dobble",
+    "age": null
   },
   "66188": {
     "english": "Fresco",
-    "french": "Fresco"
+    "french": "Fresco",
+    "age": null
   },
   "68448": {
     "english": "7 Wonders",
-    "french": "7 Wonders"
+    "french": "7 Wonders",
+    "age": null
   },
   "70919": {
     "english": "Takenoko",
-    "french": "Takenoko"
+    "french": "Takenoko",
+    "age": null
   },
   "70940": {
     "english": "Thunderstone : Légion de Doomgate",
-    "french": "Thunderstone : Légion de Doomgate"
+    "french": "Thunderstone : Légion de Doomgate",
+    "age": null
   },
   "80933": {
     "english": "Sandwich",
-    "french": "Sandwich"
+    "french": "Sandwich",
+    "age": null
   },
   "85897": {
     "english": "Thunderstone : Le pic du dragon",
-    "french": "Thunderstone : Le pic du dragon"
+    "french": "Thunderstone : Le pic du dragon",
+    "age": null
   },
   "88126": {
     "english": "Time's Up! Family",
-    "french": "Time's Up! Family"
+    "french": "Time's Up! Family",
+    "age": null
   },
   "90305": {
     "english": "Cargo Noir",
-    "french": "Cargo Noir"
+    "french": "Cargo Noir",
+    "age": null
   },
   "91098": {
     "english": "Je compose des mots",
-    "french": "Je compose des mots"
+    "french": "Je compose des mots",
+    "age": null
   },
   "92415": {
     "english": "Skull",
-    "french": "Skull"
+    "french": "Skull",
+    "age": null
   },
   "92539": {
     "english": "7 Wonders: Leaders",
-    "french": "7 Wonders: Leaders"
+    "french": "7 Wonders: Leaders",
+    "age": null
   },
   "92828": {
     "english": "Dixit: Odyssey",
-    "french": "Dixit: Odyssey"
+    "french": "Dixit: Odyssey",
+    "age": 6
   },
   "98778": {
     "english": "Hanabi",
-    "french": "Hanabi"
+    "french": "Hanabi",
+    "age": null
   },
   "100670": {
     "english": "Défis Nature",
-    "french": "Défis Nature"
+    "french": "Défis Nature",
+    "age": null
   },
   "103649": {
     "english": "The City",
-    "french": "The City"
+    "french": "The City",
+    "age": null
   },
   "107529": {
     "english": "Kingdom Builder",
-    "french": "Kingdom Builder"
+    "french": "Kingdom Builder",
+    "age": null
   },
   "110327": {
     "english": "Lords of Waterdeep",
-    "french": "Lords of Waterdeep"
+    "french": "Lords of Waterdeep",
+    "age": null
   },
   "111661": {
     "english": "7 Wonders: Cities",
-    "french": "7 Wonders: Cities"
+    "french": "7 Wonders: Cities",
+    "age": null
   },
   "117793": {
     "english": "Kingdom Builder: Nomads",
-    "french": "Kingdom Builder: Nomads"
+    "french": "Kingdom Builder: Nomads",
+    "age": null
   },
   "119657": {
     "english": "Dixit 3: Journey",
-    "french": "Dixit: Journey"
+    "french": "Dixit: Journey",
+    "age": null
   },
   "121041": {
     "english": "Pluckin' Pairs",
-    "french": "Qui paire gagne"
+    "french": "Qui paire gagne",
+    "age": null
   },
   "123260": {
     "english": "Suburbia",
-    "french": "Suburbia"
+    "french": "Suburbia",
+    "age": null
   },
   "129622": {
     "english": "Love Letter",
-    "french": "Love Letter"
+    "french": "Love Letter",
+    "age": null
   },
   "131260": {
     "english": "Qwixx",
-    "french": "Qwixx"
+    "french": "Qwixx",
+    "age": null
   },
   "132532": {
     "english": "Here, Fishy, Fishy!",
-    "french": "Ma première pêche"
+    "french": "Ma première pêche",
+    "age": null
   },
   "133473": {
     "english": "Sushi Go!",
-    "french": "Sushi Go!"
+    "french": "Sushi Go!",
+    "age": null
   },
   "134342": {
     "english": "Lords of Waterdeep: Scoundrels of Skullport",
-    "french": "Lords of Waterdeep: Scoundrels of Skullport"
+    "french": "Lords of Waterdeep: Scoundrels of Skullport",
+    "age": null
   },
   "137290": {
     "english": "Nosferatu",
-    "french": "Nosferatu"
+    "french": "Nosferatu",
+    "age": null
   },
   "137396": {
     "english": "Kingdom Builder: Crossroads",
-    "french": "Kingdom Builder: Crossroads"
+    "french": "Kingdom Builder: Crossroads",
+    "age": null
   },
   "139030": {
     "english": "Mascarade",
-    "french": "Mascarade"
+    "french": "Mascarade",
+    "age": null
   },
   "140933": {
     "english": "Blueprints",
-    "french": "Blueprints"
+    "french": "Blueprints",
+    "age": null
   },
   "141007": {
     "english": "Carcassonne Big Box 3",
-    "french": "Carcassonne Big Box 3"
+    "french": "Carcassonne Big Box 3",
+    "age": null
   },
   "144984": {
     "english": "Mascarade: Usurper",
-    "french": "Mascarade: Usurpateur"
+    "french": "Mascarade: Usurpateur",
+    "age": null
   },
   "145325": {
     "english": "Dixit: Origins",
-    "french": "Dixit: Origins"
+    "french": "Dixit: Origins",
+    "age": null
   },
   "146565": {
     "english": "Mascarade: The Damned",
-    "french": "Mascarade: Le Maudit"
+    "french": "Mascarade: Le Maudit",
+    "age": null
   },
   "147020": {
     "english": "Star Realms",
-    "french": "Star Realms"
+    "french": "Star Realms",
+    "age": null
   },
   "147151": {
     "english": "Concept",
-    "french": "Concept"
+    "french": "Concept",
+    "age": null
   },
   "147949": {
     "english": "One Night Ultimate Werewolf",
-    "french": "Loup Garou pour Une Nuit"
+    "french": "Loup Garou pour Une Nuit",
+    "age": null
   },
   "154638": {
     "english": "7 Wonders: Babel",
-    "french": "7 Wonders: Babel"
+    "french": "7 Wonders: Babel",
+    "age": null
   },
   "156189": {
     "english": "Dixit: Daydreams",
-    "french": "Dixit: Daydreams"
+    "french": "Dixit: Daydreams",
+    "age": null
   },
   "156566": {
     "english": "Lords of Xidit",
-    "french": "Lords of Xidit"
+    "french": "Lords of Xidit",
+    "age": null
   },
   "158899": {
     "english": "Colt Express",
-    "french": "Colt Express"
+    "french": "Colt Express",
+    "age": null
   },
   "161417": {
     "english": "Red7",
-    "french": "Red7"
+    "french": "Red7",
+    "age": null
   },
   "166702": {
     "english": "Star Realms: Crisis – Bases & Battleships",
-    "french": "Star Realms: Crisis – Bases & Battleships"
+    "french": "Star Realms: Crisis – Bases & Battleships",
+    "age": null
   },
   "166704": {
     "english": "Star Realms: Crisis – Fleets & Fortresses",
-    "french": "Star Realms: Crisis – Fleets & Fortresses"
+    "french": "Star Realms: Crisis – Fleets & Fortresses",
+    "age": null
   },
   "167791": {
     "english": "Terraforming Mars",
-    "french": "Terraforming Mars"
+    "french": "Terraforming Mars",
+    "age": null
   },
   "170969": {
     "english": "Gigamons",
-    "french": "La Chasse aux Gigamons"
+    "french": "La Chasse aux Gigamons",
+    "age": null
   },
   "172225": {
     "english": "Exploding Kittens",
-    "french": "Exploding Kittens"
+    "french": "Exploding Kittens",
+    "age": null
   },
   "172242": {
     "english": "Exploding Kittens: NSFW Edition",
-    "french": "Exploding Kittens: NSFW Edition"
+    "french": "Exploding Kittens: NSFW Edition",
+    "age": null
   },
   "173346": {
     "english": "7 Wonders Duel",
-    "french": "7 Wonders Duel"
+    "french": "7 Wonders Duel",
+    "age": null
   },
   "174090": {
     "english": "Dixit: Memories",
-    "french": "Dixit: Memories"
+    "french": "Dixit: Memories",
+    "age": null
   },
   "174219": {
     "english": "Time's Up! Kids",
-    "french": "Time's Up! Kids"
+    "french": "Time's Up! Kids",
+    "age": null
   },
   "178900": {
     "english": "Codenames",
-    "french": "Codenames"
+    "french": "Codenames",
+    "age": null
   },
   "179622": {
     "english": "Kingdom Builder: Marshlands",
-    "french": "Kingdom Builder: Marshlands"
+    "french": "Kingdom Builder: Marshlands",
+    "age": null
   },
   "180263": {
     "english": "The 7th Continent",
-    "french": "The 7th Continent"
+    "french": "The 7th Continent",
+    "age": null
   },
   "182631": {
     "english": "Star Realms: Colony Wars",
-    "french": "Star Realms: Colony Wars"
+    "french": "Star Realms: Colony Wars",
+    "age": null
   },
   "183660": {
     "english": "The 7th Continent: The Icy Maze",
-    "french": "The 7th Continent: Le Labyrinthe de Glace"
+    "french": "The 7th Continent: Le Labyrinthe de Glace",
+    "age": null
   },
   "184186": {
     "english": "The 7th Continent: The Forbidden Sanctuary",
-    "french": "The 7th Continent: Le Sanctuaire Interdit"
+    "french": "The 7th Continent: Le Sanctuaire Interdit",
+    "age": null
   },
   "184904": {
     "english": "The 7th Continent: Swamp of Madness",
-    "french": "The 7th Continent: Le Marais de L'Épouvante"
+    "french": "The 7th Continent: Le Marais de L'Épouvante",
+    "age": null
   },
   "185743": {
     "english": "The 7th Continent: Path of Repentance",
-    "french": "The 7th Continent: Le Chemin de Pénitence"
+    "french": "The 7th Continent: Le Chemin de Pénitence",
+    "age": null
   },
   "186987": {
     "english": "The 7th Continent: Facing the Elements",
-    "french": "The 7th Continent: Face aux Éléments"
+    "french": "The 7th Continent: Face aux Éléments",
+    "age": null
   },
   "192291": {
     "english": "Sushi Go Party!",
-    "french": "Sushi Go Party!"
+    "french": "Sushi Go Party!",
+    "age": null
   },
   "192598": {
     "english": "Tous au poulailler",
-    "french": "Tous au poulailler"
+    "french": "Tous au poulailler",
+    "age": null
   },
   "195267": {
     "english": "Kingdom Builder: Harvest",
-    "french": "Kingdom Builder: Harvest"
+    "french": "Kingdom Builder: Harvest",
+    "age": null
   },
   "200871": {
     "english": "Hanna Honeybee",
-    "french": "Abella l'abeille"
+    "french": "Abella l'abeille",
+    "age": null
   },
   "202976": {
     "english": "7 Wonders Duel: Pantheon",
-    "french": "7 Wonders Duel: Panthéon"
+    "french": "7 Wonders Duel: Panthéon",
+    "age": null
   },
   "204135": {
     "english": "Skyjo",
-    "french": "Skyjo"
+    "french": "Skyjo",
+    "age": null
   },
   "204583": {
     "english": "Kingdomino",
-    "french": "Kingdomino"
+    "french": "Kingdomino",
+    "age": null
   },
   "205761": {
     "english": "Dixit: Revelations",
-    "french": "Dixit: Revelations"
+    "french": "Dixit: Revelations",
+    "age": null
   },
   "208501": {
     "english": "Star Realms: United – Command",
-    "french": "Star Realms: United – Command"
+    "french": "Star Realms: United – Command",
+    "age": null
   },
   "208503": {
     "english": "Star Realms: United – Assault",
-    "french": "Star Realms: United – Assault"
+    "french": "Star Realms: United – Assault",
+    "age": null
   },
   "218333": {
     "english": "Rhino Hero: Super Battle",
-    "french": "Rhino Hero: Super Battle"
+    "french": "Rhino Hero: Super Battle",
+    "age": null
   },
   "218603": {
     "english": "Photosynthesis",
-    "french": "Photosynthesis"
+    "french": "Photosynthesis",
+    "age": null
   },
   "230802": {
     "english": "Azul",
-    "french": "Azul"
+    "french": "Azul",
+    "age": null
   },
   "234439": {
     "english": "Karuba Junior",
-    "french": "Karuba Junior"
+    "french": "Karuba Junior",
+    "age": null
   },
   "234553": {
     "english": "Dixit: Harmonies",
-    "french": "Dixit: Harmonies"
+    "french": "Dixit: Harmonies",
+    "age": null
   },
   "235655": {
     "english": "Dragon's Breath",
-    "french": "Trésor de Glace"
+    "french": "Trésor de Glace",
+    "age": null
   },
   "236206": {
     "english": "The 7th Continent: What Goes Up, Must Come Down",
-    "french": "The 7th Continent: Dans les airs, sous la terre"
+    "french": "The 7th Continent: Dans les airs, sous la terre",
+    "age": null
   },
   "236854": {
     "english": "The 7th Continent: Comfort Creatures",
-    "french": "The 7th Continent: Lâcher la Bête!"
+    "french": "The 7th Continent: Lâcher la Bête!",
+    "age": null
   },
   "237497": {
     "english": "The 7th Continent: The Flying Roots",
-    "french": "The 7th Continent: Les Racines Volantes"
+    "french": "The 7th Continent: Les Racines Volantes",
+    "age": null
   },
   "237630": {
     "english": "Cortex Challenge 2: Kids",
-    "french": "Cortex 2 Challenge Kids!"
+    "french": "Cortex 2 Challenge Kids!",
+    "age": null
   },
   "240909": {
     "english": "Kingdomino: Age of Giants",
-    "french": "Kingdomino: Age of Giants"
+    "french": "Kingdomino: Age of Giants",
+    "age": null
   },
   "244320": {
     "english": "SOS Dino",
-    "french": "SOS Dino"
+    "french": "SOS Dino",
+    "age": null
   },
   "244817": {
     "english": "Farmini",
-    "french": "Farmini"
+    "french": "Farmini",
+    "age": null
   },
   "245654": {
     "english": "Railroad Ink: Deep Blue Edition",
-    "french": "Railroad ink: Édition Grand Bleu"
+    "french": "Railroad ink: Édition Grand Bleu",
+    "age": null
   },
   "247314": {
     "english": "Concept Kids: Animals",
-    "french": "Concept Kids: Animaux"
+    "french": "Concept Kids: Animaux",
+    "age": null
   },
   "247315": {
     "english": "7 Wonders: Armada",
-    "french": "7 Wonders: Armada"
+    "french": "7 Wonders: Armada",
+    "age": null
   },
   "251678": {
     "english": "Railroad Ink: Blazing Red Edition",
-    "french": "Railroad Ink: Édition Rouge Ardent"
+    "french": "Railroad Ink: Édition Rouge Ardent",
+    "age": null
   },
   "253684": {
     "english": "Spring Meadow",
-    "french": "Spring Meadow"
+    "french": "Spring Meadow",
+    "age": null
   },
   "254640": {
     "english": "Just One",
-    "french": "Just One"
+    "french": "Just One",
+    "age": null
   },
   "255262": {
     "english": "Agricola: All Creatures Big and Small – The Big Box",
-    "french": "Agricola 2 joueurs: La Big Box"
+    "french": "Agricola 2 joueurs: La Big Box",
+    "age": null
   },
   "255819": {
     "english": "Super Mario Match: The Crazy Cube Game",
-    "french": "Match Marvel"
+    "french": "Match Marvel",
+    "age": null
   },
   "256237": {
     "english": "Dixit: Anniversary",
-    "french": "Dixit: Anniversary"
+    "french": "Dixit: Anniversary",
+    "age": null
   },
   "261580": {
     "english": "Yam's Junior",
-    "french": "Yam's Junior"
+    "french": "Yam's Junior",
+    "age": null
   },
   "262543": {
     "english": "Wavelength",
-    "french": "Wavelength"
+    "french": "Wavelength",
+    "age": null
   },
   "264055": {
     "english": "Draftosaurus",
-    "french": "Draftosaurus"
+    "french": "Draftosaurus",
+    "age": null
   },
   "266083": {
     "english": "L.L.A.M.A.",
-    "french": "Lama"
+    "french": "Lama",
+    "age": null
   },
   "266192": {
     "english": "Wingspan",
-    "french": "Wingspan"
+    "french": "Wingspan",
+    "age": null
   },
   "279613": {
     "english": "Unlock!: Timeless Adventures",
-    "french": "Unlock!: Timeless Adventures"
+    "french": "Unlock!: Timeless Adventures",
+    "age": null
   },
   "284083": {
     "english": "The Crew: The Quest for Planet Nine",
-    "french": "The Crew: En quête de la neuvième planète"
+    "french": "The Crew: En quête de la neuvième planète",
+    "age": null
   },
   "287742": {
     "english": "TIME Stories Revolution: The Hadal Project",
-    "french": "TIME Stories Revolution: The Hadal Project"
+    "french": "TIME Stories Revolution: The Hadal Project",
+    "age": null
   },
   "290448": {
     "english": "Wingspan: European Expansion",
-    "french": "Wingspan: Extension Europe"
+    "french": "Wingspan: Extension Europe",
+    "age": null
   },
   "300010": {
     "english": "Dragomino",
-    "french": "Dragomino"
+    "french": "Dragomino",
+    "age": null
   },
   "301112": {
     "english": "Dixit: Mirrors",
-    "french": "Dixit: Mirrors"
+    "french": "Dixit: Mirrors",
+    "age": null
   },
   "303554": {
     "english": "Winter Kingdom",
-    "french": "Winter Kingdom"
+    "french": "Winter Kingdom",
+    "age": null
   },
   "311177": {
     "english": "The 7th Continent: The Crystal's Song",
-    "french": "The 7th Continent: Le Chant du Cristal"
+    "french": "The 7th Continent: Le Chant du Cristal",
+    "age": null
   },
   "312513": {
     "english": "The 7th Continent: The Veins of the Earth",
-    "french": "The 7th Continent: Les Veines de la Terre"
+    "french": "The 7th Continent: Les Veines de la Terre",
+    "age": null
   },
   "312514": {
     "english": "The 7th Continent: A Prison of Clouds",
-    "french": "The 7th Continent: La Prison des Vents"
+    "french": "The 7th Continent: La Prison des Vents",
+    "age": null
   },
   "313241": {
     "english": "Micons",
-    "french": "Toutim"
+    "french": "Toutim",
+    "age": null
   },
   "314036": {
     "english": "Photosynthesis: Under the Moonlight",
-    "french": "Photosynthesis: Under the Moonlight"
+    "french": "Photosynthesis: Under the Moonlight",
+    "age": null
   },
   "319754": {
     "english": "Peek-a-Mouse",
-    "french": "La Maison des Souris"
+    "french": "La Maison des Souris",
+    "age": null
   },
   "320766": {
     "english": "3 Little Pigs",
-    "french": "3 Little Pigs"
+    "french": "3 Little Pigs",
+    "age": null
   },
   "320843": {
     "english": "Little Mime",
-    "french": "Little Mime"
+    "french": "Little Mime",
+    "age": null
   },
   "320846": {
     "english": "Little Match",
-    "french": "Little Match"
+    "french": "Little Match",
+    "age": null
   },
   "324856": {
     "english": "The Crew: Mission Deep Sea",
-    "french": "The Crew: Mission Sous-Marine"
+    "french": "The Crew: Mission Sous-Marine",
+    "age": null
   },
   "328479": {
     "english": "Living Forest",
-    "french": "Living Forest"
+    "french": "Living Forest",
+    "age": null
   },
   "329839": {
     "english": "So Clover!",
-    "french": "So Clover!"
+    "french": "So Clover!",
+    "age": null
   },
   "349219": {
     "english": "ANTIFA: Le Jeu",
-    "french": "ANTIFA: Le Jeu"
+    "french": "ANTIFA: Le Jeu",
+    "age": null
   },
   "352515": {
     "english": "Trio",
-    "french": "Trio"
+    "french": "Trio",
+    "age": null
   },
   "360880": {
     "english": "Diamant: Caution and Betrayal",
-    "french": "Diamant: Mise en Garde et Trahison"
+    "french": "Diamant: Mise en Garde et Trahison",
+    "age": null
   },
   "370591": {
     "english": "Dorfromantik: The Board Game",
-    "french": "Dorfromantik: Le Jeu de Société"
+    "french": "Dorfromantik: Le Jeu de Société",
+    "age": null
   },
   "374866": {
     "english": "Robotrick",
-    "french": "Robotrick"
+    "french": "Robotrick",
+    "age": null
   },
   "375651": {
     "english": "That's Not a Hat",
-    "french": "That's Not a Hat"
+    "french": "That's Not a Hat",
+    "age": null
   },
   "378839": {
     "english": "7 Wonders: Edifice",
-    "french": "7 Wonders: Edifice"
+    "french": "7 Wonders: Edifice",
+    "age": null
   },
   "392491": {
     "english": "Taco Kitten Pizza",
-    "french": "Taco Chaton Pizza"
+    "french": "Taco Chaton Pizza",
+    "age": null
   },
   "393325": {
     "english": "Captain Flip",
-    "french": "Captain Flip"
+    "french": "Captain Flip",
+    "age": null
   },
   "401002": {
     "english": "My Puzzle Adventure: Dragon",
-    "french": "Mon Puzzle Aventure: Dragon"
+    "french": "Mon Puzzle Aventure: Dragon",
+    "age": null
   },
   "420087": {
     "english": "Flip 7",
-    "french": "Flip 7"
+    "french": "Flip 7",
+    "age": null
   },
   "420360": {
     "english": "Mimose & Sam et le Voleur de Fruits",
-    "french": "Mimose & Sam et le Voleur de Fruits"
+    "french": "Mimose & Sam et le Voleur de Fruits",
+    "age": null
   },
   "437938": {
     "english": "Top Ten Adventures",
-    "french": "Top Ten Adventures"
+    "french": "Top Ten Adventures",
+    "age": null
   },
   "447655": {
     "english": "My Puzzle Adventure: Ochre Land",
-    "french": "Mon Puzzle Aventure: Terre Ocre"
+    "french": "Mon Puzzle Aventure: Terre Ocre",
+    "age": null
   }
 }

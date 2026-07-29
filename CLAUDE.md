@@ -53,8 +53,8 @@ payloads, and archives each edition.
 ├── main.py                           # Chains the whole pipeline for one edition
 ├── build_collection.py               # Collection pipeline: CSV -> scrape missing -> collection_data.json
 ├── clear_expansion_cache.py          # Utility: purge cache for expansions (force re-scrape)
-├── maintain_french_titles.py         # Utility: scaffold/report missing entries in french_titles.json
-├── french_titles.json                # Manually maintained: bgg_id -> {english, french}
+├── maintain_my_collection_extra_info.py  # Utility: scaffold entries in my_collection_extra_info.json
+├── my_collection_extra_info.json     # Manually maintained: bgg_id -> {english, french, age}
 └── collection.csv                    # Manually replaced from BGG's "download collection", committed to git
 ```
 
@@ -81,8 +81,10 @@ Independent from the yearly pipeline. Whenever the owner updates their BGG
 collection:
 
 1. Export from BGG as CSV, save as `collection.csv` at the project root.
-2. Run `maintain_french_titles.py`. Fill new entries in `french_titles.json`
-   (French titles override English ones on the collection page).
+2. Run `maintain_my_collection_extra_info.py`. Fill new entries in
+   `my_collection_extra_info.json` (French titles override English ones on
+   the collection page; the `age` field is your own estimated minimum age,
+   left `null` until you set it by hand).
 3. Run `build_collection.py`. It scrapes any missing metadata, then writes
    `docs/collection/collection_data.json`.
 4. Commit & push.
@@ -140,8 +142,13 @@ confirmation).
 - **`Intl.Collator("fr", {sensitivity: "base", numeric: true})`** is used
   for title sort on the collection page so "Échecs" sorts among the E's,
   not after Z.
-- **Both pages default the Players and Age selectors to "community"**
-  via `<option value="community" selected>` in HTML.
+- **Both pages default the Players selector to "community"**, via
+  `<option value="community" selected>` in HTML. Same for the Age selector
+  on the main page. On the collection page, Age defaults to "my opinion"
+  (`age-source` value `"mine"`) instead, since that page has a personal
+  age estimate (`age.mine` in `collection_data.json`, sourced from
+  `my_collection_extra_info.json`) that falls back to the community age
+  when unset.
 
 ### Style / language
 

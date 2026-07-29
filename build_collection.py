@@ -13,7 +13,8 @@ expands both Dixit and Dixit: Odyssey, etc.).
 Workflow:
   1. Export your collection as CSV from BGG and save it as collection.csv
      at the project root.
-  2. Run maintain_french_titles.py and fill in French titles.
+  2. Run maintain_my_collection_extra_info.py and fill in French titles
+     (and, optionally, estimated minimum ages).
   3. Run this script.
 
 Run from PyCharm.
@@ -43,7 +44,7 @@ def build_collection():
     print("  expansions : {}".format(n_expansions))
 
     _ensure_cache(items)
-    french_titles = _load_french_titles()
+    french_titles, my_ages = _load_extra_info()
 
     print()
     print("Loading metadata from cache...")
@@ -79,7 +80,7 @@ def build_collection():
             continue
         standalones_out.append(_build_standalone_entry(
             it, items_by_id, attached_per_std.get(it["bgg_id"], []),
-            french_titles))
+            french_titles, my_ages))
 
     # Default sort: my_rating desc, then title asc.
     standalones_out.sort(
@@ -168,14 +169,23 @@ def _ensure_cache(items):
         driver.quit()
 
 
-def _load_french_titles():
-    path = config.PROJECT_ROOT / "french_titles.json"
+def _load_extra_info():
+    """Load my_collection_extra_info.json into (french_titles, my_ages).
+
+    french_titles: {bgg_id: french_title}, only entries with a non-empty
+    french value.
+    my_ages: {bgg_id: age}, only entries with an explicit (non-null) age
+    estimate.
+    """
+    path = config.PROJECT_ROOT / "my_collection_extra_info.json"
     if not path.exists():
-        print("Note: french_titles.json not found; using English titles for all.")
-        return {}
+        print("Note: my_collection_extra_info.json not found; using English "
+              "titles for all, no age overrides.")
+        return {}, {}
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     titles = {}
+    ages = {}
     for k, v in data.items():
         if k == "_comment":
             continue
@@ -183,9 +193,12 @@ def _load_french_titles():
             fr = v.get("french")
             if fr:
                 titles[int(k)] = fr
+            age = v.get("age")
+            if age is not None:
+                ages[int(k)] = age
         elif isinstance(v, str) and v:
             titles[int(k)] = v
-    return titles
+    return titles, ages
 
 
 def _resolve_title(bgg_id, raw, french_titles):
@@ -194,7 +207,8 @@ def _resolve_title(bgg_id, raw, french_titles):
     return (raw.get("credits_table") or {}).get("primary_name") or "?"
 
 
-def _build_standalone_entry(it, items_by_id, attached_expansions, french_titles):
+def _build_standalone_entry(it, items_by_id, attached_expansions, french_titles,
+                             my_ages):
     raw = it["raw"]
     bgg_id = it["bgg_id"]
     title = _resolve_title(bgg_id, raw, french_titles)
@@ -203,6 +217,7 @@ def _build_standalone_entry(it, items_by_id, attached_expansions, french_titles)
     players  = build_games.parse_players(raw)
     playtime = build_games.parse_playing_time(raw)
     age      = build_games.parse_age(raw)
+    age["mine"] = my_ages.get(bgg_id)
     weight   = build_games.parse_weight(raw)
     year     = build_games.parse_year(raw)
 

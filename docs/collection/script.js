@@ -236,9 +236,18 @@ function matchesDuration(game, minBound, maxBound) {
   return true;
 }
 
+function ageValue(game, source) {
+  if (!game.age) return null;
+  if (source === "mine") {
+    // "My opinion" falls back to the community age when I haven't set one.
+    return game.age.mine != null ? game.age.mine : game.age.community;
+  }
+  return game.age[source];
+}
+
 function matchesAge(game, source, suitable, minimum) {
   if (suitable == null && minimum == null) return true;
-  const value = game.age && game.age[source];
+  const value = ageValue(game, source);
   if (value == null) return false;  // missing age (rare) -> excluded
   if (suitable != null && value > suitable) return false;  // "Age suitable for X" means age <= X
   if (minimum  != null && value < minimum)  return false;  // "Min age >= Y" means age >= Y
@@ -263,6 +272,7 @@ const SORT_KEYS = {
   "weight":         g => g.weight,
   "age_official":   g => g.age && g.age.official,
   "age_community":  g => g.age && g.age.community,
+  "age_mine":       g => ageValue(g, "mine"),
 };
 
 /* Compare two strings the way humans expect: accented letters sort with
@@ -456,6 +466,7 @@ function renderExtras(g) {
     { label: "Expansions I own",          value: formatExpansionsRow(g) },
     { label: "Players (community)",       value: formatPlayersCommunityRow(g) },
     { label: "Age (community)",           value: formatAgeCommunityRow(g) },
+    { label: "Age (my opinion)",          value: formatAgeMineRow(g) },
     { label: weightLabel(),               value: formatWeightRow(g) },
     { label: designerLabel(g),            value: formatPeople(g.designers) },
     { label: "Solo designer",             value: formatPeople(g.solo_designers) },
@@ -582,6 +593,11 @@ function formatPlayersCommunityRow(g) {
 function formatAgeCommunityRow(g) {
   const a = g.age && g.age.community;
   return a ? `${a}+` : null;
+}
+
+function formatAgeMineRow(g) {
+  const a = g.age && g.age.mine;
+  return (a != null) ? `${a}+` : null;
 }
 
 function formatWeightRow(g) {

@@ -84,7 +84,8 @@
           <div class="filter-control">
             <select id="age-source" class="filter-select">
               <option value="official">official</option>
-              <option value="community" selected>community</option>
+              <option value="community">community</option>
+              <option value="mine" selected>my opinion</option>
             </select>
             <span class="filter-unit">Suitable for</span>
             <input type="number" id="age-suitable" class="filter-input narrow" min="0">
@@ -119,6 +120,8 @@
           <option value="age_official-desc">Age — official (oldest)</option>
           <option value="age_community-asc">Age — community (youngest)</option>
           <option value="age_community-desc">Age — community (oldest)</option>
+          <option value="age_mine-asc">Age — my opinion (youngest)</option>
+          <option value="age_mine-desc">Age — my opinion (oldest)</option>
         </select>
       </label>
       <button type="button" id="toggle-all" class="list-control-button">
